@@ -1,4 +1,4 @@
-# <a href="[https://digitalkoine.github.io/atlas_nazifascist_repression/](https://digitalkoine.github.io/italian_spanish_civil_war/)">Italian-Spanish Civil War Database</a>
+# <a href="https://digitalkoine.github.io/italian_spanish_civil_war/">Italian-Spanish Civil War Database</a>
 
 
 This repository is part of the larger project by the [Istituto Nazionale Ferruccio Parri](http://www.antifascistispagna.it), aiming to create a comprehensive database related to the Italian volunteers who participated in the Spanish Civil War.
