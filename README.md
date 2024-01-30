@@ -1,6 +1,6 @@
 # Italian-Spanish Civil War Database
 
-![Antifascisti Spagna](http://www.antifascistispagna.it/wp-content/uploads/2022/03/cropped-1-header.png)
+
 
 This repository is part of the larger project by the [Istituto Nazionale Ferruccio Parri](http://www.antifascistispagna.it), aiming to create a comprehensive database related to the Italian volunteers who participated in the Spanish Civil War.
 
