@@ -16,16 +16,6 @@ This repository serves as a dedicated space for the development of tools, resour
 - Datasets of Italian volunteers
 - Documentation on data sources and methodology
 
-## How to Contribute
-
-We welcome contributions from researchers, historians, and enthusiasts interested in the history of the Italian volunteers in the Spanish Civil War. If you have additional data, resources, or improvements to suggest, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your contributions: `git checkout -b feature/new-contribution`.
-3. Make your changes and commit them: `git commit -m 'Add new data on Italian volunteers'`.
-4. Push to the branch: `git push origin feature/new-contribution`.
-5. Create a pull request detailing your changes.
-
 ## Acknowledgments
 
 We extend our gratitude to all contributors and supporters of the Antifascisti Spagna project. Your efforts help preserve and share the important history of Italian antifascist volunteers in the Spanish Civil War.
