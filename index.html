@@ -1,0 +1,430 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+      <title>Combattenti Italiani Spagna Leaflet Version</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <!--this invokes the leaflet basemap css repository-->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+      <!--this invokes the leaflet basemap js repository-->
+      <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+      <!--this invokes the opacity plugin to control the layers transparency through a slider-->
+      <script src="./Leaflet.Control.Opacity.Master/dist/L.Control.Opacity.js"></script>
+      <link href="./Leaflet.Control.Opacity.Master/dist/L.Control.Opacity.css" rel="stylesheet" />
+      <script type="text/javascript" src="./Leaflet.Coordinates.Master/dist/Leaflet.Coordinates-0.1.5.min.js"></script>
+	    <link rel="stylesheet" href="./Leaflet.Coordinates.Master/dist/Leaflet.Coordinates-0.1.5.css"/>
+
+      <link rel="stylesheet" href="./Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css"/>
+      <link rel="stylesheet" href="./Leaflet.markercluster-1.4.1/dist/MarkerCluster.css"/>
+      <script type="text/javascript" src="./Leaflet.markercluster-1.4.1/dist/leaflet.markercluster.js"></script>
+      <script type="text/javascript" src="./Leaflet.markercluster-1.4.1/dist/leaflet.markercluster-src.js"></script>
+
+      <script type="text/javascript" src="./jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="./leaflet.lineextremities.js"></script>
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
+
+      <script src="./natiEspatriPopUp.geojson" type="text/javascript"></script>
+      <script src="./mortiEspatriPopUp.geojson" type="text/javascript"></script>
+      <script src="./espatriEspatriPopUp.geojson" type="text/javascript"></script>
+      <script src="./espatri_linee_time.geojson" type="text/javascript"></script>
+      <!--this invokes the jQuery js repository, which has not been used yet-->
+      <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-polylinedecorator/1.1.0/leaflet.polylineDecorator.js"></script>
+
+      <!-- the style is the css part: either tags, ids (#), or class (.) are styled in here, and called later on as divs-->
+      <style>
+          body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+                }
+          /* this set the size information of the id "map", the main map which appears in the webpage */
+          #map {
+                position: relative;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                }
+          /* h1 is the tag set later on */
+          h1 {
+              font-size: 20px;
+              line-height: 30px;
+              }
+
+          h2 {
+              font-size: 14px;
+              line-height: 20px;
+              margin-bottom: 10px;
+              }
+
+          a  {
+              text-decoration: none;
+              color: #2dc4b2;
+              }
+
+          .legend {
+            line-height: 30px;
+            color: #555;
+              }
+          .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 20px;
+            opacity: 0.7;
+              }
+
+          .info {
+              padding: 6px 15px;
+              font: 14px/16px Arial, Helvetica, sans-serif;
+              background: white;
+              line-height: 20px;
+              background: rgba(255,255,255,0.8);
+              box-shadow: 0 0 15px rgba(0,0,0,0.2);
+              border-radius: 5px;
+          }
+          ul {
+          padding-left: 20px;
+          }
+
+          .disclaimer {
+              padding: 6px 15px;
+              font: 0.8vw Arial, Helvetica, sans-serif;
+              background: white;
+              line-height: 1.6vw;
+              background: rgba(255,255,255,0.8);
+              box-shadow: 0 0 15px rgba(0,0,0,0.2);
+              border-radius: 5px;
+              width: 25%;
+              height: 80%
+              text-align: justify;
+          }
+          .yearbox {
+              padding: 6px 15px;
+              font: 20px Arial, Helvetica, sans-serif;
+              background: white;
+              line-height: 20px;
+              background: rgba(255,255,255,0.8);
+              box-shadow: 0 0 15px rgba(0,0,0,0.2);
+              border-radius: 5px;
+              width: 150px;
+              text-align: center;
+          }
+          .info h4 {
+              margin: 0 0 5px;
+              color: #777;
+          }
+          .legend .circle {
+                          border-radius: 50%;
+                          width: 10px;
+                          height: 10px;
+                          margin-top: 5px;
+                        }
+        </style>
+</head>
+
+<body>
+      <div id='map'></div>
+
+      <script>
+
+      L.TimeDimension.Layer.Trajectory = L.TimeDimension.Layer.GeoJson.extend({
+
+          // Do not modify features. Just return the feature if it intersects
+          // the time interval
+          _getFeatureBetweenDates: function(feature, minTime, maxTime) {
+              var featureStringTimes = this._getFeatureTimes(feature);
+              if (featureStringTimes.length == 0) {
+                  return feature;
+              }
+              var featureTimes = [];
+              for (var i = 0, l = featureStringTimes.length; i < l; i++) {
+                  var time = featureStringTimes[i]
+                  if (typeof time == 'string' || time instanceof String) {
+                      time = Date.parse(time.trim());
+                  }
+                  featureTimes.push(time);
+              }
+
+              if (featureTimes[0] > maxTime || featureTimes[l - 1] < minTime) {
+                  return null;
+              }
+              return feature;
+          },
+
+      });
+
+      L.timeDimension.layer.trajectory = function(layer, options) {
+          return new L.TimeDimension.Layer.Trajectory(layer, options);
+      };
+
+
+       var map = L.map('map', {
+          //determines the slide zoom level of the initial map
+          zoom: 5,
+          //ensure what is this control for, need to verify
+          fullscreenControl: false,
+          //ensures the timeDimension is active
+          timeDimension: true,
+          //determines the starting and finishing times of the slider, and the period of each step.
+          //P1M means Period 1 Month.
+          timeDimensionOptions: {
+              timeInterval: "1880-07-01/2019-01-01",
+              period: "P1M",
+              currentTime: Date.parse("1880-07-01")
+              },
+          //ensure the time control slider is visible
+          timeDimensionControl: true,
+          //specifies the position of the time control slider
+          timeDimensionControlOptions: {
+              position: 'bottomleft',
+              loopButton: 'true',
+              autoPlay: true,
+              minSpeed: 24,
+              maxSpeed: 100,
+              limitSliders: true,
+              timeSliderDragUpdate: true,
+              playerOptions: {
+                    transitionTime: 100,
+                    loop: false,
+                    startOver:true,
+                  }
+              },
+          //centres the map on certain coordinates
+          center: [45, 9]
+        });
+//This add the basemap to use for the map. Different types and style of basemap are available
+      L.tileLayer('https://api.mapbox.com/styles/v1/simolandu/cjqhxydrs0shj2rqczhixsc2n/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2ltb2xhbmR1IiwiYSI6ImNqM3d3YWxhejAwMG8zM3BjMTU4bW5laWYifQ.rhuk6FZECglxkElshWW5dg',
+                  {
+                  maxZoom: 18,
+                  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '
+                                + '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '
+                                + 'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                  }).addTo(map);
+
+    L.control.coordinates({
+                          position:           "bottomleft",
+                          decimals:           2,
+                          decimalSeperator:   ",",
+                          labelTemplateLat:  "Latitude: {y}",
+                          labelTemplateLng:  "Longitude: {x}"
+                         }).addTo(map);
+
+
+//this extends the original L.TimeDimension.Layer.GeoJson to look into the Geojson for
+//a feature called time, and if it the Geojson returns it
+function getColor(d) {
+  if (d === "morto")
+    return "#000";
+  if (d === "nato")
+    return "#00f";
+  if (d === "espatrio")
+      return "red";
+}
+
+var jsonLayerLineeTime = L.geoJson(linee,{
+ onEachFeature: function (feature, layer) {
+  if (feature.properties.luogo === "NULL") {
+      layer.bindPopup('<p>'+'<strong>'+feature.properties.nome+' '+feature.properties.cognome+'</strong>'+
+      '<br>'+'Origin: '+feature.properties.luogo_origine+', '+feature.properties.nazione_origine+
+      '<br>'+ 'Destination: '+feature.properties.nazione+
+      '<br>'+ 'Time: '+feature.properties.time+'</p>'
+    );
+  }
+  else {
+      layer.bindPopup('<p>'+'<strong>'+feature.properties.nome+' '+feature.properties.cognome+'</strong>'+
+      '<br>'+'Origin: '+feature.properties.luogo_origine+', '+feature.properties.nazione_origine+
+      '<br>'+ 'Destination: '+feature.properties.luogo+
+      '<br>'+ 'Time: '+feature.properties.time+'</p>'
+    );
+  }
+},
+    style: {
+    "color": "#ff7800",
+    "weight": 3,
+    "opacity": 0.65,
+    "offset":5,
+  },
+});
+
+var timedimensionLineeTime = L.timeDimension.layer.trajectory(jsonLayerLineeTime, {
+      updateTimeDimension: false, //Update the list of available times of the attached TimeDimension with the available times of this GeoJSON, if it is false it does not work
+      updateTimeDimensionMode: 'union', //changing this changes the way the point appear on the map
+      duration: 'P1Y',//how long the feature remains there until its time as passed
+    });
+    // geojsonLayer.addTo(map);
+    timedimensionLineeTime.addTo(map);
+
+
+var jsonLayerNati = L.geoJson(natiEspatri, {
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup('<p>'+'<strong>'+feature.properties.nome+' '+feature.properties.cognome+'</strong>'+
+      '<br>'+'Date of Birth: '+feature.properties.giorno_nascita+'/'+feature.properties.mese_nascita+'/'+feature.properties.anno_nascita+
+      '<br>'+ 'Date of Death: '+feature.properties.giorno_morte+'/'+feature.properties.mese_morte+'/'+feature.properties.anno_morte+
+      '<br>'+ 'Place of Birth: '+feature.properties.luogonascita+
+      '<br>'+ 'Place of Death: '+feature.properties.luogomorte+'</p>'
+    );
+    },
+    pointToLayer: function(feature, latLng) {
+      //this
+       return L.circleMarker(latLng,{
+        radius: 4,
+        // assigns fillColor based on function getColor using feature.properties.status as a parameter
+        fillColor: "#00f",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8,
+      });
+    }
+});
+var timedimensionNati = L.timeDimension.layer.geoJson(jsonLayerNati, {
+  updateTimeDimension: false, //Update the list of available times of the attached TimeDimension with the available times of this GeoJSON, if it is false it does not work
+  updateTimeDimensionMode: 'union', //changing this changes the way the point appear on the map
+  duration: 'P1Y',//how long the feature remains there until its time as passed
+}).addTo(map);
+
+
+var jsonLayerEspatriPunti = L.geoJson(espatriPunti, {
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup('<p>'+'<strong>'+feature.properties.nome+' '+feature.properties.cognome+'</strong>'+
+      '<br>'+'Date of Birth: '+feature.properties.giorno_nascita+'/'+feature.properties.mese_nascita+'/'+feature.properties.anno_nascita+
+      '<br>'+ 'Date of Death: '+feature.properties.giorno_morte+'/'+feature.properties.mese_morte+'/'+feature.properties.anno_morte+
+      '<br>'+ 'Place of Birth: '+feature.properties.luogo_nascita+
+      '<br>'+ 'Place of Death: '+feature.properties.luogo_morte+'</p>'
+    );
+    },
+    pointToLayer: function(feature, latLng) {
+      //this
+       return L.circleMarker(latLng,{
+        radius: 4,
+        // assigns fillColor based on function getColor using feature.properties.status as a parameter
+        fillColor: "#f00",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8,
+      });
+    }
+});
+var timedimensionEspatriPunti = L.timeDimension.layer.geoJson(jsonLayerEspatriPunti, {
+  updateTimeDimension: false, //Update the list of available times of the attached TimeDimension with the available times of this GeoJSON, if it is false it does not work
+  updateTimeDimensionMode: 'union', //changing this changes the way the point appear on the map
+  duration: 'P1Y',//how long the feature remains there until its time as passed
+}).addTo(map);
+
+
+
+var jsonLayerMorti = L.geoJson(mortiEspatri, {
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup('<p>'+'<strong>'+feature.properties.nome+' '+feature.properties.cognome+'</strong>'+
+      '<br>'+'Date of Birth: '+feature.properties.giorno_nascita+'/'+feature.properties.mese_nascita+'/'+feature.properties.anno_nascita+
+      '<br>'+ 'Date of Death: '+feature.properties.giorno_morte+'/'+feature.properties.mese_morte+'/'+feature.properties.anno_morte+
+      '<br>'+ 'Place of Birth: '+feature.properties.luogonascita+
+      '<br>'+ 'Place of Death: '+feature.properties.luogomorte+'</p>'
+    );
+    },
+    pointToLayer: function(feature, latLng) {
+      //this
+       return L.circleMarker(latLng,{
+        radius: 4,
+        // assigns fillColor based on function getColor using feature.properties.status as a parameter
+        fillColor: "#000",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8,
+      });
+    }
+});
+var timedimensionMorti = L.timeDimension.layer.geoJson(jsonLayerMorti, {
+  updateTimeDimension: false, //Update the list of available times of the attached TimeDimension with the available times of this GeoJSON, if it is false it does not work
+  updateTimeDimensionMode: 'union', //changing this changes the way the point appear on the map
+  duration: 'P1Y',//how long the feature remains there until its time as passed
+}).addTo(map);
+
+
+var overlayMaps = {
+    "Born": timedimensionNati,
+    //"Transfer": markers,
+    //"Lines": timedimensionLineeTimes,
+    "Lines": timedimensionLineeTime,
+    "Tranfer":timedimensionEspatriPunti,
+    "Death": timedimensionMorti
+};
+
+L.control.layers(null,overlayMaps).addTo(map);
+
+var title = L.control({position: 'topleft'});
+
+title.onAdd = function (map) {
+
+var div = L.DomUtil.create('div', 'disclaimer');
+    div.innerHTML +=
+    '<h1>Map of Spanish Civil War Italian Fighters</h1>'+
+    '<p>The maps shows birth place, death place, and areas visited by 150 Italian fighters during 1885 and 2019, derived from a database of 204 biographies: only those fighter from whom we had definitive date and place of birth and death. The following assumptions have been used to normalise incomplete data:</p>'+
+    '<ul>'+
+        '<li>Marker relative to birth place disappears one year after date of birth;</li>'+
+        '<li>Marker relative to death place disappears one year after date of death;</li>'+
+        '<li>Line represents movement from an origin toward a transfer destination, and disappears one year after date of tansfer;</li>'+
+        '<li>Where date of departure was missing, the 15th December of the year of arrival was considered as date of departure;</li>'+
+        '<li>Where month and/or day were missing, 15th January was considered as date of arrival and 15th December as date of departure;</li>'+
+        '<li>For transfers from Spain to France in 1939, where month and day were missing, the 5th February was considered as date of arrival;</li>'+
+        '<li>For transfers to Spain in 1936, where month and day were missing, the 19th July was considered as date of arrival;</li>'+
+    '</ul>'
+
+    return div;
+};
+
+title.addTo(map);
+
+
+var legend = L.control({position: 'topright'});
+
+
+legend.onAdd = function (map) {
+
+var div = L.DomUtil.create('div', 'info legend'),
+  categories = ["nato","espatrio", "morto"],
+  labels = ["Born","Transfer","Death"];
+    div.innerHTML += '<b>Legend Title</b><br>'
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < categories.length; i++) {
+      div.innerHTML +=
+
+      '<i class="circle" style="background:' +  getColor(categories[i]) + '"></i> ' +
+          (labels[i] ? labels[i] + '<br>' : '+') ;
+    }
+
+    return div;
+};
+legend.addTo(map);
+
+var currentTime = L.control({position: 'bottomright'});
+
+map.timeDimension.on('timeload', function(data) {
+    var getcurrentTime = map.timeDimension.getCurrentTime();
+    var dateCurrentTime = new Date(getcurrentTime);
+    var options = dateCurrentTime.toLocaleDateString();
+
+    currentTime.onAdd = function (map){
+
+    var div = L.DomUtil.create('div', 'yearbox');
+
+        div.innerHTML += '<h1>' + options + '</h1> '
+
+        return div;
+    };
+    currentTime.addTo(map);
+});
+
+
+
+
+   </script>
+</body>
+</html>

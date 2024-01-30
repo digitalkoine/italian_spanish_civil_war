@@ -1,0 +1,975 @@
+id_persona,nome,cognome,citta_orig,nazione_orig,latitudine_orig,longitudine_orig,nazione_nome,toponimo_nome,latitudine,longitudine,time,time_uscita,anno_ingresso,mese_ingresso,giorno_ingresso,anno_uscita,mese_uscita,giorno_uscita,Status,luogonascita,luogomorte,anno_nascita,mese_nascita,giorno_nascita,anno_morte,mese_morte,giorno_morte
+1000,Giovanni Battista,Canepa,Chiavari,Italia,44.3164494,9.3233382,USA,NULL,40.7308619,-73.9871558,15/01/1919,15/12/1924,1919,1,15,1924,12,15,espatrio,Chiavari,Milazzo,1896,7,18,1994,2,13
+461,Luigi,Bertani,Genova,Italia,44.40726,8.9338624,USA,New York,40.7308619,-73.9871558,01/08/1923,15/12/1937,1923,8,1,1937,12,15,espatrio,Sampierdarena,NULL,1904,11,14, - , - , - 
+1053,Antonio,Carini,NULL,Italia,41.9028,12.4964,USA,New York,40.7308619,-73.9871558,15/09/1924,15/12/1924,1924,9,15,1924,12,15,espatrio,San Nazzaro,Meldola,1902,10,7,1944,3,15
+2339,Benedetto,Mori,Genova,Italia,44.40726,8.9338624,USA,New York,40.7308619,-73.9871558,01/01/1926,15/12/1937,1926,1,1,1937,12,15,espatrio,Fluminimaggiore,NULL,1899,6,16, - , - , - 
+3428,Giovanni,Zannier,Friuli,Italia,46.151042,13.055904,Venezuela,NULL,10.4806,-66.9036,15/01/1949,15/12/1967,1949,1,15,1967,12,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+1752,Antonio,Mariani,Mara,Italia,40.409731,8.639099,Argentina,Buenos Aires,-34.60378418,-58.38160247,15/01/1924,15/12/1929,1924,1,15,1929,12,15,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+1752,Antonio,Mariani,Mara,Italia,40.409731,8.639099,Argentina,Buenos Aires,-34.60378418,-58.38160247,15/01/1930,15/12/1938,1930,1,15,1938,12,15,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+2313,Oddino,Montanari,NULL,Italia,41.9028,12.4964,Argentina,Buenos Aires,-34.60378418,-58.38160247,23/01/1927,15/12/1927,1927,1,23,1927,12,15,espatrio,Cesena,Cesena,1903,10,8,1944,10,3
+3327,Dante,Somaruga,NULL,Italia,41.9028,12.4964,Argentina,Buenos Aires,-34.60378418,-58.38160247,15/01/1927,15/12/1937,1927,1,15,1937,12,15,espatrio,Carnago,Gallarate,1906,10,2,1981,1,31
+2252,Sisinnio,Mocci,Trieste,Italia,45.6500335,13.7706559,Argentina,Buenos Aires,-34.60378418,-58.38160247,09/05/1927,15/12/1930,1927,5,9,1930,12,15,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+1132,Guido,Latini,Torino,Italia,45.0677551,7.6824892,Argentina,Buenos Aires,-34.60378418,-58.38160247,15/01/1922,15/04/1933,1922,1,15,1933,4,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+3117,Nicolò,Turcinovich,Rovigno,Croazia,45.07982407,13.64405823,Argentina,Buenos Aires,-34.60378418,-58.38160247,15/01/1928,15/12/1930,1928,1,15,1930,12,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+1801,Valeriano,De Pasqual,Ponte nelle Alpi,Italia,46.18132354,12.27942646,Argentina,NULL,-34.6037,-58.3816,15/01/1930,15/12/1930,1930,1,15,1930,12,15,espatrio,Germania,NULL,1908,4,29, - , - , - 
+44,Carlo,Aldegheri,NULL,Italia,41.9028,12.4964,Brazile,Guarujà,-23.999174,-46.26455,15/01/1951,15/12/1951,1951,1,15,1951,12,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+2017,Siro,Rosi,Napoli,Italia,40.8359336,14.2487826,Spagna,Cadice,36.52942427,-6.2930578,15/02/1937,09/02/1939,1937,2,15,1939,2,9,espatrio,Roccastrada,Roma,1915,2,14,1987,3,13
+83,Domenico,Anfosso,Provenza,Francia,43.29858,5.36999,Spagna,NULL,40.4168,-3.7038,19/07/1936,09/02/1939,1936,7,19,1939,2,9,espatrio,Ventimiglia,NULL,1892,3,4, - , - , - 
+2054,Giuseppe,Melli,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,19/09/1936,07/02/1939,1936,9,19,1939,2,7,espatrio,Vergato,NULL,1911,1,28,1989,11,28
+2360,Secondo,Moscatelli,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/10/1937,1936,10,19,1937,10,15,espatrio,Chiusdino,NULL,1899,3,10, - , - , - 
+2026,Beniamino,Rossetto,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Vigodarzere,Ostrava,1913,7,26,1988,12,24
+2291,Gaetano,Fongaro,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/12/1939,1937,1,15,1939,12,15,espatrio,Valdagno,Thiene,1907,9,2,1972,2,10
+2363,Flavio Ribelle,Fornasiero,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/12/1936,1936,8,19,1936,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+3401,Enrico,Zambonini,NULL,Belgio,50.8503,4.3517,Spagna,NULL,40.4168,-3.7038,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+2623,Filippo,Pelosi,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,11/11/1936,11/02/1939,1936,11,11,1939,2,11,espatrio,San Severo,San Severo,1896,11,5,1980,2,22
+518,Alessandro,Bianconcini,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,28/09/1936,25/04/1937,1936,9,28,1937,4,25,espatrio,Imola,Bologna,1909,8,7,1944,1,27
+1233,Alcide,Leonardi,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,01/09/1936,15/05/1937,1936,9,1,1937,5,15,espatrio,Monchio delle Olle,NULL,1905,7,18,1983, - , - 
+1619,Antonio,Roasio,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,18/10/1936,15/10/1937,1936,10,18,1937,10,15,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+327,Roberto,Gherardi,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,15/09/1937,07/02/1939,1937,9,15,1939,2,7,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+1742,Guglielmo,Marconi,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/12/1937,1936,10,19,1937,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+1590,Vittorio,Mallozzi,Tolosa,Francia,43.5792751,1.50327178,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/12/1937,1936,7,19,1937,12,15,espatrio,Anzio,Roma,1909,10,22,1944,1,31
+1939,Vasco,Matteoli,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/11/1936,07/02/1939,1936,11,15,1939,2,7,espatrio,Empoli,Bologna,1913,6,20,1944,7,5
+3051,Bruno,Tosarelli,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/04/1937,09/02/1939,1937,4,15,1939,2,9,espatrio,Castenaso,Bologna,1912,12,11,1944,10,5
+2750,Quinto,Pietroboni,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,28/11/1936,15/12/1937,1936,11,28,1937,12,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+2750,Quinto,Pietroboni,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/01/1938,15/02/1939,1938,1,15,1939,2,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+811,Stefano,Brau,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,12/09/1938,1936,10,19,1938,9,12,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+3487,Anna,Sartini,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/12/1938,1937,1,15,1938,12,15,espatrio,Molinella,NULL,1906,3,13, - , - , - 
+1126,Pietro,Lari,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+3327,Dante,Somaruga,Buenos Aires,Argentina,-34.60378418,-58.38160247,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Carnago,Gallarate,1906,10,2,1981,1,31
+1363,Fabio,Ricci,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,02/01/1938,07/02/1939,1938,1,2,1939,2,7,espatrio,Fontanelice,Cesena,1909,4,23,1979,10,4
+3386,Emilio,Suardi,Digione,Francia,47.32181785,5.04084706,Spagna,NULL,40.4168,-3.7038,15/10/1936,15/02/1939,1936,10,15,1939,2,15,espatrio,Romano di Lombardia,Romano di Lombardia,1905,4,1,1983,2,4
+2687,Adolfo,Saponi,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/10/1936,15/09/1937,1936,10,15,1937,9,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+1092,Teresio,Caron,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/01/1939,1936,7,19,1939,1,15,espatrio,Gattinara,Biella,1896,7,27,1969,2,18
+1196,Giovanni,Cerbai,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Camugnano,Bologna,1912,9,10,1945,2,10
+1093,Mario Alfonso,Carpanelli,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/08/1937,15/12/1939,1937,8,15,1939,12,15,espatrio,Ferrara,Ferrara,1903,1,14,1981,5,8
+1864,Domenico,Rolla,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Arcola,Roma,1908,1,19,1954,6,8
+1120,Adelchi,Castellani,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/10/1937,09/02/1939,1937,10,15,1939,2,9,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+223,Luigi,Balbo,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/05/1937,15/02/1939,1937,5,15,1939,2,15,espatrio,Garessio,Ivrea,1908,9,15,1993,2,21
+300,Feltre,Bartocci,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/12/1937,1936,10,19,1937,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+3077,Giovanni,Trippa,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,14/11/1936,09/02/1939,1936,11,14,1939,2,9,espatrio,Medicina,Bologna,1907,10,1,1983,1,6
+300,Feltre,Bartocci,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/01/1938,15/12/1939,1938,1,15,1939,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+392,Pietro,Bellè,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/11/1936,25/10/1938,1936,11,19,1938,10,25,espatrio,Pieve di Soligo,NULL,1906,12,10, - , - , - 
+409,Dino,Beltrami,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,07/02/1939,1936,10,19,1939,2,7,espatrio,Carpi,Carpi,1908,6,18,1964,10,22
+513,Libero,Bianchi,Savona,Italia,44.3080251,8.4810315,Spagna,NULL,40.4168,-3.7038,28/03/1938,15/02/1939,1938,3,28,1939,2,15,espatrio,Mertzen,Savona,1908,2,14,1963,2,26
+2406,Achille,Frigerio,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Vimercate,Vimercate,1900,5,7,1966, - , - 
+751,Pietro,Borghi,Tolone,Francia,43.1257311,5.9304919,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/08/1938,1936,10,19,1938,8,15,espatrio,Poggibonsi,Poggibonsi,1898,12,20,1977,11,7
+1223,Giulio Pietro,Chiarelli,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/09/1936,15/07/1938,1936,9,19,1938,7,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1471,Francesco,Collodet,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,03/08/1938,1936,10,19,1938,8,3,espatrio,Cordignano,NULL,1906,7,10, - , - , - 
+545,Eugenio,Giovanardi,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/12/1937,15/02/1939,1937,12,15,1939,2,15,espatrio,Milano,Roma,1913,1,21,1986,3,22
+1778,Zimmerwald,Martinelli,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,09/11/1937,15/02/1939,1937,11,9,1939,2,15,espatrio,Spoleto,Ponte,1917,4,25,1944,12,9
+1482,Antonio,Composta,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/12/1936,1936,10,19,1936,12,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+3490,Luigi,Beltran,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,NULL,Brunete,, - , - ,1937, - , - 
+673,Alighiero,Bonciani,Marsiglia,Francia,43.2961743,5.3699525,Spagna,NULL,40.4168,-3.7038,15/08/1936,15/09/1937,1936,8,15,1937,9,15,espatrio,Scandicci,Milano,1903,8,27,1944,10,22
+1497,Antonio,Conte,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/08/1937,15/02/1939,1937,8,15,1939,2,15,espatrio,Sora,NULL,1915,1,28, - , - , - 
+1535,Gilio Luigi,Costabeber,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/07/1937,15/09/1938,1937,7,15,1938,9,15,espatrio,Posina,Schio,1907,2,8,1945,2,18
+3485,Maria,Filippini,Ransart,Belgio,50.45256871,4.49055433,Spagna,NULL,40.4168,-3.7038,15/06/1937,15/12/1937,1937,6,15,1937,12,15,espatrio,Urbino,Ransart,1899,1,4,1998,8,22
+1559,Emilio,Croce,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+1015,Emilio,Canzi,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/09/1936,15/12/1936,1936,9,19,1936,12,15,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+2053,Giovanni,Mella,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/04/1937,09/02/1939,1937,4,15,1939,2,9,espatrio,Milano,Milano,1890,3,21, - , - , - 
+1329,Rizzieri,Raveane,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/11/1936,15/02/1939,1936,11,19,1939,2,15,espatrio,Feltre,Feltre,1904,8,21,1962,9,27
+1923,Achille,Durigon,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/11/1937,1936,10,19,1937,11,15,espatrio,Pordenone,Parigi,1913,4,3,1990,11,3
+2339,Benedetto,Mori,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/05/1937,07/02/1939,1937,5,15,1939,2,7,espatrio,Fluminimaggiore,NULL,1899,6,16, - , - , - 
+1961,Michele,Fagherazzi,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/10/1937,15/02/1939,1937,10,15,1939,2,15,espatrio,Venezia,Venezia,1905,1,21,1978,7,25
+3193,Alfredo,Vivian,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/06/1937,15/02/1939,1937,6,15,1939,2,15,espatrio,Venezia,Venezia,1908,4,29,1944,8,3
+2748,Renato,Pierleoni,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/03/1937,1936,7,19,1937,3,15,espatrio,Firenze,NULL,1902,1,1, - , - , - 
+1846,Roberto,Donati,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/08/1937,15/12/1938,1937,8,15,1938,12,15,espatrio,Zurigo,NULL,1905,9,10, - , - , - 
+3023,Domenico,Tomat,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,10/10/1936,15/12/1938,1936,10,10,1938,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+1126,Pietro,Lari,Lione,Francia,45.7578137,4.8320114,Spagna,NULL,40.4168,-3.7038,15/08/1936,15/12/1936,1936,8,15,1936,12,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+1625,Giuseppe,Rocchei,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,11/01/1937,15/12/1940,1937,1,11,1940,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+3408,Giovanna,Zanarini,NULL,Francia,48.8566,2.3522,Spagna,NULL,40.4168,-3.7038,15/06/1937,15/09/1938,1937,6,15,1938,9,15,espatrio,Imola,Imola,1902,9,29,1974,9,15
+2040,Angiolo,Rossi,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/01/1937,09/02/1939,1937,1,15,1939,2,9,espatrio,Grosseto,Grosseto,1915,9,30,1987,3,22
+2223,Dino,Saccenti,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,15/05/1938,15/02/1939,1938,5,15,1939,2,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+1657,Pietro,Dal Pozzo,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/10/1936,20/10/1938,1936,10,19,1938,10,20,espatrio,Ponte di Piave,Treviso,1898,9,2,1979,4,11
+1752,Antonio,Mariani,Buenos Aires,Argentina,-34.60378418,-58.38160247,Spagna,NULL,40.4168,-3.7038,15/01/1938,07/02/1939,1938,1,15,1939,2,7,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+1455,Clemente,Maglietta,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/01/1937,07/02/1939,1937,1,15,1939,2,7,espatrio,Napoli,Napoli,1910,2,22,1993,10,10
+1180,Costanzo,Cecchin,Marsiglia,Francia,43.2961743,5.3699525,Spagna,NULL,40.4168,-3.7038,15/10/1936,15/02/1939,1936,10,15,1939,2,15,espatrio,Bergamo,Cadibona,1906,5,5,1944,8,18
+2666,Luigi,Peruzzi,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/03/1938,15/02/1939,1938,3,15,1939,2,15,espatrio,Pontedecimo,Imperia,1907,7,12,1946,1,31
+3164,Andrea,Scano,Ajaccio,Francia,41.91931542,8.73905003,Spagna,NULL,40.4168,-3.7038,15/07/1937,15/02/1939,1937,7,15,1939,2,15,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+3105,Giovanni Giacomo,Veronelli,Chambéry,Francia,45.56643746,5.92068136,Spagna,NULL,40.4168,-3.7038,15/12/1937,07/02/1939,1937,12,15,1939,2,7,espatrio,Sesto Fiorentino,Genova,1886,2,28,1944,1,14
+1000,Giovanni Battista,Canepa,Genova,Italia,44.40726,8.9338624,Spagna,NULL,40.4168,-3.7038,19/12/1936,12/09/1937,1936,12,19,1937,9,12,espatrio,Chiavari,Milazzo,1896,7,18,1994,2,13
+2807,Anton,Ukmar,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+95,Angelo,Antonini,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/08/1936,15/12/1939,1936,8,15,1939,12,15,espatrio,Roma,Roma,1909,5,2,1981,2,12
+2367,Mario,Foschiani,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/05/1938,07/02/1939,1938,5,15,1939,2,7,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+1150,Vittorio,Castiglioni,Milano,Italia,45.46417156,9.18954313,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Milano,Milano,1901,12,3,1976,8,25
+504,Bruno,Bettini,Pordenone,Italia,45.9562503,12.6597197,Spagna,NULL,40.4168,-3.7038,19/09/1936,15/09/1943,1936,9,19,1943,9,15,espatrio,Padova,NULL,1915,10,7, - , - , - 
+2972,Gherardo,Tedeschi,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,27/09/1937,15/05/1938,1937,9,27,1938,5,15,espatrio,Reggio Emilia,Reggio Emilia,1910,3,21,1964,2,12
+541,Francesco,Giorgetti,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/05/1938,15/02/1939,1938,5,15,1939,2,15,espatrio,Pola,NULL,1910,10,19,1944, - , - 
+3484,Cristina,Casati Stampa di Soncino,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Milano,Colesbourne,1901,7,15,1953,3,22
+910,Giuseppe,Iacopini,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,26/10/1936,15/05/1938,1936,10,26,1938,5,15,espatrio,Massa Carrara,NULL,1903,5,29, - , - , - 
+1079,Romeo,Landini,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,01/08/1937,15/10/1938,1937,8,1,1938,10,15,espatrio,Firenze,Cecina,1902,6,30,1970,1,13
+894,Giuseppe Vittorio,Guglielmo,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,15/02/1937,15/02/1939,1937,2,15,1939,2,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+1067,Giuseppe,Lagonigro,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Foggia,Nérac,1915,8,29,1966, - , - 
+1073,Aldo,Lampredi,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/12/1937,1936,7,19,1937,12,15,espatrio,Firenze,Jesenice,1899,3,13,1973,7,21
+2536,Aniceto,Pagani,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,15/04/1937,15/02/1939,1937,4,15,1939,2,15,espatrio,Milano,Milano,1909,2,1, - , - , - 
+2366,Antonio,Fortuna,NULL,Italia,41.9028,12.4964,Spagna,NULL,40.4168,-3.7038,15/07/1937,15/02/1938,1937,7,15,1938,2,15,espatrio,Creazzo,Pavia,1900,10,8,1978,1,12
+1594,Ismene,Manea,Longjumeau,Francia,48.69420753,2.29586899,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/09/1938,1937,1,15,1938,9,15,espatrio,Malo,Schio,1908,3,14,1944,7,12
+633,Novellio,Bon,Marsiglia,Francia,43.2961743,5.3699525,Spagna,NULL,40.4168,-3.7038,04/10/1936,14/09/1938,1936,10,4,1938,9,14,espatrio,Tavagnacco,NULL,1901,9,23, - , - , - 
+1511,Pietro,Corini,Fontenay-sous-Bois,Francia,48.84887091,2.47453094,Spagna,NULL,40.4168,-3.7038,13/11/1936,13/02/1939,1936,11,13,1939,2,13,espatrio,Piacenza,NULL,1913,3,19,1978,3,15
+767,Giovanni,Bortolussi,Tolone,Francia,43.1257311,5.9304919,Spagna,NULL,40.4168,-3.7038,19/12/1936,15/12/1936,1936,12,19,1936,12,15,espatrio,Valvasone,NULL,1912,7,25, - , - , - 
+1770,Francesco,Martella,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/12/1939,1936,7,19,1939,12,15,espatrio,Atri,Atri,1898,1,21,1943,11,17
+773,Nello,Boscagli,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/09/1936,07/02/1939,1936,9,19,1939,2,7,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+1578,Francesco,Curreli,Orano,Algeria,35.70328894,-0.6308,Spagna,NULL,40.4168,-3.7038,19/09/1936,15/02/1939,1936,9,19,1939,2,15,espatrio,Austis,Nemi,1903,5,11,1972, - , - 
+823,Emilio,Bressan,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,12/12/1936,15/11/1938,1936,12,12,1938,11,15,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+1785,Pietro,Del Testa,Grenoble,Francia,45.18630937,5.73615611,Spagna,NULL,40.4168,-3.7038,15/01/1938,13/01/1939,1938,1,15,1939,1,13,espatrio,Bagno di Romagna,NULL,1903,11,3, - , - , - 
+1801,Valeriano,De Pasqual,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,05/09/1937,15/02/1939,1937,9,5,1939,2,15,espatrio,Germania,NULL,1908,4,29, - , - , - 
+2328,Alfredo,Mordini,Arles,Francia,43.6776223,4.6309653,Spagna,NULL,40.4168,-3.7038,30/04/1937,15/12/1938,1937,4,30,1938,12,15,espatrio,Firenzuola,Milano,1902,6,29,1969,7,10
+252,Ermenegildo,Gasperoni,NULL,Lussemburgo,49.6116,6.1319,Spagna,NULL,40.4168,-3.7038,15/10/1936,07/02/1939,1936,10,15,1939,2,7,espatrio,San Marino,San Marino,1906,8,4,1994,6,26
+3491,Angelo,Spagnolo,NULL,Lussemburgo,49.6116,6.1319,Spagna,NULL,40.4168,-3.7038,15/11/1937,15/12/1939,1937,11,15,1939,12,15,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+2613,Giacomo,Pellegrini,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,04/08/1936,15/10/1937,1936,8,4,1937,10,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+1854,Vito,Doria,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/01/1931,15/02/1939,1931,1,15,1939,2,15,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+2313,Oddino,Montanari,NULL,NULL,NULL,NULL,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/02/1939,1936,7,19,1939,2,15,espatrio,Cesena,Cesena,1903,10,8,1944,10,3
+806,Giovanni,Brandalise,NULL,NULL,NULL,NULL,Spagna,NULL,40.4168,-3.7038,01/10/1936,15/02/1939,1936,10,1,1939,2,15,espatrio,Arsiè,Imenje,1904,8,5,1975,9,4
+1737,Cesare,Roda,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,02/08/1936,15/12/1937,1936,8,2,1937,12,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+3074,Napoleone,Trevisi,NULL,NULL,NULL,NULL,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Maranello,Modena,1899,6,1,1963,8,10
+2194,Egisto,Rubini,Tolosa,Francia,43.5792751,1.50327178,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/07/1937,1936,10,19,1937,7,15,espatrio,Molinella,Milano,1906,11,1,1944,2,25
+2917,Aristide,Valentini,NULL,NULL,NULL,NULL,Spagna,NULL,40.4168,-3.7038,07/10/1937,28/04/1938,1937,10,7,1938,4,28,espatrio,Ravenna,NULL,1896,1,29, - , - , - 
+3119,Francesco,Turri,Milano,Italia,45.46417156,9.18954313,Spagna,NULL,40.4168,-3.7038,15/12/1937,15/08/1938,1937,12,15,1938,8,15,espatrio,Milano,NULL,1890,11,17, - , - , - 
+3117,Nicolò,Turcinovich,NULL,Portogallo,38.7223,9.1393,Spagna,NULL,40.4168,-3.7038,15/01/1934,15/08/1941,1934,1,15,1941,8,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+3412,Marino,Zanella,Seraing-sur-Meuse,Belgio,50.5966392,5.5083375,Spagna,NULL,40.4168,-3.7038,15/01/1936,08/02/1939,1936,1,15,1939,2,8,espatrio,Segusino,Pieve di Soligo,1908,7,16,1945,1,26
+1898,Abramo,Maschio,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,10/10/1936,07/02/1939,1936,10,10,1939,2,7,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+1903,Adriano,Masoni,Basilea,Svizzera,47.555948,7.587594,Spagna,NULL,40.4168,-3.7038,15/06/1937,09/02/1939,1937,6,15,1939,2,9,espatrio,San Maurizio,Reggio Emilia,1907,3,26,1973,7,13
+1890,Albino,Marvin,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,27/12/1937,15/12/1937,1937,12,27,1937,12,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+2056,Cesare,Menarini,Le Blanc-Mesnil,Francia,48.93877436,2.46388793,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/08/1938,1936,10,19,1938,8,15,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+2317,Francesco,Montarolo,Villeurbanne,Francia,45.7733105,4.8869339,Spagna,NULL,40.4168,-3.7038,01/11/1936,15/03/1938,1936,11,1,1938,3,15,espatrio,Trino Vercellese,Trino Vercellese,1900,6,23,1973,2,2
+2252,Sisinnio,Mocci,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,NULL,40.4168,-3.7038,31/12/1937,15/02/1939,1937,12,31,1939,2,15,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+2542,Giuliano,Pajetta,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,05/01/1937,09/02/1939,1937,1,5,1939,2,9,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+1933,Luigi,Matteacci,Villeparisis,Francia,48.93974337,2.6171869,Spagna,NULL,40.4168,-3.7038,19/10/1936,09/04/1938,1936,10,19,1938,4,9,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+1132,Guido,Latini,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+3011,Giuseppe,Tocchini,Alès,Francia,44.12484854,4.07737076,Spagna,NULL,40.4168,-3.7038,19/08/1936,10/02/1939,1936,8,19,1939,2,10,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+2092,Armando,Fedeli,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+1593,Alberto,Mancini,Principato di Monaco,Principato di Monaco,43.73255518,7.42050934,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,Principato di Monaco,Umbertide,1908,9,6,1977,10,7
+2556,Celso,Pantieri,Lione,Francia,45.7578137,4.8320114,Spagna,NULL,40.4168,-3.7038,19/11/1936,02/02/1939,1936,11,19,1939,2,2,espatrio,Mercato Saraceno,Vénissieux,1901,3,22,1973,3,25
+2620,Giovanni,Pellizzari,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,15/01/1937,07/02/1939,1937,1,15,1939,2,7,espatrio,Preone,Udine,1911,10,7,1977,3,30
+2737,Dino,Piccoli,Montrouge,Francia,48.81862698,2.32051849,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Tavagnacco,Spilimbergo,1901,9,16,1945,2,4
+2042,Carlo,Rossi,Tolone,Francia,43.1257311,5.9304919,Spagna,NULL,40.4168,-3.7038,15/03/1937,14/10/1938,1937,3,15,1938,10,14,espatrio,Castelnovo del Friuli,NULL,1913,9,25, - , - , - 
+680,Angelo,Bonfiglioli,Tolosa,Francia,43.5792751,1.50327178,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/08/1937,1936,10,19,1937,8,15,espatrio,Vado,NULL,1896,9,29, - , - , - 
+2592,Fausto,Pattacini,Sant\\'Ilario d\\'Enza,Italia,44.7605046,10.4498922,Spagna,NULL,40.4168,-3.7038,15/01/1938,09/02/1939,1938,1,15,1939,2,9,espatrio,Sant\\'Ilario d\\'Enza,NULL,1917,9,30,1997,5, - 
+1368,Mario,Ricci,Orano,Algeria,35.70328894,-0.6308,Spagna,NULL,40.4168,-3.7038,19/11/1936,15/02/1939,1936,11,19,1939,2,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+1369,Mario,Ricci,Tolone,Francia,43.1257311,5.9304919,Spagna,NULL,40.4168,-3.7038,19/10/1936,15/01/1939,1936,10,19,1939,1,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1908,5,20,1989,8,18
+3428,Giovanni,Zannier,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/12/1936,15/02/1939,1936,12,19,1939,2,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+2837,Bruno,Pontoni,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+2919,Leo,Valiani,Parigi,Francia,48.86536408,2.32105494,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/12/1937,1936,8,19,1937,12,15,espatrio,Rijeka,Milano,1909,2,9,1999,9,17
+1992,Emilio,Romoli,Nizza,Francia,43.69705658,7.27023751,Spagna,NULL,40.4168,-3.7038,15/04/1937,15/02/1939,1937,4,15,1939,2,15,espatrio,Scandiano,NULL,1919,5,24, - , - , - 
+3321,Giovanni,Sola,Issy-les-Moulineaux,Francia,48.8250508,2.273457,Spagna,NULL,40.4168,-3.7038,19/07/1936,15/02/1939,1936,7,19,1939,2,15,espatrio,Gaggio di Piano,Modena,1888,8,31,1967,2,27
+3390,Vittorio,Suzzi,Ivry-sur-Seine,Francia,48.81195426,2.38749862,Spagna,NULL,40.4168,-3.7038,19/10/1936,02/07/1938,1936,10,19,1938,7,2,espatrio,Sasso Marconi,NULL,1900,8,28, - , - , - 
+461,Luigi,Bertani,NULL,Stati Uniti d\\'America,40.7128,-74.006,Spagna,NULL,40.4168,-3.7038,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Sampierdarena,NULL,1904,11,14, - , - , - 
+3076,Gaetano,Trigari,NULL,Svizzera,46.2044,6.1432,Spagna,NULL,40.4168,-3.7038,19/08/1936,15/10/1938,1936,8,19,1938,10,15,espatrio,Granarolo dell\\'Emilia,Bologna,1895,10,10,1957,10,6
+1988,Carlo Luciano,Farini,NULL,Unione Sovietica,55.7558,37.6173,Spagna,NULL,40.4168,-3.7038,15/04/1937,15/07/1938,1937,4,15,1938,7,15,espatrio,Ferrara,Roma,1895,2,27,1974,1,30
+1890,Albino,Marvin,NULL,Unione Sovietica,55.7558,37.6173,Spagna,NULL,40.4168,-3.7038,15/10/1936,15/12/1937,1936,10,15,1937,12,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+232,Giuseppe,Baldo,NULL,NULL,NULL,NULL,Spagna,NULL,40.4168,-3.7038,25/03/1937,15/02/1939,1937,3,25,1939,2,15,espatrio,Revine Lago,NULL,1896,5,6, - , - , - 
+3308,Aldo,Sintoni,Roma,Italia,41.894802,12.4853384,Spagna,Madrid,40.4167047,-3.7035825,28/01/1937,02/02/1939,1937,1,28,1939,2,2,espatrio,Ravenna,Ravenna,1919,8,17,1944,1,5
+517,Vincenzo,Bianco,NULL,Francia,48.8566,2.3522,Spagna,Madrid,40.4167047,-3.7035825,19/10/1936,18/10/1938,1936,10,19,1938,10,18,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+94,Antonio,Antoni,Lisbona,Portogallo,38.71570712,-9.1415906,Spagna,Madrid,40.4167047,-3.7035825,15/03/1935,15/10/1938,1935,3,15,1938,10,15,espatrio,Bagni di Lucca,Bagni di Lucca,1917,12,26,1973,12,28
+3184,Natale,Visentini,Milano,Italia,45.46417156,9.18954313,Spagna,Madrid,40.4167047,-3.7035825,15/02/1937,29/09/1937,1937,2,15,1937,9,29,espatrio,Moglia,NULL,1909,12,25, - , - , - 
+1132,Guido,Latini,Buenos Aires,Argentina,-34.60378418,-58.38160247,Spagna,Madrid,40.4167047,-3.7035825,15/04/1933,15/10/1935,1933,4,15,1935,10,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+3320,Emma,Sola,NULL,Unione Sovietica,55.7558,37.6173,Spagna,Alcalà de Henares,40.481998,-3.364327,19/09/1936,13/03/1938,1936,9,19,1938,3,13,espatrio,Milano,Pergine Valsugana,1894,3,30,1971,11,25
+32,Berto,Alberti,NULL,Francia,48.8566,2.3522,Spagna,Bilbao,43.2630051,-2.9349915,15/06/1937,15/12/1939,1937,6,15,1939,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+294,Ilio,Barontini,NULL,Francia,48.8566,2.3522,Spagna,Albacete,38.994349,-1.8585424,19/11/1936,15/12/1936,1936,11,19,1936,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+3227,Arturo Silvano,Scotto,NULL,Francia,48.8566,2.3522,Spagna,Albacete,38.994349,-1.8585424,15/09/1937,18/11/1938,1937,9,15,1938,11,18,espatrio,Livorno,Livorno,1902,7,2,1960,7,23
+1111,Egidio,Casnigo,NULL,Francia,48.8566,2.3522,Spagna,Albacete,38.994349,-1.8585424,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Milano,Milano,1905,6,8,2005,8,31
+493,Giovanni,Bertolini,NULL,Francia,48.8566,2.3522,Spagna,Albacete,38.994349,-1.8585424,01/10/1936,09/02/1939,1936,10,1,1939,2,9,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+2678,Quinto,Santarelli,NULL,Francia,48.8566,2.3522,Spagna,Albacete,38.994349,-1.8585424,15/01/1937,15/10/1938,1937,1,15,1938,10,15,espatrio,Foligno,NULL,1897,3,14,1969, - , - 
+678,Enrico,Bonfanti,Marsiglia,Francia,43.2961743,5.3699525,Spagna,Albacete,38.994349,-1.8585424,29/08/1936,15/02/1939,1936,8,29,1939,2,15,espatrio,Varese,Varese,1901,1,24,1964,7,6
+3103,Giuseppe,Verginella,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,Albacete,38.994349,-1.8585424,01/04/1937,15/02/1939,1937,4,1,1939,2,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+1889,Giovanni,Marussi,Monfalcone,Italia,45.8143128,13.5180718,Spagna,Albacete,38.994349,-1.8585424,15/08/1937,15/12/1938,1937,8,15,1938,12,15,espatrio,Monfalcone,NULL,1909,1,29, - , - , - 
+2089,Florindo,Meraldi,Ascona,Svizzera,44.56768,9.42856,Spagna,Albacete,38.994349,-1.8585424,15/07/1937,15/12/1938,1937,7,15,1938,12,15,espatrio,Ascona,NULL,1913,9,5,2000, - , - 
+1212,Antonio,Cetin,NULL,Francia,48.8566,2.3522,Algeria,Orano,35.70328894,-0.64005554,15/01/1930,15/12/1936,1930,1,15,1936,12,15,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+1578,Francesco,Curreli,NULL,Francia,48.8566,2.3522,Algeria,Orano,35.70328894,-0.64005554,15/01/1931,15/09/1936,1931,1,15,1936,9,15,espatrio,Austis,Nemi,1903,5,11,1972, - , - 
+1368,Mario,Ricci,NULL,Francia,48.8566,2.3522,Algeria,Orano,35.70328894,-0.64005554,15/01/1931,15/12/1936,1931,1,15,1936,12,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+1559,Emilio,Croce,Parigi,Francia,48.86536408,2.32105494,Algeria,Orano,35.70328894,-0.64005554,15/01/1935,15/10/1935,1935,1,15,1935,10,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+2683,Aureliano,Santini,Alicante,Spagna,38.353738,-0.4901846,Algeria,Orano,35.70328894,-0.64005554,05/04/1939,15/10/1942,1939,4,5,1942,10,15,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+2363,Flavio Ribelle,Fornasiero,NULL,Francia,48.8566,2.3522,Algeria,Sidi Bel Abbès,35.19130665,-0.6314832,15/05/1937,15/12/1938,1937,5,15,1938,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+2683,Aureliano,Santini,NULL,Francia,48.8566,2.3522,Spagna,Alicante,38.353738,-0.4901846,19/09/1936,28/03/1939,1936,9,19,1939,3,28,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+2577,Venanzio,Parutto,NULL,Francia,48.8566,2.3522,Spagna,Alicante,38.353738,-0.4901846,12/10/1936,07/02/1939,1936,10,12,1939,2,7,espatrio,Pregassona,Claut,1899,5,30,1973,11,18
+1212,Antonio,Cetin,Orano,Algeria,35.70328894,-0.6308,Spagna,Alicante,38.353738,-0.4901846,19/10/1936,17/02/1939,1936,10,19,1939,2,17,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+2541,Ettore,Pajetta,Parigi,Francia,48.86536408,2.32105494,Spagna,Alicante,38.353738,-0.4901846,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,Taino,Pietra Ligure,1906,8,25,1981,1,12
+3039,Vittorio,Tonelli,Marsiglia,Francia,43.2961743,5.3699525,Spagna,Alicante,38.353738,-0.4901846,19/11/1936,11/11/1939,1936,11,19,1939,11,11,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+1053,Antonio,Carini,NULL,Francia,48.8566,2.3522,Spagna,Valencia,39.4699014,-0.3759513,19/11/1936,10/02/1939,1936,11,19,1939,2,10,espatrio,San Nazzaro,Meldola,1902,10,7,1944,3,15
+1252,Alberto,Ciani,NULL,Francia,48.8566,2.3522,Spagna,Valencia,39.4699014,-0.3759513,19/09/1936,15/09/1937,1936,9,19,1937,9,15,espatrio,Forlì,NULL,1901,4,27,1979, - , - 
+3414,Ezio,Zanelli,NULL,Italia,41.9028,12.4964,Spagna,Valencia,39.4699014,-0.3759513,15/06/1937,03/02/1939,1937,6,15,1939,2,3,espatrio,Imola,Imola,1903,1,31,1981,5,2
+825,Romeo,Brevini,Audun-le-Tiche,Francia,49.47274304,5.95737398,Spagna,Valencia,39.4699014,-0.3759513,19/10/1936,15/02/1939,1936,10,19,1939,2,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1559,Emilio,Croce,Milano,Italia,45.46417156,9.18954313,Francia,Caen,49.18115637,-0.37306309,15/10/1930,15/12/1935,1930,10,15,1935,12,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+600,Alessandro,Boaretti,Caracas,Venezuela,10.505448,-66.915941,Spagna,Puig,39.58868286,-0.30611515,15/10/1981,15/12/1981,1981,10,15,1981,12,15,espatrio,Vicenza,Caracas,1907,9,19,1983,2,22
+3305,Alessandro,Sinigaglia,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Le Havre,49.49408225,0.107916,15/06/1935,15/12/1935,1935,6,15,1935,12,15,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+2339,Benedetto,Mori,New York,Stati Uniti,40.7308619,-73.9871558,Francia,Le Havre,49.49408225,0.107916,18/05/1937,15/05/1937,1937,5,18,1937,5,15,espatrio,Fluminimaggiore,NULL,1899,6,16, - , - , - 
+2194,Egisto,Rubini,Molinella,Italia,44.620853,11.6702371,Francia,Tolosa,43.5792751,1.50327178,15/01/1924,15/10/1936,1924,1,15,1936,10,15,espatrio,Molinella,Milano,1906,11,1,1944,2,25
+1126,Pietro,Lari,NULL,Spagna,40.4168,-3.7038,Francia,Tolosa,43.5792751,1.50327178,09/02/1939,15/09/1941,1939,2,9,1941,9,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+2009,Umberto,Mazzi,Torelló,Spagna,42.04708577,2.26056576,Francia,Tolosa,43.5792751,1.50327178,15/10/1938,15/12/1941,1938,10,15,1941,12,15,espatrio,Trieste,Dachau,1885,2,2,1945,3,16
+1602,Aristodemo,Maniera,Calella,Spagna,41.61328061,2.65750587,Francia,Tolosa,43.5792751,1.50327178,15/12/1938,15/04/1944,1938,12,15,1944,4,15,espatrio,Castellamare Adriatico,Roma,1903,8,5,1992,7,29
+3495,Josefa,Gomez Perez,Murcia,Spagna,37.98997345,-1.12913305,Francia,Tolosa,43.5792751,1.50327178,15/12/1938,15/12/1938,1938,12,15,1938,12,15,espatrio,Jumilla,NULL,1920,7,27, - , - , - 
+2194,Egisto,Rubini,NULL,Spagna,40.4168,-3.7038,Francia,Tolosa,43.5792751,1.50327178,15/07/1937,15/09/1943,1937,7,15,1943,9,15,espatrio,Molinella,Milano,1906,11,1,1944,2,25
+680,Angelo,Bonfiglioli,Vado,Italia,44.31627961,11.2568289,Francia,Tolosa,43.5792751,1.50327178,15/01/1925,15/10/1936,1925,1,15,1936,10,15,espatrio,Vado,NULL,1896,9,29, - , - , - 
+2919,Leo,Valiani,NULL,Francia,48.8566,2.3522,Algeria,NULL,28.0339,1.6596,15/10/1940,15/12/1940,1940,10,15,1940,12,15,espatrio,Rijeka,Milano,1909,2,9,1999,9,17
+2363,Flavio Ribelle,Fornasiero,NULL,Marocco,31.6295,7.9811,Algeria,NULL,28.0339,1.6596,15/01/1942,15/03/1942,1942,1,15,1942,3,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+3023,Domenico,Tomat,NULL,Spagna,40.4168,-3.7038,Francia,Chà¢teauroux,46.8047,1.6957099,15/01/1938,15/12/1944,1938,1,15,1944,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+44,Carlo,Aldegheri,NULL,Francia,48.8566,2.3522,Spagna,Sabadell,41.54632777,2.11590886,15/02/1932,15/02/1939,1932,2,15,1939,2,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+1594,Ismene,Manea,NULL,Italia,41.9028,12.4964,Francia,Breuillet,48.56672165,2.1734637,17/12/1930,01/01/1937,1930,12,17,1937,1,1,espatrio,Malo,Schio,1908,3,14,1944,7,12
+1109,Lucilio,Caselli,Ottange,Francia,49.44176146,6.01829767,Spagna,Barcellona,41.3828939,2.1774322,15/12/1936,15/01/1939,1936,12,15,1939,1,15,espatrio,Mercato Saraceno,NULL,1911,7,25, - , - , - 
+30,Giuseppe,Alberganti,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,15/03/1937,15/12/1938,1937,3,15,1938,12,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+3226,Francesco,Scotti,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,11/08/1936,12/02/1939,1936,8,11,1939,2,12,espatrio,Casalpusterlengo,Milano,1910,7,25,1973,1,24
+3305,Alessandro,Sinigaglia,NULL,Francia,48.8566,2.3522,Spagna,Barcellona,41.3828939,2.1774322,19/03/1936,09/02/1939,1936,3,19,1939,2,9,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+281,Vittorio,Bardini,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,19/11/1936,07/02/1939,1936,11,19,1939,2,7,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+1236,Oberdan,Chiesa,Grenoble,Francia,45.18630937,5.73615611,Spagna,Barcellona,41.3828939,2.1774322,19/09/1936,15/12/1939,1936,9,19,1939,12,15,espatrio,Livorno,Rosignano Solvay,1911,9,11,1944,1,29
+3486,Armida,Prati,Marsiglia,Francia,43.2961743,5.3699525,Spagna,Barcellona,41.3828939,2.1774322,19/08/1936,15/05/1937,1936,8,19,1937,5,15,espatrio,Apt,NULL,1918,1,24, - , - , - 
+1475,Cesare,Colombo,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,11/04/1938,15/02/1939,1938,4,11,1939,2,15,espatrio,Torino,Roma,1911,12,18,1977,4,27
+2745,Raffaele,Pieragostini,Mosca,Unione Sovietica,55.763008,37.622995,Spagna,Barcellona,41.3828939,2.1774322,15/04/1938,15/02/1939,1938,4,15,1939,2,15,espatrio,Sampierdarena,Bornasco,1899,5,3,1945,4,24
+600,Alessandro,Boaretti,Marsiglia,Francia,43.2961743,5.3699525,Spagna,Barcellona,41.3828939,2.1774322,25/07/1936,15/02/1939,1936,7,25,1939,2,15,espatrio,Vicenza,Caracas,1907,9,19,1983,2,22
+744,Mario,Bordoni,NULL,NULL,NULL,NULL,Spagna,Barcellona,41.3828939,2.1774322,15/01/1933,15/02/1939,1933,1,15,1939,2,15,espatrio,Terni,Pianoro,1906,5,27,1944,10,17
+3334,Angelo,Spada,Grenoble,Francia,45.18630937,5.73615611,Spagna,Barcellona,41.3828939,2.1774322,19/08/1936,15/02/1939,1936,8,19,1939,2,15,espatrio,Sant\\'Apollinare,Lecco,1905,8,7,1976,5,21
+1898,Abramo,Maschio,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,15/01/1935,15/12/1936,1935,1,15,1936,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+2009,Umberto,Mazzi,Nancy,Francia,48.69283009,6.18373632,Spagna,Barcellona,41.3828939,2.1774322,19/08/1936,15/10/1938,1936,8,19,1938,10,15,espatrio,Trieste,Dachau,1885,2,2,1945,3,16
+3117,Nicolò,Turcinovich,Parigi,Francia,48.86536408,2.32105494,Spagna,Barcellona,41.3828939,2.1774322,15/01/1932,15/12/1934,1932,1,15,1934,12,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+1015,Emilio,Canzi,Piacenza,Italia,45.05261269,9.69315737,Francia,Saint-Cloud,48.84370973,2.21908808,15/04/1928,12/09/1936,1928,4,15,1936,9,12,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+340,Ivo,Baruffini,NULL,NULL,NULL,NULL,Francia,Saint-Cloud,48.84370973,2.21908808,15/09/1930,01/02/1937,1930,9,15,1937,2,1,espatrio,Soragna,Vigneux-sur-Seine,1908,7,18,1975,1,19
+3321,Giovanni,Sola,NULL,Italia,41.9028,12.4964,Francia,Issy-les-Moulineaux,48.8250508,2.273457,15/01/1922,15/08/1936,1922,1,15,1936,8,15,espatrio,Gaggio di Piano,Modena,1888,8,31,1967,2,27
+1471,Francesco,Collodet,Cordignano,Italia,45.951812,12.413711,Francia,Levallois,48.89281828,2.28782237,15/01/1924,15/10/1936,1924,1,15,1936,10,15,espatrio,Cordignano,NULL,1906,7,10, - , - , - 
+30,Giuseppe,Alberganti,Valencia,Spagna,39.4699014,-0.3759513,Francia,Parigi,48.86536408,2.32105494,15/01/1938,15/04/1941,1938,1,15,1941,4,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+3226,Francesco,Scotti,Milano,Italia,45.46417156,9.18954313,Francia,Parigi,48.86536408,2.32105494,15/04/1936,11/08/1936,1936,4,15,1936,8,11,espatrio,Casalpusterlengo,Milano,1910,7,25,1973,1,24
+518,Alessandro,Bianconcini,Imola,Italia,44.3535145,11.7141233,Francia,Parigi,48.86536408,2.32105494,15/10/1935,28/09/1936,1935,10,15,1936,9,28,espatrio,Imola,Bologna,1909,8,7,1944,1,27
+1233,Alcide,Leonardi,Reggio Emilia,Italia,44.6978446,10.6304958,Francia,Parigi,48.86536408,2.32105494,05/09/1926,01/09/1936,1926,9,5,1936,9,1,espatrio,Monchio delle Olle,NULL,1905,7,18,1983, - , - 
+1619,Antonio,Roasio,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,19/10/1936,15/10/1936,1936,10,19,1936,10,15,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+3117,Nicolò,Turcinovich,NULL,Belgio,50.8503,4.3517,Francia,Parigi,48.86536408,2.32105494,15/01/1931,15/12/1932,1931,1,15,1932,12,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+1619,Antonio,Roasio,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/10/1938,15/01/1943,1938,10,15,1943,1,15,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+327,Roberto,Gherardi,Imola,Italia,44.3535145,11.7141233,Francia,Parigi,48.86536408,2.32105494,15/07/1931,15/11/1931,1931,7,15,1931,11,15,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+1590,Vittorio,Mallozzi,Aubonne,Svizzera,47.0357669,6.3265371,Francia,Parigi,48.86536408,2.32105494,15/10/1938,21/08/1941,1938,10,15,1941,8,21,espatrio,Anzio,Roma,1909,10,22,1944,1,31
+3077,Giovanni,Trippa,Basilea,Svizzera,47.555948,7.587594,Francia,Parigi,48.86536408,2.32105494,15/03/1935,16/11/1936,1935,3,15,1936,11,16,espatrio,Medicina,Bologna,1907,10,1,1983,1,6
+281,Vittorio,Bardini,Siena,Italia,43.3185536,11.3316533,Francia,Parigi,48.86536408,2.32105494,15/01/1935,15/06/1935,1935,1,15,1935,6,15,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+281,Vittorio,Bardini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,19/07/1936,15/11/1936,1936,7,19,1936,11,15,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+1475,Cesare,Colombo,Torino,Italia,45.0677551,7.6824892,Francia,Parigi,48.86536408,2.32105494,15/08/1937,11/04/1938,1937,8,15,1938,4,11,espatrio,Torino,Roma,1911,12,18,1977,4,27
+1475,Cesare,Colombo,Barcellona,Spagna,41.3828939,2.1774322,Francia,Parigi,48.86536408,2.32105494,05/02/1939,20/11/1941,1939,2,5,1941,11,20,espatrio,Torino,Roma,1911,12,18,1977,4,27
+30,Giuseppe,Alberganti,Milano,Italia,45.46417156,9.18954313,Francia,Parigi,48.86536408,2.32105494,15/01/1924,15/12/1924,1924,1,15,1924,12,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+30,Giuseppe,Alberganti,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/01/1933,15/03/1937,1933,1,15,1937,3,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+294,Ilio,Barontini,Marsiglia,Francia,43.2961743,5.3699525,Francia,Parigi,48.86536408,2.32105494,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+2223,Dino,Saccenti,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/01/1937,15/05/1938,1937,1,15,1938,5,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+1455,Clemente,Maglietta,Napoli,Italia,40.8359336,14.2487826,Francia,Parigi,48.86536408,2.32105494,15/01/1930,15/12/1930,1930,1,15,1930,12,15,espatrio,Napoli,Napoli,1910,2,22,1993,10,10
+1455,Clemente,Maglietta,Napoli,Italia,40.8359336,14.2487826,Francia,Parigi,48.86536408,2.32105494,19/09/1936,15/12/1937,1936,9,19,1937,12,15,espatrio,Napoli,Napoli,1910,2,22,1993,10,10
+2745,Raffaele,Pieragostini,Barcellona,Spagna,41.3828939,2.1774322,Francia,Parigi,48.86536408,2.32105494,05/02/1939,15/01/1942,1939,2,5,1942,1,15,espatrio,Sampierdarena,Bornasco,1899,5,3,1945,4,24
+2666,Luigi,Peruzzi,Imperia,Italia,43.8862958,8.0267106,Francia,Parigi,48.86536408,2.32105494,15/01/1930,15/03/1938,1930,1,15,1938,3,15,espatrio,Pontedecimo,Imperia,1907,7,12,1946,1,31
+1000,Giovanni Battista,Canepa,Madrid,Spagna,40.4167047,-3.7035825,Francia,Parigi,48.86536408,2.32105494,12/09/1937,15/09/1943,1937,9,12,1943,9,15,espatrio,Chiavari,Milazzo,1896,7,18,1994,2,13
+1864,Domenico,Rolla,"Goggiam, regione del -",Etiopia,11,37,Francia,Parigi,48.86536408,2.32105494,15/01/1940,15/05/1943,1940,1,15,1943,5,15,espatrio,Arcola,Roma,1908,1,19,1954,6,8
+95,Angelo,Antonini,Brno,Repubblica Ceca (Cecoslovacchia),49.19390807,16.60559893,Francia,Parigi,48.86536408,2.32105494,15/06/1936,14/08/1936,1936,6,15,1936,8,14,espatrio,Roma,Roma,1909,5,2,1981,2,12
+2367,Mario,Foschiani,Zurigo,Svizzera,45.45884,9.18793,Francia,Parigi,48.86536408,2.32105494,15/05/1934,15/07/1934,1934,5,15,1934,7,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+493,Giovanni,Bertolini,Reggio Emilia,Italia,44.6978446,10.6304958,Francia,Parigi,48.86536408,2.32105494,07/04/1932,15/12/1932,1932,4,7,1932,12,15,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+517,Vincenzo,Bianco,Torino,Italia,45.0677551,7.6824892,Francia,Parigi,48.86536408,2.32105494,15/01/1921,15/12/1921,1921,1,15,1921,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+517,Vincenzo,Bianco,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/01/1929,15/12/1931,1929,1,15,1931,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+1073,Aldo,Lampredi,Firenze,Italia,43.7698712,11.2555757,Francia,Parigi,48.86536408,2.32105494,15/03/1934,15/10/1934,1934,3,15,1934,10,15,espatrio,Firenze,Jesenice,1899,3,13,1973,7,21
+1104,Agostino,Casati,Zurigo,Svizzera,45.45884,9.18793,Francia,Parigi,48.86536408,2.32105494,15/01/1926,15/12/1926,1926,1,15,1926,12,15,espatrio,Rho,Rho,1897,8,2,1973,2,8
+1104,Agostino,Casati,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/01/1929,15/12/1929,1929,1,15,1929,12,15,espatrio,Rho,Rho,1897,8,2,1973,2,8
+1748,Lino,Marega,Villesse,Italia,45.856601,13.44356,Francia,Parigi,48.86536408,2.32105494,15/09/1929,15/12/1937,1929,9,15,1937,12,15,espatrio,Villesse,Villesse,1898,2,18,1984,5, - 
+2623,Filippo,Pelosi,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,30/06/1929,11/11/1936,1929,6,30,1936,11,11,espatrio,San Severo,San Severo,1896,11,5,1980,2,22
+32,Berto,Alberti,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1927,15/12/1927,1927,1,15,1927,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+570,Giuseppe,Bifolchi,Barcellona,Spagna,41.3828939,2.1774322,Francia,Parigi,48.86536408,2.32105494,15/06/1937,15/09/1937,1937,6,15,1937,9,15,espatrio,Balsorano,Avezzano,1895,2,20,1978,3,16
+1657,Pietro,Dal Pozzo,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1926,15/10/1936,1926,1,15,1936,10,15,espatrio,Ponte di Piave,Treviso,1898,9,2,1979,4,11
+2807,Anton,Ukmar,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1932,15/12/1933,1932,1,15,1933,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+409,Dino,Beltrami,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1931,09/10/1936,1931,1,15,1936,10,9,espatrio,Carpi,Carpi,1908,6,18,1964,10,22
+491,Alfredo,Bertoli,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,10/05/1937,15/12/1937,1937,5,10,1937,12,15,espatrio,Venezia,Venezia,1903,5,21,1975,5,25
+541,Francesco,Giorgetti,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1933,15/05/1938,1933,1,15,1938,5,15,espatrio,Pola,NULL,1910,10,19,1944, - , - 
+570,Giuseppe,Bifolchi,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1920,15/12/1928,1920,1,15,1928,12,15,espatrio,Balsorano,Avezzano,1895,2,20,1978,3,16
+685,Loris,Boni,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,18/10/1930,15/11/1937,1930,10,18,1937,11,15,espatrio,Montecchio Emilia,Montecchio Emilia,1913,7,22,1966,9,23
+1770,Francesco,Martella,Verona,Italia,45.4384958,10.9924122,Francia,Parigi,48.86536408,2.32105494,15/01/1930,15/12/1936,1930,1,15,1936,12,15,espatrio,Atri,Atri,1898,1,21,1943,11,17
+823,Emilio,Bressan,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/02/1924,10/12/1936,1924,2,15,1936,12,10,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+1015,Emilio,Canzi,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1922,09/08/1927,1922,1,15,1927,8,9,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+2620,Giovanni,Pellizzari,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1928,15/12/1937,1928,1,15,1937,12,15,espatrio,Preone,Udine,1911,10,7,1977,3,30
+3038,Vincenzo,Tonelli,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/07/1930,05/10/1936,1930,7,15,1936,10,5,espatrio,Castelnovo del Friuli,Tolosa,1916,7,13,2009,7,28
+2837,Bruno,Pontoni,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,15/01/1933,15/12/1934,1933,1,15,1934,12,15,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+2919,Leo,Valiani,NULL,Italia,41.9028,12.4964,Francia,Parigi,48.86536408,2.32105494,19/07/1936,15/08/1936,1936,7,19,1936,8,15,espatrio,Rijeka,Milano,1909,2,9,1999,9,17
+2333,Ermenegildo,Moretti,Monaco di Baviera,Germania,48.13737527,11.57570064,Francia,Parigi,48.86536408,2.32105494,15/01/1938,15/12/1938,1938,1,15,1938,12,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+3491,Angelo,Spagnolo,Cittanova,Italia,45.3168509,13.5649454,Francia,Parigi,48.86536408,2.32105494,15/01/1908,15/12/1908,1908,1,15,1908,12,15,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+2807,Anton,Ukmar,NULL,Jugoslavia (Slovenia),46.0569,14.5058,Francia,Parigi,48.86536408,2.32105494,15/01/1930,15/12/1932,1930,1,15,1932,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+2613,Giacomo,Pellegrini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/08/1935,15/08/1936,1935,8,15,1936,8,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+1737,Cesare,Roda,Milano,Italia,45.46417156,9.18954313,Francia,Parigi,48.86536408,2.32105494,05/05/1935,02/08/1936,1935,5,5,1936,8,2,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+3119,Francesco,Turri,Albacete,Spagna,38.994349,-1.8585424,Francia,Parigi,48.86536408,2.32105494,15/08/1938,15/07/1942,1938,8,15,1942,7,15,espatrio,Milano,NULL,1890,11,17, - , - , - 
+2613,Giacomo,Pellegrini,NULL,Romania,44.4268,26.1025,Francia,Parigi,48.86536408,2.32105494,15/01/1933,15/12/1933,1933,1,15,1933,12,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+3386,Emilio,Suardi,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,05/02/1939,15/12/1944,1939,2,5,1944,12,15,espatrio,Romano di Lombardia,Romano di Lombardia,1905,4,1,1983,2,4
+1898,Abramo,Maschio,Esch-sur-Alzette,Lussemburgo,49.49628779,5.9846735,Francia,Parigi,48.86536408,2.32105494,15/11/1927,15/12/1929,1927,11,15,1929,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+1898,Abramo,Maschio,Barcellona,Spagna,41.3828939,2.1774322,Francia,Parigi,48.86536408,2.32105494,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+545,Eugenio,Giovanardi,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,05/02/1939,08/04/1941,1939,2,5,1941,4,8,espatrio,Milano,Roma,1913,1,21,1986,3,22
+1890,Albino,Marvin,Benicasim,Spagna,40.0554964,0.0644165,Francia,Parigi,48.86536408,2.32105494,15/01/1937,27/12/1937,1937,1,15,1937,12,27,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+1657,Pietro,Dal Pozzo,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,20/10/1938,09/11/1941,1938,10,20,1941,11,9,espatrio,Ponte di Piave,Treviso,1898,9,2,1979,4,11
+2687,Adolfo,Saponi,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/09/1937,15/05/1945,1937,9,15,1945,5,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+2542,Giuliano,Pajetta,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/10/1934,15/01/1937,1934,10,15,1937,1,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+95,Angelo,Antonini,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,05/02/1939,29/09/1942,1939,2,5,1942,9,29,espatrio,Roma,Roma,1909,5,2,1981,2,12
+2683,Aureliano,Santini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,15/01/1935,15/12/1936,1935,1,15,1936,12,15,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+2092,Armando,Fedeli,Perugia,Italia,43.11206259,12.38883644,Francia,Parigi,48.86536408,2.32105494,19/01/1936,15/08/1936,1936,1,19,1936,8,15,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+1223,Giulio Pietro,Chiarelli,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/07/1938,15/11/1941,1938,7,15,1941,11,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1073,Aldo,Lampredi,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/01/1937,15/11/1943,1937,1,15,1943,11,15,espatrio,Firenze,Jesenice,1899,3,13,1973,7,21
+633,Novellio,Bon,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,14/09/1938,25/09/1941,1938,9,14,1941,9,25,espatrio,Tavagnacco,NULL,1901,9,23, - , - , - 
+823,Emilio,Bressan,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/11/1938,15/12/1938,1938,11,15,1938,12,15,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+2613,Giacomo,Pellegrini,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/10/1937,15/02/1939,1937,10,15,1939,2,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+1737,Cesare,Roda,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/01/1937,15/11/1937,1937,1,15,1937,11,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+2837,Bruno,Pontoni,Mosca,Unione Sovietica,55.763008,37.622995,Francia,Parigi,48.86536408,2.32105494,19/05/1936,20/08/1936,1936,5,19,1936,8,20,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+2919,Leo,Valiani,NULL,Spagna,40.4168,-3.7038,Francia,Parigi,48.86536408,2.32105494,15/01/1937,15/10/1940,1937,1,15,1940,10,15,espatrio,Rijeka,Milano,1909,2,9,1999,9,17
+2367,Mario,Foschiani,NULL,Unione Sovietica,55.7558,37.6173,Francia,Parigi,48.86536408,2.32105494,15/01/1937,15/05/1938,1937,1,15,1938,5,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+2363,Flavio Ribelle,Fornasiero,NULL,Austria,48.2082,16.3738,Francia,NULL,48.8566,2.3522,15/11/1933,15/12/1934,1933,11,15,1934,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+1053,Antonio,Carini,NULL,Belgio,50.8503,4.3517,Francia,NULL,48.8566,2.3522,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,San Nazzaro,Meldola,1902,10,7,1944,3,15
+1180,Costanzo,Cecchin,NULL,Belgio,50.8503,4.3517,Francia,NULL,48.8566,2.3522,15/01/1926,15/12/1933,1926,1,15,1933,12,15,espatrio,Bergamo,Cadibona,1906,5,5,1944,8,18
+2363,Flavio Ribelle,Fornasiero,NULL,Belgio,50.8503,4.3517,Francia,NULL,48.8566,2.3522,15/01/1934,15/12/1935,1934,1,15,1935,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+2363,Flavio Ribelle,Fornasiero,NULL,Belgio,50.8503,4.3517,Francia,NULL,48.8566,2.3522,15/01/1937,15/05/1937,1937,1,15,1937,5,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+1939,Vasco,Matteoli,Empoli,Italia,43.7194884,10.9458556,Francia,NULL,48.8566,2.3522,15/09/1931,15/11/1936,1931,9,15,1936,11,15,espatrio,Empoli,Bologna,1913,6,20,1944,7,5
+1939,Vasco,Matteoli,Barcellona,Spagna,41.3828939,2.1774322,Francia,NULL,48.8566,2.3522,07/02/1939,25/06/1942,1939,2,7,1942,6,25,espatrio,Empoli,Bologna,1913,6,20,1944,7,5
+327,Roberto,Gherardi,Imola,Italia,44.3535145,11.7141233,Francia,NULL,48.8566,2.3522,15/02/1923,15/12/1923,1923,2,15,1923,12,15,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+3051,Bruno,Tosarelli,Bologna,Italia,44.4936714,11.3430347,Francia,NULL,48.8566,2.3522,15/01/1937,15/04/1937,1937,1,15,1937,4,15,espatrio,Castenaso,Bologna,1912,12,11,1944,10,5
+2750,Quinto,Pietroboni,Sant'Agata Bolognese,Italia,44.664169,11.134004,Francia,NULL,48.8566,2.3522,15/01/1923,15/10/1936,1923,1,15,1936,10,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+684,Fernando,Boni,Torelló,Spagna,42.04708577,2.26056576,Francia,NULL,48.8566,2.3522,05/02/1939,30/08/1941,1939,2,5,1941,8,30,espatrio,Bagno a Ripoli,Firenze,1901,2,26,1965,7,29
+811,Stefano,Brau,Oniferi,Italia,40.271958,9.170332,Francia,NULL,48.8566,2.3522,15/01/1924,15/10/1936,1924,1,15,1936,10,15,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+811,Stefano,Brau,Mauthausen,Austria,48.2427821,14.51534583,Francia,NULL,48.8566,2.3522,15/05/1945,15/12/1945,1945,5,15,1945,12,15,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+294,Ilio,Barontini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,NULL,48.8566,2.3522,15/01/1935,22/11/1936,1935,1,15,1936,11,22,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+294,Ilio,Barontini,"Goggiam, regione del -",Etiopia,11,37,Francia,NULL,48.8566,2.3522,15/06/1940,15/12/1940,1940,6,15,1940,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+2745,Raffaele,Pieragostini,Genova,Italia,44.40726,8.9338624,Francia,NULL,48.8566,2.3522,15/09/1935,15/11/1935,1935,9,15,1935,11,15,espatrio,Sampierdarena,Bornasco,1899,5,3,1945,4,24
+1363,Fabio,Ricci,Torino,Italia,45.0677551,7.6824892,Francia,NULL,48.8566,2.3522,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Fontanelice,Cesena,1909,4,23,1979,10,4
+894,Giuseppe Vittorio,Guglielmo,Sanremo,Italia,43.818409,7.77842,Francia,NULL,48.8566,2.3522,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+1092,Teresio,Caron,Gattinara,Italia,45.6142424,8.371138,Francia,NULL,48.8566,2.3522,15/01/1920,15/12/1936,1920,1,15,1936,12,15,espatrio,Gattinara,Biella,1896,7,27,1969,2,18
+3164,Andrea,Scano,Barcellona,Spagna,41.3828939,2.1774322,Francia,NULL,48.8566,2.3522,05/02/1939,10/04/1941,1939,2,5,1941,4,10,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+2807,Anton,Ukmar,Barcellona,Spagna,41.3828939,2.1774322,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1939,1939,2,5,1939,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+2807,Anton,Ukmar,"Goggiam, regione del -",Etiopia,11,37,Francia,NULL,48.8566,2.3522,15/01/1940,15/09/1943,1940,1,15,1943,9,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+3305,Alessandro,Sinigaglia,Bellinzona,Svizzera,46.1918617,9.0204562,Francia,NULL,48.8566,2.3522,19/01/1936,15/03/1936,1936,1,19,1936,3,15,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+1120,Adelchi,Castellani,Reana del Rojale,Italia,46.1457361,13.2351201,Francia,NULL,48.8566,2.3522,16/05/1924,22/12/1932,1924,5,16,1932,12,22,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+340,Ivo,Baruffini,Torelló,Spagna,42.04708577,2.26056576,Francia,NULL,48.8566,2.3522,05/02/1939,21/07/1941,1939,2,5,1941,7,21,espatrio,Soragna,Vigneux-sur-Seine,1908,7,18,1975,1,19
+1111,Egidio,Casnigo,Milano,Italia,45.46417156,9.18954313,Francia,NULL,48.8566,2.3522,15/10/1934,15/12/1937,1934,10,15,1937,12,15,espatrio,Milano,Milano,1905,6,8,2005,8,31
+493,Giovanni,Bertolini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,NULL,48.8566,2.3522,15/01/1934,01/10/1936,1934,1,15,1936,10,1,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+2687,Adolfo,Saponi,NULL,Germania,52.52,13.405,Francia,NULL,48.8566,2.3522,15/01/1936,15/10/1936,1936,1,15,1936,10,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+1778,Zimmerwald,Martinelli,Spoleto,Italia,42.7355124,12.7363357,Francia,NULL,48.8566,2.3522,15/01/1922,15/12/1922,1922,1,15,1922,12,15,espatrio,Spoleto,Ponte,1917,4,25,1944,12,9
+32,Berto,Alberti,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1935,15/12/1936,1935,1,15,1936,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+684,Fernando,Boni,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,01/01/1931,13/10/1936,1931,1,1,1936,10,13,espatrio,Bagno a Ripoli,Firenze,1901,2,26,1965,7,29
+751,Pietro,Borghi,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,20/10/1932,15/12/1934,1932,10,20,1934,12,15,espatrio,Poggibonsi,Poggibonsi,1898,12,20,1977,11,7
+3487,Anna,Sartini,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1931,15/12/1937,1931,1,15,1937,12,15,espatrio,Molinella,NULL,1906,3,13, - , - , - 
+1079,Romeo,Landini,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1924,15/12/1926,1924,1,15,1926,12,15,espatrio,Firenze,Cecina,1902,6,30,1970,1,13
+1126,Pietro,Lari,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/09/1931,15/08/1936,1931,9,15,1936,8,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+252,Ermenegildo,Gasperoni,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/04/1924,10/04/1929,1924,4,15,1929,4,10,espatrio,San Marino,San Marino,1906,8,4,1994,6,26
+3076,Gaetano,Trigari,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1921,15/12/1921,1921,1,15,1921,12,15,espatrio,Granarolo dell\\'Emilia,Bologna,1895,10,10,1957,10,6
+1864,Domenico,Rolla,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1935,15/08/1936,1935,1,15,1936,8,15,espatrio,Arcola,Roma,1908,1,19,1954,6,8
+392,Pietro,Bellè,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/09/1924,15/11/1936,1924,9,15,1936,11,15,espatrio,Pieve di Soligo,NULL,1906,12,10, - , - , - 
+1535,Gilio Luigi,Costabeber,Posina,Italia,45.7910878,11.2625174,Francia,NULL,48.8566,2.3522,15/01/1924,15/07/1937,1924,1,15,1937,7,15,espatrio,Posina,Schio,1907,2,8,1945,2,18
+2406,Achille,Frigerio,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/04/1923,15/10/1936,1923,4,15,1936,10,15,espatrio,Vimercate,Vimercate,1900,5,7,1966, - , - 
+517,Vincenzo,Bianco,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1935,15/10/1936,1935,1,15,1936,10,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+633,Novellio,Bon,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1924,15/10/1936,1924,1,15,1936,10,15,espatrio,Tavagnacco,NULL,1901,9,23, - , - , - 
+767,Giovanni,Bortolussi,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,19/01/1931,05/12/1936,1931,1,19,1936,12,5,espatrio,Valvasone,NULL,1912,7,25, - , - , - 
+773,Nello,Boscagli,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1925,15/12/1935,1925,1,15,1935,12,15,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+806,Giovanni,Brandalise,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1925,15/12/1925,1925,1,15,1925,12,15,espatrio,Arsiè,Imenje,1904,8,5,1975,9,4
+2053,Giovanni,Mella,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/10/1930,15/04/1937,1930,10,15,1937,4,15,espatrio,Milano,Milano,1890,3,21, - , - , - 
+773,Nello,Boscagli,Mosca,Unione Sovietica,55.763008,37.622995,Francia,NULL,48.8566,2.3522,19/07/1936,29/09/1936,1936,7,19,1936,9,29,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+1854,Vito,Doria,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+2678,Quinto,Santarelli,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1923,15/01/1937,1923,1,15,1937,1,15,espatrio,Foligno,NULL,1897,3,14,1969, - , - 
+2009,Umberto,Mazzi,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1930,15/08/1936,1930,1,15,1936,8,15,espatrio,Trieste,Dachau,1885,2,2,1945,3,16
+2748,Renato,Pierleoni,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/03/1923,15/12/1923,1923,3,15,1923,12,15,espatrio,Firenze,NULL,1902,1,1, - , - , - 
+2556,Celso,Pantieri,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1927,07/11/1936,1927,1,15,1936,11,7,espatrio,Mercato Saraceno,Vénissieux,1901,3,22,1973,3,25
+2577,Venanzio,Parutto,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/03/1923,09/10/1936,1923,3,15,1936,10,9,espatrio,Pregassona,Claut,1899,5,30,1973,11,18
+1651,Giovanni Battista,Marani,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1927,15/12/1937,1927,1,15,1937,12,15,espatrio,Poiano,Poiano,1904,10,7,1970,12,24
+2042,Carlo,Rossi,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/03/1930,05/03/1937,1930,3,15,1937,3,5,espatrio,Castelnovo del Friuli,NULL,1913,9,25, - , - , - 
+1714,Fioravante,Marcolin,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1923,15/12/1926,1923,1,15,1926,12,15,espatrio,Motta di Livenza,Motta di Livenza,1896,2,16,1964,1,6
+3039,Vittorio,Tonelli,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/08/1929,15/12/1930,1929,8,15,1930,12,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+825,Romeo,Brevini,Esch-sur-Alzette,Lussemburgo,49.49628779,5.9846735,Francia,NULL,48.8566,2.3522,19/07/1936,23/10/1936,1936,7,19,1936,10,23,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1368,Mario,Ricci,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1930,15/12/1931,1930,1,15,1931,12,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+3428,Giovanni,Zannier,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1922,15/12/1936,1922,1,15,1936,12,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+3390,Vittorio,Suzzi,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1922,23/10/1936,1922,1,15,1936,10,23,espatrio,Sasso Marconi,NULL,1900,8,28, - , - , - 
+3408,Giovanna,Zanarini,NULL,Italia,41.9028,12.4964,Francia,NULL,48.8566,2.3522,15/01/1935,15/06/1937,1935,1,15,1937,6,15,espatrio,Imola,Imola,1902,9,29,1974,9,15
+1212,Antonio,Cetin,NULL,Jugoslavia,44.7866,20.4489,Francia,NULL,48.8566,2.3522,15/01/1930,15/12/1930,1930,1,15,1930,12,15,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+3103,Giuseppe,Verginella,NULL,Jugoslavia,44.7866,20.4489,Francia,NULL,48.8566,2.3522,15/01/1930,15/12/1931,1930,1,15,1931,12,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+2541,Ettore,Pajetta,Taino,Italia,45.76249,8.61654,Francia,NULL,48.8566,2.3522,24/04/1923,15/10/1936,1923,4,24,1936,10,15,espatrio,Taino,Pietra Ligure,1906,8,25,1981,1,12
+1329,Rizzieri,Raveane,Feltre,Italia,46.0163755,11.9062541,Francia,NULL,48.8566,2.3522,15/01/1920,15/11/1936,1920,1,15,1936,11,15,espatrio,Feltre,Feltre,1904,8,21,1962,9,27
+2363,Flavio Ribelle,Fornasiero,NULL,Marocco,31.6295,7.9811,Francia,NULL,48.8566,2.3522,15/03/1942,15/03/1942,1942,3,15,1942,3,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+825,Romeo,Brevini,NULL,NULL,NULL,NULL,Francia,NULL,48.8566,2.3522,15/01/1930,15/12/1930,1930,1,15,1930,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+825,Romeo,Brevini,NULL,NULL,NULL,NULL,Francia,NULL,48.8566,2.3522,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+2737,Dino,Piccoli,NULL,Romania,44.4268,26.1025,Francia,NULL,48.8566,2.3522,15/01/1930,29/09/1936,1930,1,15,1936,9,29,espatrio,Tavagnacco,Spilimbergo,1901,9,16,1945,2,4
+1961,Michele,Fagherazzi,Venezia,Italia,45.43699085,12.3360842,Francia,NULL,48.8566,2.3522,15/08/1937,15/10/1937,1937,8,15,1937,10,15,espatrio,Venezia,Venezia,1905,1,21,1978,7,25
+83,Domenico,Anfosso,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,15/12/1939,1939,2,9,1939,12,15,espatrio,Ventimiglia,NULL,1892,3,4, - , - , - 
+1053,Antonio,Carini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,San Nazzaro,Meldola,1902,10,7,1944,3,15
+1742,Guglielmo,Marconi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1937,21/04/1941,1937,1,15,1941,4,21,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+744,Mario,Bordoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/11/1941,1939,2,5,1941,11,15,espatrio,Terni,Pianoro,1906,5,27,1944,10,17
+2972,Gherardo,Tedeschi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/05/1938,15/12/1938,1938,5,15,1938,12,15,espatrio,Reggio Emilia,Reggio Emilia,1910,3,21,1964,2,12
+518,Alessandro,Bianconcini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,25/04/1937,08/07/1942,1937,4,25,1942,7,8,espatrio,Imola,Bologna,1909,8,7,1944,1,27
+1233,Alcide,Leonardi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/05/1937,10/01/1938,1937,5,15,1938,1,10,espatrio,Monchio delle Olle,NULL,1905,7,18,1983, - , - 
+3308,Aldo,Sintoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,02/02/1939,15/08/1941,1939,2,2,1941,8,15,espatrio,Ravenna,Ravenna,1919,8,17,1944,1,5
+327,Roberto,Gherardi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,02/12/1941,1939,2,7,1941,12,2,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+32,Berto,Alberti,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/07/1943,1939,2,5,1943,7,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+1988,Carlo Luciano,Farini,Mosca,Unione Sovietica,55.763008,37.622995,Francia,NULL,48.8566,2.3522,15/01/1928,15/12/1933,1928,1,15,1933,12,15,espatrio,Ferrara,Roma,1895,2,27,1974,1,30
+3051,Bruno,Tosarelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,10/04/1941,1939,2,9,1941,4,10,espatrio,Castenaso,Bologna,1912,12,11,1944,10,5
+2750,Quinto,Pietroboni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1937,15/01/1938,1937,1,15,1938,1,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+2750,Quinto,Pietroboni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+3327,Dante,Somaruga,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1939,1939,2,5,1939,12,15,espatrio,Carnago,Gallarate,1906,10,2,1981,1,31
+3414,Ezio,Zanelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,03/02/1939,28/11/1945,1939,2,3,1945,11,28,espatrio,Imola,Imola,1903,1,31,1981,5,2
+3077,Giovanni,Trippa,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,08/02/1939,05/07/1943,1939,2,8,1943,7,5,espatrio,Medicina,Bologna,1907,10,1,1983,1,6
+3193,Alfredo,Vivian,Venezia,Italia,45.43699085,12.3360842,Francia,NULL,48.8566,2.3522,19/07/1936,15/06/1937,1936,7,19,1937,6,15,espatrio,Venezia,Venezia,1908,4,29,1944,8,3
+44,Carlo,Aldegheri,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/06/1940,1939,2,5,1940,6,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+1236,Oberdan,Chiesa,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,23/09/1941,1939,2,5,1941,9,23,espatrio,Livorno,Rosignano Solvay,1911,9,11,1944,1,29
+673,Alighiero,Bonciani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/09/1937,15/06/1944,1937,9,15,1944,6,15,espatrio,Scandicci,Milano,1903,8,27,1944,10,22
+910,Giuseppe,Iacopini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/05/1938,15/09/1941,1938,5,15,1941,9,15,espatrio,Massa Carrara,NULL,1903,5,29, - , - , - 
+1079,Romeo,Landini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/10/1938,25/09/1941,1938,10,15,1941,9,25,espatrio,Firenze,Cecina,1902,6,30,1970,1,13
+2040,Angiolo,Rossi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,09/10/1941,1939,2,9,1941,10,9,espatrio,Grosseto,Grosseto,1915,9,30,1987,3,22
+294,Ilio,Barontini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1938,15/12/1938,1938,1,15,1938,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+1196,Giovanni,Cerbai,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/04/1941,1939,2,15,1941,4,15,espatrio,Camugnano,Bologna,1912,9,10,1945,2,10
+252,Ermenegildo,Gasperoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,15/12/1939,1939,2,7,1939,12,15,espatrio,San Marino,San Marino,1906,8,4,1994,6,26
+1752,Antonio,Mariani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,30/08/1941,1939,2,5,1941,8,30,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+2054,Giuseppe,Melli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/09/1941,1939,2,15,1941,9,15,espatrio,Vergato,NULL,1911,1,28,1989,11,28
+2252,Sisinnio,Mocci,Buenos Aires,Argentina,-34.60378418,-58.38160247,Francia,NULL,48.8566,2.3522,15/01/1930,15/12/1932,1930,1,15,1932,12,15,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+1363,Fabio,Ricci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1939,1939,2,5,1939,12,15,espatrio,Fontanelice,Cesena,1909,4,23,1979,10,4
+894,Giuseppe Vittorio,Guglielmo,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/07/1940,1939,2,15,1940,7,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+2666,Luigi,Peruzzi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,21/02/1942,1939,2,5,1942,2,21,espatrio,Pontedecimo,Imperia,1907,7,12,1946,1,31
+1093,Mario Alfonso,Carpanelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Ferrara,Ferrara,1903,1,14,1981,5,8
+3105,Giovanni Giacomo,Veronelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,15/06/1943,1939,2,7,1943,6,15,espatrio,Sesto Fiorentino,Genova,1886,2,28,1944,1,14
+1132,Guido,Latini,Madrid,Spagna,40.4167047,-3.7035825,Francia,NULL,48.8566,2.3522,15/10/1935,15/08/1936,1935,10,15,1936,8,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+3378,Orlando,Storai,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,21/01/1942,1939,2,5,1942,1,21,espatrio,Montepiano,Firenze,1912,9,12,1943,12,2
+1120,Adelchi,Castellani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,23/09/1941,1939,2,9,1941,9,23,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+2367,Mario,Foschiani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,14/03/1942,1939,2,7,1942,3,14,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+223,Luigi,Balbo,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/12/1939,1939,2,15,1939,12,15,espatrio,Garessio,Ivrea,1908,9,15,1993,2,21
+232,Giuseppe,Baldo,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,29/03/1942,1939,2,5,1942,3,29,espatrio,Revine Lago,NULL,1896,5,6, - , - , - 
+300,Feltre,Bartocci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+3011,Giuseppe,Tocchini,Apecchio,Italia,43.55914,12.42163,Francia,NULL,48.8566,2.3522,15/01/1911,15/12/1914,1911,1,15,1914,12,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+409,Dino,Beltrami,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,03/01/1942,1939,2,7,1942,1,3,espatrio,Carpi,Carpi,1908,6,18,1964,10,22
+461,Luigi,Bertani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,25/09/1941,1939,2,5,1941,9,25,espatrio,Sampierdarena,NULL,1904,11,14, - , - , - 
+491,Alfredo,Bertoli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/04/1941,1939,2,5,1941,4,15,espatrio,Venezia,Venezia,1903,5,21,1975,5,25
+2406,Achille,Frigerio,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,31/08/1941,1939,2,15,1941,8,31,espatrio,Vimercate,Vimercate,1900,5,7,1966, - , - 
+1111,Egidio,Casnigo,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Milano,Milano,1905,6,8,2005,8,31
+493,Giovanni,Bertolini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,07/09/1943,1939,2,9,1943,9,7,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+1104,Agostino,Casati,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/12/1937,20/12/1941,1937,12,15,1941,12,20,espatrio,Rho,Rho,1897,8,2,1973,2,8
+1471,Francesco,Collodet,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,03/08/1938,20/07/1941,1938,8,3,1941,7,20,espatrio,Cordignano,NULL,1906,7,10, - , - , - 
+1252,Alberto,Ciani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/09/1937,16/07/1941,1937,9,15,1941,7,16,espatrio,Forlì,NULL,1901,4,27,1979, - , - 
+1778,Zimmerwald,Martinelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,07/06/1944,1939,2,15,1944,6,7,espatrio,Spoleto,Ponte,1917,4,25,1944,12,9
+1212,Antonio,Cetin,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,15/12/1943,1939,2,7,1943,12,15,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+3320,Emma,Sola,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,13/03/1938,15/12/1945,1938,3,13,1945,12,15,espatrio,Milano,Pergine Valsugana,1894,3,30,1971,11,25
+600,Alessandro,Boaretti,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,30/01/1942,1939,2,5,1942,1,30,espatrio,Vicenza,Caracas,1907,9,19,1983,2,22
+1497,Antonio,Conte,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,28/01/1942,1939,2,5,1942,1,28,espatrio,Sora,NULL,1915,1,28, - , - , - 
+1511,Pietro,Corini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,13/02/1939,15/12/1939,1939,2,13,1939,12,15,espatrio,Piacenza,NULL,1913,3,19,1978,3,15
+678,Enrico,Bonfanti,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/05/1940,1939,2,15,1940,5,15,espatrio,Varese,Varese,1901,1,24,1964,7,6
+685,Loris,Boni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,21/07/1941,1939,2,5,1941,7,21,espatrio,Montecchio Emilia,Montecchio Emilia,1913,7,22,1966,9,23
+1770,Francesco,Martella,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1940,1939,2,5,1940,12,15,espatrio,Atri,Atri,1898,1,21,1943,11,17
+1559,Emilio,Croce,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/08/1943,1939,2,5,1943,8,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+773,Nello,Boscagli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/10/1943,1939,2,5,1943,10,15,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+806,Giovanni,Brandalise,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,10/11/1942,1939,2,5,1942,11,10,espatrio,Arsiè,Imenje,1904,8,5,1975,9,4
+825,Romeo,Brevini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,25/09/1941,1939,2,5,1941,9,25,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1578,Francesco,Curreli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,21/07/1941,1939,2,15,1941,7,21,espatrio,Austis,Nemi,1903,5,11,1972, - , - 
+1801,Valeriano,De Pasqual,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,02/12/1939,1939,2,5,1939,12,2,espatrio,Germania,NULL,1908,4,29, - , - , - 
+2333,Ermenegildo,Moretti,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/07/1943,1939,2,5,1943,7,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+1329,Rizzieri,Raveane,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Feltre,Feltre,1904,8,21,1962,9,27
+1854,Vito,Doria,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,14/05/1944,1939,2,5,1944,5,14,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+3334,Angelo,Spada,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,08/04/1941,1939,2,5,1941,4,8,espatrio,Sant\\'Apollinare,Lecco,1905,8,7,1976,5,21
+2339,Benedetto,Mori,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,10/11/1942,1939,2,7,1942,11,10,espatrio,Fluminimaggiore,NULL,1899,6,16, - , - , - 
+2017,Siro,Rosi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,15/12/1944,1939,2,9,1944,12,15,espatrio,Roccastrada,Roma,1915,2,14,1987,3,13
+2360,Secondo,Moscatelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/10/1937,15/06/1943,1937,10,15,1943,6,15,espatrio,Chiusdino,NULL,1899,3,10, - , - , - 
+1961,Michele,Fagherazzi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Venezia,Venezia,1905,1,21,1978,7,25
+2473,Romeo,Nesa,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1938,15/09/1938,1938,1,15,1938,9,15,espatrio,Lugaggia,Lugaggia,1912,6,10,1990,12,31
+2678,Quinto,Santarelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/10/1938,15/08/1940,1938,10,15,1940,8,15,espatrio,Foligno,NULL,1897,3,14,1969, - , - 
+1988,Carlo Luciano,Farini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/07/1938,15/01/1942,1938,7,15,1942,1,15,espatrio,Ferrara,Roma,1895,2,27,1974,1,30
+3286,Manlio,Silvestri,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Saccolongo,Sappada,1916,3,9,1944,7,29
+3193,Alfredo,Vivian,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Venezia,Venezia,1908,4,29,1944,8,3
+1903,Adriano,Masoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,25/09/1941,1939,2,9,1941,9,25,espatrio,San Maurizio,Reggio Emilia,1907,3,26,1973,7,13
+1889,Giovanni,Marussi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1938,12/07/1940,1938,1,15,1940,7,12,espatrio,Monfalcone,NULL,1909,1,29, - , - , - 
+2542,Giuliano,Pajetta,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,15/05/1944,1939,2,9,1944,5,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+1933,Luigi,Matteacci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/04/1938,15/12/1945,1938,4,15,1945,12,15,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+2748,Renato,Pierleoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/03/1937,15/12/1937,1937,3,15,1937,12,15,espatrio,Firenze,NULL,1902,1,1, - , - , - 
+1846,Roberto,Donati,Rimini,Italia,44.0593886,12.5684371,Francia,NULL,48.8566,2.3522,15/01/1930,15/08/1937,1930,1,15,1937,8,15,espatrio,Zurigo,NULL,1905,9,10, - , - , - 
+2876,Mario,Puecher,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/06/1941,1939,2,5,1941,6,15,espatrio,Bronzolo,NULL,1901,7,9, - , - , - 
+2366,Antonio,Fortuna,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1938,15/12/1941,1938,2,15,1941,12,15,espatrio,Creazzo,Pavia,1900,10,8,1978,1,12
+2556,Celso,Pantieri,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/01/1945,1939,2,5,1945,1,15,espatrio,Mercato Saraceno,Vénissieux,1901,3,22,1973,3,25
+2577,Venanzio,Parutto,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/09/1941,1939,2,5,1941,9,15,espatrio,Pregassona,Claut,1899,5,30,1973,11,18
+2620,Giovanni,Pellizzari,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1942,1939,2,5,1942,12,15,espatrio,Preone,Udine,1911,10,7,1977,3,30
+2737,Dino,Piccoli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Tavagnacco,Spilimbergo,1901,9,16,1945,2,4
+1369,Mario,Ricci,Pavullo nel Frignano,Italia,44.339694,10.8341135,Francia,NULL,48.8566,2.3522,15/10/1931,15/10/1936,1931,10,15,1936,10,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1908,5,20,1989,8,18
+1357,Domenico,Ribanelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/04/1941,1939,2,5,1941,4,15,espatrio,Forgaria nel Friuli,Beauchamp,1906,8,9,1972,6,21
+3023,Domenico,Tomat,Friuli,Italia,46.151042,13.055904,Francia,NULL,48.8566,2.3522,15/01/1921,15/12/1922,1921,1,15,1922,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+1651,Giovanni Battista,Marani,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,07/02/1939,15/12/1939,1939,2,7,1939,12,15,espatrio,Poiano,Poiano,1904,10,7,1970,12,24
+2042,Carlo,Rossi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/10/1938,15/03/1942,1938,10,15,1942,3,15,espatrio,Castelnovo del Friuli,NULL,1913,9,25, - , - , - 
+2246,Giovanni,Salvador,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/02/1942,1939,2,5,1942,2,15,espatrio,Castelnovo del Friuli,Castelnovo del Friuli,1908,9,5,1980,4,28
+1714,Fioravante,Marcolin,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/03/1937,15/06/1938,1937,3,15,1938,6,15,espatrio,Motta di Livenza,Motta di Livenza,1896,2,16,1964,1,6
+3038,Vincenzo,Tonelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/01/1938,15/07/1943,1938,1,15,1943,7,15,espatrio,Castelnovo del Friuli,Tolosa,1916,7,13,2009,7,28
+3039,Vittorio,Tonelli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,11/11/1938,15/12/1941,1938,11,11,1941,12,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+680,Angelo,Bonfiglioli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/08/1937,08/04/1941,1937,8,15,1941,4,8,espatrio,Vado,NULL,1896,9,29, - , - , - 
+1846,Roberto,Donati,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/12/1938,26/07/1942,1938,12,15,1942,7,26,espatrio,Zurigo,NULL,1905,9,10, - , - , - 
+2592,Fausto,Pattacini,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,09/02/1939,25/09/1941,1939,2,9,1941,9,25,espatrio,Sant\\'Ilario d\\'Enza,NULL,1917,9,30,1997,5, - 
+1368,Mario,Ricci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,15/11/1943,1939,2,15,1943,11,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+1369,Mario,Ricci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/01/1939,15/09/1941,1939,1,5,1941,9,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1908,5,20,1989,8,18
+3428,Giovanni,Zannier,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/05/1942,1939,2,5,1942,5,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+2837,Bruno,Pontoni,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+2713,Ruggero,Petrucci,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/08/1943,1939,2,5,1943,8,15,espatrio,Rimini,Rimini,1903,9,4,1969,10,31
+1625,Giuseppe,Rocchei,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1940,1939,2,5,1940,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+2713,Ruggero,Petrucci,Rimini,Italia,44.0593886,12.5684371,Francia,NULL,48.8566,2.3522,15/01/1924,15/12/1924,1924,1,15,1924,12,15,espatrio,Rimini,Rimini,1903,9,4,1969,10,31
+1992,Emilio,Romoli,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,24/06/1941,1939,2,5,1941,6,24,espatrio,Scandiano,NULL,1919,5,24, - , - , - 
+3321,Giovanni,Sola,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Gaggio di Piano,Modena,1888,8,31,1967,2,27
+3390,Vittorio,Suzzi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/07/1938,15/08/1941,1938,7,15,1941,8,15,espatrio,Sasso Marconi,NULL,1900,8,28, - , - , - 
+3074,Napoleone,Trevisi,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,05/02/1939,15/12/1941,1939,2,5,1941,12,15,espatrio,Maranello,Modena,1899,6,1,1963,8,10
+964,Giovanni,Calligaris,NULL,Spagna,40.4168,-3.7038,Francia,NULL,48.8566,2.3522,15/02/1939,14/09/1941,1939,2,15,1941,9,14,espatrio,Belfort,Biella,1900,5,12,1983,6,10
+1093,Mario Alfonso,Carpanelli,NULL,Svizzera,46.2044,6.1432,Francia,NULL,48.8566,2.3522,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Ferrara,Ferrara,1903,1,14,1981,5,8
+1223,Giulio Pietro,Chiarelli,NULL,Svizzera,46.2044,6.1432,Francia,NULL,48.8566,2.3522,19/08/1936,15/08/1936,1936,8,19,1936,8,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1482,Antonio,Composta,NULL,Svizzera,46.2044,6.1432,Francia,NULL,48.8566,2.3522,19/07/1936,15/10/1936,1936,7,19,1936,10,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+2917,Aristide,Valentini,Albacete,Spagna,38.994349,-1.8585424,Francia,NULL,48.8566,2.3522,28/04/1938,15/10/1942,1938,4,28,1942,10,15,espatrio,Ravenna,NULL,1896,1,29, - , - , - 
+2876,Mario,Puecher,NULL,Svizzera,46.2044,6.1432,Francia,NULL,48.8566,2.3522,15/01/1936,30/09/1936,1936,1,15,1936,9,30,espatrio,Bronzolo,NULL,1901,7,9, - , - , - 
+32,Berto,Alberti,NULL,Unione Sovietica,55.7558,37.6173,Francia,NULL,48.8566,2.3522,15/01/1937,15/04/1937,1937,1,15,1937,4,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+3227,Arturo Silvano,Scotto,NULL,Unione Sovietica,55.7558,37.6173,Francia,NULL,48.8566,2.3522,19/11/1936,15/09/1937,1936,11,19,1937,9,15,espatrio,Livorno,Livorno,1902,7,2,1960,7,23
+2333,Ermenegildo,Moretti,Bergamo,Italia,45.6944947,9.6698727,Francia,Saint-Denis,48.9361139,2.35839665,15/01/1947,15/12/1947,1947,1,15,1947,12,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+1763,Stefano Giovanni,Marinoni,Cerete,Italia,45.9307793,9.919346,Francia,Vitry-sur-Seine,48.78821634,2.38847494,09/07/1930,15/11/1936,1930,7,9,1936,11,15,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+2056,Cesare,Menarini,Barcellona,Spagna,41.3828939,2.1774322,Francia,Le Blanc-Mesnil,48.93877436,2.46388793,15/08/1938,15/08/1941,1938,8,15,1941,8,15,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+1742,Guglielmo,Marconi,Couillet,Belgio,50.39419062,4.467085,Francia,Fontenay-sous-Bois,48.84887091,2.47453094,15/01/1931,15/10/1936,1931,1,15,1936,10,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+1511,Pietro,Corini,Piacenza,Italia,45.05261269,9.69315737,Francia,Fontenay-sous-Bois,48.84887091,2.47453094,09/03/1928,13/11/1936,1928,3,9,1936,11,13,espatrio,Piacenza,NULL,1913,3,19,1978,3,15
+3226,Francesco,Scotti,NULL,Spagna,40.4168,-3.7038,Francia,Prats-de-Mollo-la-Preste,42.403959,2.479481,12/02/1939,06/09/1943,1939,2,12,1943,9,6,espatrio,Casalpusterlengo,Milano,1910,7,25,1973,1,24
+964,Giovanni,Calligaris,NULL,Italia,41.9028,12.4964,Francia,Villeparisis,48.93974337,2.6171869,15/01/1930,21/11/1936,1930,1,15,1936,11,21,espatrio,Belfort,Biella,1900,5,12,1983,6,10
+1933,Luigi,Matteacci,Esch-sur-Alzette,Lussemburgo,49.49628779,5.9846735,Francia,Villeparisis,48.93974337,2.6171869,15/11/1931,15/10/1936,1931,11,15,1936,10,15,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+2333,Ermenegildo,Moretti,Alès,Francia,44.12484854,4.07737076,Spagna,Girona,41.98736365,2.82638311,15/01/1938,15/02/1939,1938,1,15,1939,2,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+2473,Romeo,Nesa,Basilea,Svizzera,47.555948,7.587594,Spagna,Girona,41.98736365,2.82638311,10/11/1936,15/12/1938,1936,11,10,1938,12,15,espatrio,Lugaggia,Lugaggia,1912,6,10,1990,12,31
+2026,Beniamino,Rossetto,NULL,Spagna,40.4168,-3.7038,Francia,Perpignan,42.6984755,2.89540172,05/02/1939,30/08/1941,1939,2,5,1941,8,30,espatrio,Vigodarzere,Ostrava,1913,7,26,1988,12,24
+3401,Enrico,Zambonini,NULL,Spagna,40.4168,-3.7038,Francia,Perpignan,42.6984755,2.89540172,05/02/1939,07/08/1942,1939,2,5,1942,8,7,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+684,Fernando,Boni,Tolone,Francia,43.1257311,5.9304919,Spagna,Figueres,42.26609898,2.96475828,11/11/1936,15/02/1939,1936,11,11,1939,2,15,espatrio,Bagno a Ripoli,Firenze,1901,2,26,1965,7,29
+1017,Vittorio,Cao,Dudelange,Lussemburgo,49.4786477,6.0847792,Spagna,Figueres,42.26609898,2.96475828,15/05/1937,17/09/1938,1937,5,15,1938,9,17,espatrio,Rivignano,Dudelange,1901,8,11,1956,7,24
+685,Loris,Boni,NULL,Francia,48.8566,2.3522,Spagna,Figueres,42.26609898,2.96475828,15/11/1937,15/02/1939,1937,11,15,1939,2,15,espatrio,Montecchio Emilia,Montecchio Emilia,1913,7,22,1966,9,23
+1651,Giovanni Battista,Marani,NULL,Francia,48.8566,2.3522,Spagna,Figueres,42.26609898,2.96475828,15/01/1937,07/02/1939,1937,1,15,1939,2,7,espatrio,Poiano,Poiano,1904,10,7,1970,12,24
+2223,Dino,Saccenti,Parigi,Francia,48.86536408,2.32105494,Spagna,Figueres,42.26609898,2.96475828,15/05/1938,15/02/1939,1938,5,15,1939,2,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+340,Ivo,Baruffini,Parigi,Francia,48.86536408,2.32105494,Spagna,Figueres,42.26609898,2.96475828,01/02/1937,15/02/1939,1937,2,1,1939,2,15,espatrio,Soragna,Vigneux-sur-Seine,1908,7,18,1975,1,19
+1748,Lino,Marega,Parigi,Francia,48.86536408,2.32105494,Spagna,Figueres,42.26609898,2.96475828,15/01/1937,15/02/1939,1937,1,15,1939,2,15,espatrio,Villesse,Villesse,1898,2,18,1984,5, - 
+1763,Stefano Giovanni,Marinoni,Parigi,Francia,48.86536408,2.32105494,Spagna,Figueres,42.26609898,2.96475828,19/11/1936,20/02/1939,1936,11,19,1939,2,20,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+1602,Aristodemo,Maniera,Tolosa,Francia,43.5792751,1.50327178,Spagna,Figueres,42.26609898,2.96475828,19/10/1936,15/12/1938,1936,10,19,1938,12,15,espatrio,Castellamare Adriatico,Roma,1903,8,5,1992,7,29
+3335,Alfredo,Spadellini,Ancona,Italia,43.61450361,13.52144051,Spagna,Figueres,42.26609898,2.96475828,15/12/1937,07/02/1939,1937,12,15,1939,2,7,espatrio,Montefano,NULL,1908,2,24, - , - , - 
+1357,Domenico,Ribanelli,Bruxelles,Belgio,50.8465573,4.351697,Spagna,Figueres,42.26609898,2.96475828,19/07/1936,15/02/1939,1936,7,19,1939,2,15,espatrio,Forgaria nel Friuli,Beauchamp,1906,8,9,1972,6,21
+3038,Vincenzo,Tonelli,Tolosa,Francia,43.5792751,1.50327178,Spagna,Figueres,42.26609898,2.96475828,19/10/1936,15/12/1938,1936,10,19,1938,12,15,espatrio,Castelnovo del Friuli,Tolosa,1916,7,13,2009,7,28
+281,Vittorio,Bardini,La Jonquera,Spagna,42.41688274,2.87312329,Francia,Saint-Cyprien,42.61740457,3.00484657,07/02/1939,23/09/1941,1939,2,7,1941,9,23,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+541,Francesco,Giorgetti,Torelló,Spagna,42.04708577,2.26056576,Francia,Saint-Cyprien,42.61740457,3.00484657,05/02/1939,15/08/1941,1939,2,5,1941,8,15,espatrio,Pola,NULL,1910,10,19,1944, - , - 
+2623,Filippo,Pelosi,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,11/02/1939,23/09/1941,1939,2,11,1941,9,23,espatrio,San Severo,San Severo,1896,11,5,1980,2,22
+2313,Oddino,Montanari,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,15/02/1939,15/04/1941,1939,2,15,1941,4,15,espatrio,Cesena,Cesena,1903,10,8,1944,10,3
+3305,Alessandro,Sinigaglia,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,09/02/1939,09/04/1941,1939,2,9,1941,4,9,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+1150,Vittorio,Castiglioni,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,15/02/1939,18/05/1941,1939,2,15,1941,5,18,espatrio,Milano,Milano,1901,12,3,1976,8,25
+1748,Lino,Marega,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,15/02/1939,17/01/1943,1939,2,15,1943,1,17,espatrio,Villesse,Villesse,1898,2,18,1984,5, - 
+2053,Giovanni,Mella,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,09/02/1939,25/09/1941,1939,2,9,1941,9,25,espatrio,Milano,Milano,1890,3,21, - , - , - 
+2536,Aniceto,Pagani,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,15/02/1939,15/04/1941,1939,2,15,1941,4,15,espatrio,Milano,Milano,1909,2,1, - , - , - 
+3103,Giuseppe,Verginella,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,15/02/1939,15/09/1943,1939,2,15,1943,9,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+3412,Marino,Zanella,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,08/02/1939,15/06/1939,1939,2,8,1939,6,15,espatrio,Segusino,Pieve di Soligo,1908,7,16,1945,1,26
+2252,Sisinnio,Mocci,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,05/02/1939,20/11/1941,1939,2,5,1941,11,20,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+1132,Guido,Latini,NULL,Spagna,40.4168,-3.7038,Francia,Saint-Cyprien,42.61740457,3.00484657,05/02/1939,15/03/1941,1939,2,5,1941,3,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+513,Libero,Bianchi,Torelló,Spagna,42.04708577,2.26056576,Francia,Argelés-sur-mer,42.5471485,3.0228281,05/02/1939,14/09/1941,1939,2,5,1941,9,14,espatrio,Mertzen,Savona,1908,2,14,1963,2,26
+2223,Dino,Saccenti,Figueres,Spagna,42.26609898,2.96475828,Francia,Argelés-sur-mer,42.5471485,3.0228281,15/02/1939,15/04/1941,1939,2,15,1941,4,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+3335,Alfredo,Spadellini,Torelló,Spagna,42.04708577,2.26056576,Francia,Argelés-sur-mer,42.5471485,3.0228281,07/02/1939,15/02/1941,1939,2,7,1941,2,15,espatrio,Montefano,NULL,1908,2,24, - , - , - 
+3011,Giuseppe,Tocchini,Barcellona,Spagna,41.3828939,2.1774322,Francia,Argelés-sur-mer,42.5471485,3.0228281,10/02/1939,15/08/1941,1939,2,10,1941,8,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+1763,Stefano Giovanni,Marinoni,NULL,Spagna,40.4168,-3.7038,Francia,Argelés-sur-mer,42.5471485,3.0228281,20/02/1939,09/06/1942,1939,2,20,1942,6,9,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+2541,Ettore,Pajetta,NULL,Spagna,40.4168,-3.7038,Francia,Argelés-sur-mer,42.5471485,3.0228281,05/02/1939,15/05/1941,1939,2,5,1941,5,15,espatrio,Taino,Pietra Ligure,1906,8,25,1981,1,12
+1898,Abramo,Maschio,NULL,Spagna,40.4168,-3.7038,Francia,Argelés-sur-mer,42.5471485,3.0228281,07/02/1939,21/09/1941,1939,2,7,1941,9,21,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+2092,Armando,Fedeli,NULL,Spagna,40.4168,-3.7038,Francia,Argelés-sur-mer,42.5471485,3.0228281,05/02/1939,15/08/1940,1939,2,5,1940,8,15,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+3039,Vittorio,Tonelli,Tolone,Francia,43.1257311,5.9304919,Algeria ,Djelfa,34.6741145,3.25254321,15/01/1941,15/10/1942,1941,1,15,1942,10,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+678,Enrico,Bonfanti,NULL,Francia,48.8566,2.3522,Belgio,Gand,51.05369669,3.72504652,15/05/1940,18/06/1940,1940,5,15,1940,6,18,espatrio,Varese,Varese,1901,1,24,1964,7,6
+44,Carlo,Aldegheri,Sagan,Polonia,51.61472562,15.3206867,Francia,Reims,49.258002,4.031745,15/01/1941,15/08/1941,1941,1,15,1941,8,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+3023,Domenico,Tomat,Friuli,Italia,46.151042,13.055904,Francia,Troyes,48.29743421,4.07424331,15/01/1924,15/12/1936,1924,1,15,1936,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+3011,Giuseppe,Tocchini,Ransart,Belgio,50.45256871,4.49055433,Francia,Alès,44.12484854,4.07737076,15/09/1932,15/08/1936,1932,9,15,1936,8,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+3486,Armida,Prati,Marsiglia,Francia,43.2961743,5.3699525,Belgio,Bruxelles,50.8465573,4.351697,15/01/1938,15/03/1939,1938,1,15,1939,3,15,espatrio,Apt,NULL,1918,1,24, - , - , - 
+570,Giuseppe,Bifolchi,NULL,Francia,48.8566,2.3522,Belgio,Bruxelles,50.8465573,4.351697,15/01/1937,16/12/1940,1937,1,15,1940,12,16,espatrio,Balsorano,Avezzano,1895,2,20,1978,3,16
+570,Giuseppe,Bifolchi,Parigi,Francia,48.86536408,2.32105494,Belgio,Bruxelles,50.8465573,4.351697,15/01/1928,15/12/1928,1928,1,15,1928,12,15,espatrio,Balsorano,Avezzano,1895,2,20,1978,3,16
+1737,Cesare,Roda,Parigi,Francia,48.86536408,2.32105494,Belgio,Bruxelles,50.8465573,4.351697,15/11/1937,15/03/1941,1937,11,15,1941,3,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+1898,Abramo,Maschio,Parigi,Francia,48.86536408,2.32105494,Belgio,Bruxelles,50.8465573,4.351697,15/12/1929,15/05/1931,1929,12,15,1931,5,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+1053,Antonio,Carini,Buenos Aires,Argentina,-34.60378418,-58.38160247,Belgio,NULL,50.8503,4.3517,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,San Nazzaro,Meldola,1902,10,7,1944,3,15
+252,Ermenegildo,Gasperoni,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/04/1929,15/05/1929,1929,4,15,1929,5,15,espatrio,San Marino,San Marino,1906,8,4,1994,6,26
+825,Romeo,Brevini,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/01/1931,15/12/1933,1931,1,15,1933,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+2363,Flavio Ribelle,Fornasiero,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+2363,Flavio Ribelle,Fornasiero,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/01/1935,15/08/1936,1935,1,15,1936,8,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+1714,Fioravante,Marcolin,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/11/1926,15/12/1926,1926,11,15,1926,12,15,espatrio,Motta di Livenza,Motta di Livenza,1896,2,16,1964,1,6
+1714,Fioravante,Marcolin,NULL,Francia,48.8566,2.3522,Belgio,NULL,50.8503,4.3517,15/06/1938,15/11/1940,1938,6,15,1940,11,15,espatrio,Motta di Livenza,Motta di Livenza,1896,2,16,1964,1,6
+1763,Stefano Giovanni,Marinoni,Cerete,Italia,45.9307793,9.919346,Belgio,NULL,50.8503,4.3517,15/01/1946,15/12/1948,1946,1,15,1948,12,15,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+2054,Giuseppe,Melli,NULL,Italia,41.9028,12.4964,Belgio,NULL,50.8503,4.3517,15/01/1928,15/09/1936,1928,1,15,1936,9,15,espatrio,Vergato,NULL,1911,1,28,1989,11,28
+1180,Costanzo,Cecchin,NULL,Italia,41.9028,12.4964,Belgio,NULL,50.8503,4.3517,15/01/1924,15/12/1926,1924,1,15,1926,12,15,espatrio,Bergamo,Cadibona,1906,5,5,1944,8,18
+2360,Secondo,Moscatelli,NULL,Italia,41.9028,12.4964,Belgio,NULL,50.8503,4.3517,15/09/1923,15/10/1936,1923,9,15,1936,10,15,espatrio,Chiusdino,NULL,1899,3,10, - , - , - 
+3011,Giuseppe,Tocchini,NULL,Italia,41.9028,12.4964,Belgio,NULL,50.8503,4.3517,15/01/1923,15/09/1932,1923,1,15,1932,9,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+1368,Mario,Ricci,Bologna,Italia,44.4936714,11.3430347,Belgio,NULL,50.8503,4.3517,15/01/1922,15/04/1923,1922,1,15,1923,4,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+2291,Gaetano,Fongaro,NULL,Spagna,40.4168,-3.7038,Belgio,NULL,50.8503,4.3517,05/02/1939,15/03/1942,1939,2,5,1942,3,15,espatrio,Valdagno,Thiene,1907,9,2,1972,2,10
+2363,Flavio Ribelle,Fornasiero,NULL,Spagna,40.4168,-3.7038,Belgio,NULL,50.8503,4.3517,19/12/1936,15/01/1937,1936,12,19,1937,1,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+3117,Nicolò,Turcinovich,Buenos Aires,Argentina,-34.60378418,-58.38160247,Belgio,Anversa,51.2212858,4.39917147,15/01/1930,15/12/1931,1930,1,15,1931,12,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+2291,Gaetano,Fongaro,NULL,Italia,41.9028,12.4964,Belgio,Charleroi,50.41200115,4.44366932,15/01/1929,15/12/1937,1929,1,15,1937,12,15,espatrio,Valdagno,Thiene,1907,9,2,1972,2,10
+1742,Guglielmo,Marconi,Saar,Germania,49.4173988,6.9805789,Belgio,Couillet,50.39419062,4.467085,15/01/1929,15/12/1931,1929,1,15,1931,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+1933,Luigi,Matteacci,NULL,Italia,41.9028,12.4964,Belgio,Ransart,50.45256871,4.49055433,15/08/1923,15/08/1930,1923,8,15,1930,8,15,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+2328,Alfredo,Mordini,NULL,Spagna,40.4168,-3.7038,Francia,Arles,43.6776223,4.6309653,15/12/1938,15/06/1944,1938,12,15,1944,6,15,espatrio,Firenzuola,Milano,1902,6,29,1969,7,10
+223,Luigi,Balbo,NULL,Italia,41.9028,12.4964,Francia,Avignone,43.94928487,4.80600089,15/01/1933,15/12/1933,1933,1,15,1933,12,15,espatrio,Garessio,Ivrea,1908,9,15,1993,2,21
+1497,Antonio,Conte,Sora,Italia,41.716671,13.6176,Francia,Lione,45.7578137,4.8320114,15/01/1924,15/08/1937,1924,1,15,1937,8,15,espatrio,Sora,NULL,1915,1,28, - , - , - 
+2613,Giacomo,Pellegrini,NULL,Italia,41.9028,12.4964,Francia,Lione,45.7578137,4.8320114,15/01/1926,15/12/1926,1926,1,15,1926,12,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+1898,Abramo,Maschio,Ginevra,Svizzera,46.20119838,6.14793956,Francia,Lione,45.7578137,4.8320114,15/01/1934,15/12/1935,1934,1,15,1935,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+2317,Francesco,Montarolo,Torino,Italia,45.0677551,7.6824892,Francia,Lione,45.7578137,4.8320114,15/01/1931,01/11/1936,1931,1,15,1936,11,1,espatrio,Trino Vercellese,Trino Vercellese,1900,6,23,1973,2,2
+2317,Francesco,Montarolo,NULL,Spagna,40.4168,-3.7038,Francia,Lione,45.7578137,4.8320114,15/03/1938,15/08/1943,1938,3,15,1943,8,15,espatrio,Trino Vercellese,Trino Vercellese,1900,6,23,1973,2,2
+1120,Adelchi,Castellani,Udine,Italia,46.0634632,13.2358377,Francia,Chalon-sur-Saône,46.78598944,4.85334456,23/07/1933,15/10/1937,1933,7,23,1937,10,15,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+3386,Emilio,Suardi,Romano di Lombardia,Italia,45.51951129,9.75425005,Francia,Sathonay,45.8248256,4.8754406,15/09/1930,15/10/1936,1930,9,15,1936,10,15,espatrio,Romano di Lombardia,Romano di Lombardia,1905,4,1,1983,2,4
+3408,Giovanna,Zanarini,NULL,Spagna,40.4168,-3.7038,Francia,Villeurbanne,45.7733105,4.8869339,15/09/1938,15/06/1943,1938,9,15,1943,6,15,espatrio,Imola,Imola,1902,9,29,1974,9,15
+3039,Vittorio,Tonelli,NULL,Italia,41.9028,12.4964,Francia,Miramas,43.58035977,5.00130057,15/01/1931,15/11/1936,1931,1,15,1936,11,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+392,Pietro,Bellè,NULL,Spagna,40.4168,-3.7038,Francia,Digione,47.32181785,5.04084706,25/10/1938,10/03/1942,1938,10,25,1942,3,10,espatrio,Pieve di Soligo,NULL,1906,12,10, - , - , - 
+1236,Oberdan,Chiesa,El Bouni,Algeria,36.85544564,7.74131656,Francia,Marsiglia,43.2961743,5.3699525,15/06/1935,31/08/1936,1935,6,15,1936,8,31,espatrio,Livorno,Rosignano Solvay,1911,9,11,1944,1,29
+294,Ilio,Barontini,Livorno,Italia,43.5507411,10.3091456,Francia,Marsiglia,43.2961743,5.3699525,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+673,Alighiero,Bonciani,NULL,Italia,41.9028,12.4964,Francia,Marsiglia,43.2961743,5.3699525,15/01/1923,15/08/1936,1923,1,15,1936,8,15,espatrio,Scandicci,Milano,1903,8,27,1944,10,22
+3486,Armida,Prati,NULL,Italia,41.9028,12.4964,Francia,Marsiglia,43.2961743,5.3699525,15/01/1934,15/08/1936,1934,1,15,1936,8,15,espatrio,Apt,NULL,1918,1,24, - , - , - 
+3487,Anna,Sartini,NULL,Italia,41.9028,12.4964,Francia,Marsiglia,43.2961743,5.3699525,15/01/1989,15/12/1989,1989,1,15,1989,12,15,espatrio,Molinella,NULL,1906,3,13, - , - , - 
+1559,Emilio,Croce,Orano,Algeria,35.70328894,-0.6308,Francia,Marsiglia,43.2961743,5.3699525,15/10/1935,15/08/1936,1935,10,15,1936,8,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+3401,Enrico,Zambonini,NULL,Italia,41.9028,12.4964,Francia,Marsiglia,43.2961743,5.3699525,15/01/1922,15/12/1922,1922,1,15,1922,12,15,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+294,Ilio,Barontini,NULL,NULL,NULL,NULL,Francia,Marsiglia,43.2961743,5.3699525,15/01/1941,15/09/1943,1941,1,15,1943,9,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+811,Stefano,Brau,NULL,Spagna,40.4168,-3.7038,Francia,Marsiglia,43.2961743,5.3699525,12/09/1938,20/09/1943,1938,9,12,1943,9,20,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+3486,Armida,Prati,NULL,Spagna,40.4168,-3.7038,Francia,Marsiglia,43.2961743,5.3699525,15/05/1937,15/12/1938,1937,5,15,1938,12,15,espatrio,Apt,NULL,1918,1,24, - , - , - 
+3487,Anna,Sartini,NULL,Spagna,40.4168,-3.7038,Francia,Marsiglia,43.2961743,5.3699525,15/01/1938,03/09/1939,1938,1,15,1939,9,3,espatrio,Molinella,NULL,1906,3,13, - , - , - 
+1126,Pietro,Lari,NULL,Spagna,40.4168,-3.7038,Francia,Marsiglia,43.2961743,5.3699525,19/12/1936,15/12/1937,1936,12,19,1937,12,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+2683,Aureliano,Santini,Livorno,Italia,43.5507411,10.3091456,Francia,Marsiglia,43.2961743,5.3699525,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+3039,Vittorio,Tonelli,Algeri,Algeria,36.77625381,3.0577451,Francia,Marsiglia,43.2961743,5.3699525,15/10/1942,25/10/1942,1942,10,15,1942,10,25,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+678,Enrico,Bonfanti,NULL,Svizzera,46.2044,6.1432,Francia,Marsiglia,43.2961743,5.3699525,15/01/1934,15/08/1936,1934,1,15,1936,8,15,espatrio,Varese,Varese,1901,1,24,1964,7,6
+300,Feltre,Bartocci,Audun-le-Tiche,Francia,49.47274304,5.95737398,Belgio,Engis,50.58271547,5.40403426,15/01/1930,15/12/1930,1930,1,15,1930,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+1578,Francesco,Curreli,Austis,Italia,40.070653,9.087933,Francia,Gardanne,43.45569153,5.47064424,15/01/1920,15/12/1931,1920,1,15,1931,12,15,espatrio,Austis,Nemi,1903,5,11,1972, - , - 
+3412,Marino,Zanella,Segusino,Italia,45.916136,11.9539203,Belgio,Seraing-sur-Meuse,50.5966392,5.5083375,15/11/1930,15/05/1936,1930,11,15,1936,5,15,espatrio,Segusino,Pieve di Soligo,1908,7,16,1945,1,26
+3412,Marino,Zanella,Gurs,Francia,43.2885155,-0.7548549,Belgio,Seraing-sur-Meuse,50.5966392,5.5083375,15/06/1939,15/02/1941,1939,6,15,1941,2,15,espatrio,Segusino,Pieve di Soligo,1908,7,16,1945,1,26
+2026,Beniamino,Rossetto,NULL,Italia,41.9028,12.4964,Belgio,Ougrée,50.5992632,5.5389943,05/10/1930,15/10/1936,1930,10,5,1936,10,15,espatrio,Vigodarzere,Ostrava,1913,7,26,1988,12,24
+1854,Vito,Doria,San Vito sullo Ionio,Italia,38.70749,16.40862,Francia,Aubagne,43.29234912,5.569489,15/01/1923,15/12/1927,1923,1,15,1927,12,15,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+1233,Alcide,Leonardi,NULL,Francia,48.8566,2.3522,Belgio,Liegi,50.6452834,5.57325482,15/01/1938,12/12/1940,1938,1,15,1940,12,12,espatrio,Monchio delle Olle,NULL,1905,7,18,1983, - , - 
+3491,Angelo,Spagnolo,Cittanova,Italia,45.3168509,13.5649454,Belgio,Liegi,50.6452834,5.57325482,15/09/1935,26/02/1936,1935,9,15,1936,2,26,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+1898,Abramo,Maschio,Cismon del Grappa,Italia,45.9194218,11.7301198,Francia,Vif,45.05615219,5.66937447,15/04/1926,15/12/1927,1926,4,15,1927,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+1223,Giulio Pietro,Chiarelli,Prata Camportaccio,Italia,46.30699317,9.3971107,Francia,Grenoble,45.18630937,5.73615611,15/01/1919,15/04/1926,1919,1,15,1926,4,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1223,Giulio Pietro,Chiarelli,Prata Camportaccio,Italia,46.30699317,9.3971107,Francia,Grenoble,45.18630937,5.73615611,15/09/1928,15/12/1930,1928,9,15,1930,12,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1785,Pietro,Del Testa,NULL,Italia,41.9028,12.4964,Francia,Grenoble,45.18630937,5.73615611,15/01/1930,15/01/1938,1930,1,15,1938,1,15,espatrio,Bagno di Romagna,NULL,1903,11,3, - , - , - 
+3334,Angelo,Spada,Sesto San Giovanni,Italia,45.53329,9.22585,Francia,Grenoble,45.18630937,5.73615611,15/06/1934,15/08/1936,1934,6,15,1936,8,15,espatrio,Sant\\'Apollinare,Lecco,1905,8,7,1976,5,21
+1785,Pietro,Del Testa,NULL,Spagna,40.4168,-3.7038,Francia,Grenoble,45.18630937,5.73615611,13/01/1939,05/02/1942,1939,1,13,1942,2,5,espatrio,Bagno di Romagna,NULL,1903,11,3, - , - , - 
+744,Mario,Bordoni,Bologna,Italia,44.4936714,11.3430347,Francia,Longwy,49.51445439,5.76857865,15/01/1923,15/12/1925,1923,1,15,1925,12,15,espatrio,Terni,Pianoro,1906,5,27,1944,10,17
+3105,Giovanni Giacomo,Veronelli,Genova,Italia,44.40726,8.9338624,Francia,Chambéry,45.56643746,5.92068136,15/01/1927,15/12/1937,1927,1,15,1937,12,15,espatrio,Sesto Fiorentino,Genova,1886,2,28,1944,1,14
+2246,Giovanni,Salvador,NULL,Italia,41.9028,12.4964,Francia,Tolone,43.1257311,5.9304919,15/01/1929,15/12/1929,1929,1,15,1929,12,15,espatrio,Castelnovo del Friuli,Castelnovo del Friuli,1908,9,5,1980,4,28
+751,Pietro,Borghi,NULL,Spagna,40.4168,-3.7038,Francia,Tolone,43.1257311,5.9304919,15/08/1938,16/10/1941,1938,8,15,1941,10,16,espatrio,Poggibonsi,Poggibonsi,1898,12,20,1977,11,7
+300,Feltre,Bartocci,Esch-sur-Alzette,Lussemburgo,49.49628779,5.9846735,Francia,Villerupt,49.468468,5.9326783,15/07/1926,15/12/1926,1926,7,15,1926,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+300,Feltre,Bartocci,Engis,Belgio,50.58271547,5.40403426,Francia,Audun-le-Tiche,49.47274304,5.95737398,15/01/1930,15/10/1936,1930,1,15,1936,10,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+1742,Guglielmo,Marconi,Homécourt,Francia,49.2252527,5.99200666,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/08/1925,01/07/1926,1925,8,15,1926,7,1,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+300,Feltre,Bartocci,Camerino,Italia,43.1357641,13.0683092,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/01/1925,15/07/1926,1925,1,15,1926,7,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+825,Romeo,Brevini,Meurthe-et-Moselle,Francia,48.95596825,5.9870383,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/01/1924,15/12/1924,1924,1,15,1924,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+825,Romeo,Brevini,Bruxelles,Belgio,50.8465573,4.351697,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/12/1933,15/12/1933,1933,12,15,1933,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+825,Romeo,Brevini,Bruxelles,Belgio,50.8465573,4.351697,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,19/06/1936,15/12/1936,1936,6,19,1936,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1898,Abramo,Maschio,Saint-Ismier,Francia,45.24863675,5.82791448,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/01/1927,15/11/1927,1927,1,15,1927,11,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+1933,Luigi,Matteacci,Charleroi,Belgio,50.41200115,4.44366932,Lussemburgo,Esch-sur-Alzette,49.49628779,5.9846735,15/08/1930,15/11/1931,1930,8,15,1931,11,15,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+825,Romeo,Brevini,Modena,Italia,44.6458885,10.9255707,Francia,Meurthe-et-Moselle,48.95596825,5.9870383,15/01/1922,15/12/1924,1922,1,15,1924,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1742,Guglielmo,Marconi,Rimini,Italia,44.0593886,12.5684371,Francia,Homécourt,49.2252527,5.99200666,25/06/1925,15/12/1925,1925,6,25,1925,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+2056,Cesare,Menarini,San Felice sul Panaro,Italia,44.83928264,11.1412257,Francia,Homécourt,49.2252527,5.99200666,13/01/1923,15/10/1936,1923,1,13,1936,10,15,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+1109,Lucilio,Caselli,NULL,Italia,41.9028,12.4964,Francia,Ottange,49.44176146,6.01829767,15/01/1923,26/12/1936,1923,1,15,1936,12,26,espatrio,Mercato Saraceno,NULL,1911,7,25, - , - , - 
+1742,Guglielmo,Marconi,Esch-sur-Alzette,Lussemburgo,49.49628779,5.9846735,Francia,Knutange,49.34034622,6.03815675,01/07/1926,15/12/1928,1926,7,1,1928,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+300,Feltre,Bartocci,NULL,Spagna,40.4168,-3.7038,Francia,Hayange,49.3304353,6.0636733,05/02/1939,20/03/1942,1939,2,5,1942,3,20,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+1770,Francesco,Martella,NULL,Francia,48.8566,2.3522,Germania,Aachen,50.77609286,6.08376503,15/10/1940,15/10/1940,1940,10,15,1940,10,15,espatrio,Atri,Atri,1898,1,21,1943,11,17
+1017,Vittorio,Cao,Codroipo,Italia,45.9611171,12.9789516,Lussemburgo,Dudelange,49.4786477,6.0847792,15/01/1922,15/05/1937,1922,1,15,1937,5,15,espatrio,Rivignano,Dudelange,1901,8,11,1956,7,24
+1017,Vittorio,Cao,NULL,Spagna,40.4168,-3.7038,Lussemburgo,Dudelange,49.4786477,6.0847792,17/09/1938,15/12/1938,1938,9,17,1938,12,15,espatrio,Rivignano,Dudelange,1901,8,11,1956,7,24
+252,Ermenegildo,Gasperoni,NULL,Belgio,50.8503,4.3517,Lussemburgo,NULL,49.6116,6.1319,15/05/1929,15/10/1936,1929,5,15,1936,10,15,espatrio,San Marino,San Marino,1906,8,4,1994,6,26
+3491,Angelo,Spagnolo,NULL,Belgio,50.8503,4.3517,Lussemburgo,NULL,49.6116,6.1319,26/02/1936,15/11/1937,1936,2,26,1937,11,15,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+517,Vincenzo,Bianco,NULL,Francia,48.8566,2.3522,Lussemburgo,NULL,49.6116,6.1319,15/01/1921,15/12/1922,1921,1,15,1922,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+825,Romeo,Brevini,NULL,NULL,NULL,NULL,Lussemburgo,NULL,49.6116,6.1319,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+2687,Adolfo,Saponi,Coriano,Italia,43.96907,12.60055,Svizzera,NULL,46.2044,6.1432,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+1093,Mario Alfonso,Carpanelli,Ferrara,Italia,44.8372737,11.6186451,Svizzera,NULL,46.2044,6.1432,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Ferrara,Ferrara,1903,1,14,1981,5,8
+3414,Ezio,Zanelli,NULL,Italia,41.9028,12.4964,Svizzera,NULL,46.2044,6.1432,15/01/1929,15/12/1929,1929,1,15,1929,12,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+1223,Giulio Pietro,Chiarelli,NULL,Italia,41.9028,12.4964,Svizzera,NULL,46.2044,6.1432,19/08/1936,15/08/1936,1936,8,19,1936,8,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+2876,Mario,Puecher,NULL,Italia,41.9028,12.4964,Svizzera,NULL,46.2044,6.1432,19/07/1936,15/12/1936,1936,7,19,1936,12,15,espatrio,Bronzolo,NULL,1901,7,9, - , - , - 
+3321,Giovanni,Sola,NULL,Italia,41.9028,12.4964,Svizzera,NULL,46.2044,6.1432,15/01/1921,15/12/1921,1921,1,15,1921,12,15,espatrio,Gaggio di Piano,Modena,1888,8,31,1967,2,27
+1482,Antonio,Composta,Verona,Italia,45.4384958,10.9924122,Svizzera,NULL,46.2044,6.1432,19/08/1936,15/12/1936,1936,8,19,1936,12,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+600,Alessandro,Boaretti,Vicenza,Italia,45.5488306,11.5478825,Svizzera,NULL,46.2044,6.1432,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Vicenza,Caracas,1907,9,19,1983,2,22
+2473,Romeo,Nesa,NULL,Francia,48.8566,2.3522,Svizzera,Ginevra,46.20119838,6.14793956,15/09/1938,15/12/1938,1938,9,15,1938,12,15,espatrio,Lugaggia,Lugaggia,1912,6,10,1990,12,31
+2089,Florindo,Meraldi,NULL,Spagna,40.4168,-3.7038,Svizzera,Ginevra,46.20119838,6.14793956,15/12/1938,15/12/1938,1938,12,15,1938,12,15,espatrio,Ascona,NULL,1913,9,5,2000, - , - 
+1898,Abramo,Maschio,Tertre,Belgio,50.46812428,3.80692363,Svizzera,Ginevra,46.20119838,6.14793956,15/05/1931,15/12/1934,1931,5,15,1934,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+748,Armando,Borghi,NULL,Francia,48.8566,2.3522,Svizzera,Losanna,46.5218269,6.6327025,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Castel Bolognese,NULL,1882,4,6, - , - , - 
+1015,Emilio,Canzi,Parigi,Francia,48.86536408,2.32105494,Germania,Treviri,49.757307,6.655579,15/01/1940,15/03/1942,1940,1,15,1942,3,15,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+823,Emilio,Bressan,NULL,NULL,NULL,NULL,Italia,Bardonecchia,45.07836,6.704002,22/08/1943,15/12/1943,1943,8,22,1943,12,15,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+1737,Cesare,Roda,Bruxelles,Belgio,50.8465573,4.351697,Germania,Colonia,50.93792204,6.95925951,15/03/1941,15/03/1941,1941,3,15,1941,3,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+1742,Guglielmo,Marconi,Knutange,Francia,49.34034622,6.03815675,Germania,Saar,49.4173988,6.9805789,15/01/1928,15/12/1928,1928,1,15,1928,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+518,Alessandro,Bianconcini,Parigi,Francia,48.86536408,2.32105494,Italia,Susa,45.1386144,7.04845729,08/07/1942,15/12/1942,1942,7,8,1942,12,15,espatrio,Imola,Bologna,1909,8,7,1944,1,27
+44,Carlo,Aldegheri,Colognola ai Colli,Italia,45.4346311,11.1867006,Francia,Antibes,43.58134345,7.12791304,15/09/1922,15/02/1932,1922,9,15,1932,2,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+30,Giuseppe,Alberganti,Milano,Italia,45.46417156,9.18954313,Francia,Nizza,43.69705658,7.27023751,15/08/1930,15/12/1930,1930,8,15,1930,12,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+1252,Alberto,Ciani,Forlì,Italia,44.2226017,12.0407,Francia,Nizza,43.69705658,7.27023751,15/01/1930,15/09/1936,1930,1,15,1936,9,15,espatrio,Forlì,NULL,1901,4,27,1979, - , - 
+1625,Giuseppe,Rocchei,NULL,Italia,41.9028,12.4964,Francia,Nizza,43.69705658,7.27023751,15/01/1925,15/12/1925,1925,1,15,1925,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+1992,Emilio,Romoli,NULL,Italia,41.9028,12.4964,Francia,Nizza,43.69705658,7.27023751,15/01/1926,15/04/1937,1926,1,15,1937,4,15,espatrio,Scandiano,NULL,1919,5,24, - , - , - 
+1602,Aristodemo,Maniera,Torino,Italia,45.0677551,7.6824892,Francia,Nizza,43.69705658,7.27023751,15/10/1929,15/10/1936,1929,10,15,1936,10,15,espatrio,Castellamare Adriatico,Roma,1903,8,5,1992,7,29
+1593,Alberto,Mancini,NULL,Italia,41.9028,12.4964,Francia,NULL,43.7384,7.4246,15/01/1932,15/12/1936,1932,1,15,1936,12,15,espatrio,Principato di Monaco,Umbertide,1908,9,6,1977,10,7
+1109,Lucilio,Caselli,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,13/05/1941,15/12/1941,1941,5,13,1941,12,15,espatrio,Mercato Saraceno,NULL,1911,7,25, - , - , - 
+409,Dino,Beltrami,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,03/01/1942,15/12/1942,1942,1,3,1942,12,15,espatrio,Carpi,Carpi,1908,6,18,1964,10,22
+461,Luigi,Bertani,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,Sampierdarena,NULL,1904,11,14, - , - , - 
+685,Loris,Boni,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,21/07/1941,15/12/1941,1941,7,21,1941,12,15,espatrio,Montecchio Emilia,Montecchio Emilia,1913,7,22,1966,9,23
+2339,Benedetto,Mori,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,10/11/1942,15/12/1942,1942,11,10,1942,12,15,espatrio,Fluminimaggiore,NULL,1899,6,16, - , - , - 
+2577,Venanzio,Parutto,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Pregassona,Claut,1899,5,30,1973,11,18
+964,Giovanni,Calligaris,NULL,Francia,48.8566,2.3522,Francia,Mentone,43.77567622,7.50282526,14/09/1941,15/12/1941,1941,9,14,1941,12,15,espatrio,Belfort,Biella,1900,5,12,1983,6,10
+3039,Vittorio,Tonelli,Marsiglia,Francia,43.2961743,5.3699525,Francia,Mentone,43.77567622,7.50282526,25/10/1942,15/12/1942,1942,10,25,1942,12,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+3305,Alessandro,Sinigaglia,Saint-Louis,Francia,47.58598457,7.56106138,Svizzera,Basilea,47.555948,7.587594,15/01/1935,15/01/1936,1935,1,15,1936,1,15,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+678,Enrico,Bonfanti,Milano,Italia,45.46417156,9.18954313,Svizzera,Basilea,47.555948,7.587594,15/12/1933,15/12/1934,1933,12,15,1934,12,15,espatrio,Varese,Varese,1901,1,24,1964,7,6
+1590,Vittorio,Mallozzi,NULL,Francia,48.8566,2.3522,Italia,Ventimiglia,43.7917623,7.6033131,21/08/1941,15/12/1941,1941,8,21,1941,12,15,espatrio,Anzio,Roma,1909,10,22,1944,1,31
+1625,Giuseppe,Rocchei,NULL,Francia,48.8566,2.3522,Italia,Ventimiglia,43.7917623,7.6033131,15/12/1940,15/12/1940,1940,12,15,1940,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+3321,Giovanni,Sola,NULL,Francia,48.8566,2.3522,Italia,Ventimiglia,43.7917623,7.6033131,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Gaggio di Piano,Modena,1888,8,31,1967,2,27
+3390,Vittorio,Suzzi,NULL,Francia,48.8566,2.3522,Italia,Ventimiglia,43.7917623,7.6033131,15/08/1941,15/12/1941,1941,8,15,1941,12,15,espatrio,Sasso Marconi,NULL,1900,8,28, - , - , - 
+2092,Armando,Fedeli,NULL,Belgio,50.8503,4.3517,Italia,Torino,45.0677551,7.6824892,14/09/1929,03/01/1936,1929,9,14,1936,1,3,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+1475,Cesare,Colombo,Vernet,Francia,43.43716,1.42951,Italia,Torino,45.0677551,7.6824892,20/11/1941,15/12/1941,1941,11,20,1941,12,15,espatrio,Torino,Roma,1911,12,18,1977,4,27
+894,Giuseppe Vittorio,Guglielmo,NULL,Francia,48.8566,2.3522,Italia,Torino,45.0677551,7.6824892,25/07/1940,15/12/1941,1940,7,25,1941,12,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+2333,Ermenegildo,Moretti,NULL,Francia,48.8566,2.3522,Italia,Torino,45.0677551,7.6824892,15/07/1943,15/12/1947,1943,7,15,1947,12,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+1236,Oberdan,Chiesa,NULL,Italia,41.9028,12.4964,Algeria ,El Bouni,36.85544564,7.74131656,19/12/1933,15/06/1935,1933,12,19,1935,6,15,espatrio,Livorno,Rosignano Solvay,1911,9,11,1944,1,29
+2678,Quinto,Santarelli,NULL,Francia,48.8566,2.3522,Italia,Sanremo,43.818409,7.77842,30/08/1940,15/12/1940,1940,8,30,1940,12,15,espatrio,Foligno,NULL,1897,3,14,1969, - , - 
+2056,Cesare,Menarini,NULL,Francia,48.8566,2.3522,Italia,Sanremo,43.818409,7.77842,15/01/1962,15/12/1962,1962,1,15,1962,12,15,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+2363,Flavio Ribelle,Fornasiero,NULL,Algeria,28.0339,1.6596,Marocco ,NULL,31.6295,7.9811,15/01/1938,15/12/1941,1938,1,15,1941,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+223,Luigi,Balbo,NULL,Francia,48.8566,2.3522,Marocco,NULL,31.6295,7.9811,15/01/1940,15/12/1940,1940,1,15,1940,12,15,espatrio,Garessio,Ivrea,1908,9,15,1993,2,21
+1092,Teresio,Caron,NULL,Francia,48.8566,2.3522,Italia,Vercelli,45.3251557,8.4227666,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Gattinara,Biella,1896,7,27,1969,2,18
+2317,Francesco,Montarolo,Lione,Francia,45.7578137,4.8320114,Italia,Vercelli,45.3251557,8.4227666,15/08/1943,15/12/1943,1943,8,15,1943,12,15,espatrio,Trino Vercellese,Trino Vercellese,1900,6,23,1973,2,2
+513,Libero,Bianchi,Vernet,Francia,43.43716,1.42951,Italia,Savona,44.3080251,8.4810315,14/09/1941,15/12/1941,1941,9,14,1941,12,15,espatrio,Mertzen,Savona,1908,2,14,1963,2,26
+1752,Antonio,Mariani,Buenos Aires,Argentina,-34.60378418,-58.38160247,Italia,Mara,40.409731,8.639099,15/01/1929,15/12/1930,1929,1,15,1930,12,15,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+3164,Andrea,Scano,Santa Teresa di Gallura,Italia,41.23859,9.18873,Francia,Ajaccio,41.91931542,8.73905003,15/05/1937,15/07/1937,1937,5,15,1937,7,15,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+1196,Giovanni,Cerbai,NULL,Italia,41.9028,12.4964,Francia,Ajaccio,41.91931542,8.73905003,15/01/1929,15/10/1936,1929,1,15,1936,10,15,espatrio,Camugnano,Bologna,1912,9,10,1945,2,10
+3074,Napoleone,Trevisi,NULL,Italia,41.9028,12.4964,Francia,Ajaccio,41.91931542,8.73905003,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,Maranello,Modena,1899,6,1,1963,8,10
+1625,Giuseppe,Rocchei,Pavullo nel Frignano,Italia,44.339694,10.8341135,Francia (Corsica),Corsica,41.91926752,8.7390554,15/01/1933,15/01/1937,1933,1,15,1937,1,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+3164,Andrea,Scano,NULL,Unione Sovietica,55.7558,37.6173,Italia,Novi Ligure,44.76030649,8.78637493,15/01/1970,15/12/1970,1970,1,15,1970,12,15,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+2541,Ettore,Pajetta,Vernet,Francia,43.43716,1.42951,Italia,Varese,45.8175359,8.8263438,15/05/1941,15/12/1941,1941,5,15,1941,12,15,espatrio,Taino,Pietra Ligure,1906,8,25,1981,1,12
+513,Libero,Bianchi,Mertzen,Germania,47.5894395,7.1308319,Italia,Cornigliano,44.4161302,8.871799,19/10/1915,28/03/1938,1915,10,19,1938,3,28,espatrio,Mertzen,Savona,1908,2,14,1963,2,26
+2807,Anton,Ukmar,NULL,Francia,48.8566,2.3522,Italia,Genova,44.40726,8.9338624,15/09/1943,15/12/1945,1943,9,15,1945,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+3105,Giovanni Giacomo,Veronelli,Argelés-sur-mer,Francia,42.5471485,3.0228281,Italia,Genova,44.40726,8.9338624,15/06/1943,15/12/1943,1943,6,15,1943,12,15,espatrio,Sesto Fiorentino,Genova,1886,2,28,1944,1,14
+3401,Enrico,Zambonini,NULL,Libia,32.8872,13.1913,Italia,Genova,44.40726,8.9338624,15/01/1919,15/12/1922,1919,1,15,1922,12,15,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+2613,Giacomo,Pellegrini,Parigi,Francia,48.86536408,2.32105494,Italia,Genova,44.40726,8.9338624,05/02/1939,15/12/1939,1939,2,5,1939,12,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+3184,Natale,Visentini,Palencia,Spagna,42.01102008,-4.53292787,Italia,Genova,44.40726,8.9338624,29/09/1937,15/12/1937,1937,9,29,1937,12,15,espatrio,Moglia,NULL,1909,12,25, - , - , - 
+3117,Nicolò,Turcinovich,Barcellona,Spagna,41.3828939,2.1774322,Italia,Genova,44.40726,8.9338624,15/08/1941,15/12/1941,1941,8,15,1941,12,15,espatrio,Rovigno,Genova,1911,8,21,1971,12,30
+1000,Giovanni Battista,Canepa,NULL,Stati Uniti d\\'America (USA),40.7128,-74.006,Italia,Genova,44.40726,8.9338624,15/01/1924,15/12/1936,1924,1,15,1936,12,15,espatrio,Chiavari,Milazzo,1896,7,18,1994,2,13
+1111,Egidio,Casnigo,NULL,Francia,48.8566,2.3522,Svizzera,Lugano,46.0037735,8.95124763,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Milano,Milano,1905,6,8,2005,8,31
+1903,Adriano,Masoni,Reggio Emilia,Italia,44.6978446,10.6304958,Svizzera,Lugano,46.0037735,8.95124763,15/06/1937,15/06/1937,1937,6,15,1937,6,15,espatrio,San Maurizio,Reggio Emilia,1907,3,26,1973,7,13
+545,Eugenio,Giovanardi,Portoferraio,Italia,42.81233,10.31297,Francia (Corsica),NULL,42.0396,9.0129,10/04/1937,15/12/1937,1937,4,10,1937,12,15,espatrio,Milano,Roma,1913,1,21,1986,3,22
+3164,Andrea,Scano,Santa Teresa di Gallura,Italia,41.23859,9.18873,Francia (Corsica),NULL,42.0396,9.0129,07/09/1934,25/08/1935,1934,9,7,1935,8,25,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+3491,Angelo,Spagnolo,NULL,Belgio,50.8503,4.3517,Italia,Como,45.80819,9.0832,29/07/1933,15/09/1935,1933,7,29,1935,9,15,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+94,Antonio,Antoni,Bagni di Lucca,Italia,44.0099818,10.590633,Portogallo,NULL,38.7223,9.1393,15/12/1933,15/03/1935,1933,12,15,1935,3,15,espatrio,Bagni di Lucca,Bagni di Lucca,1917,12,26,1973,12,28
+2367,Mario,Foschiani,NULL,Austria,48.2082,16.3738,Svizzera,Zurigo,45.45884,9.18793,15/01/1934,15/05/1934,1934,1,15,1934,5,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+3077,Giovanni,Trippa,Medicina,Italia,44.4766739,11.6383385,Svizzera,Zurigo,45.45884,9.18793,08/09/1932,15/03/1935,1932,9,8,1935,3,15,espatrio,Medicina,Bologna,1907,10,1,1983,1,6
+1180,Costanzo,Cecchin,NULL,Francia,48.8566,2.3522,Svizzera,Zurigo,45.45884,9.18793,15/01/1933,15/02/1934,1933,1,15,1934,2,15,espatrio,Bergamo,Cadibona,1906,5,5,1944,8,18
+1104,Agostino,Casati,Rho,Italia,45.52978,9.03812,Svizzera,Zurigo,45.45884,9.18793,15/01/1926,15/12/1926,1926,1,15,1926,12,15,espatrio,Rho,Rho,1897,8,2,1973,2,8
+3164,Andrea,Scano,NULL,Francia,48.8566,2.3522,Italia,Santa Teresa di Gallura,41.23859,9.18873,25/08/1935,15/05/1937,1935,8,25,1937,5,15,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+30,Giuseppe,Alberganti,Vernet,Francia,43.43716,1.42951,Italia,Milano,45.46417156,9.18954313,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+3226,Francesco,Scotti,Lione,Francia,45.7578137,4.8320114,Italia,Milano,45.46417156,9.18954313,06/09/1943,15/12/1943,1943,9,6,1943,12,15,espatrio,Casalpusterlengo,Milano,1910,7,25,1973,1,24
+2536,Aniceto,Pagani,NULL,Etiopia,38.7578,12.4964,Italia,Milano,45.46417156,9.18954313,19/07/1936,26/03/1937,1936,7,19,1937,3,26,espatrio,Milano,Milano,1909,2,1, - , - , - 
+811,Stefano,Brau,Marsiglia,Francia,43.2961743,5.3699525,Italia,Milano,45.46417156,9.18954313,20/09/1943,15/03/1944,1943,9,20,1944,3,15,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+673,Alighiero,Bonciani,Marsiglia,Francia,43.2961743,5.3699525,Italia,Milano,45.46417156,9.18954313,15/06/1944,15/12/1944,1944,6,15,1944,12,15,espatrio,Scandicci,Milano,1903,8,27,1944,10,22
+3386,Emilio,Suardi,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Romano di Lombardia,Romano di Lombardia,1905,4,1,1983,2,4
+1150,Vittorio,Castiglioni,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,18/05/1941,15/12/1941,1941,5,18,1941,12,15,espatrio,Milano,Milano,1901,12,3,1976,8,25
+1111,Egidio,Casnigo,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,27/09/1941,15/12/1941,1941,9,27,1941,12,15,espatrio,Milano,Milano,1905,6,8,2005,8,31
+3320,Emma,Sola,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,15/01/1945,15/12/1945,1945,1,15,1945,12,15,espatrio,Milano,Pergine Valsugana,1894,3,30,1971,11,25
+1559,Emilio,Croce,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,15/08/1943,15/12/1943,1943,8,15,1943,12,15,espatrio,Milano,Chiavari,1906,5,5,1969,8,12
+2542,Giuliano,Pajetta,NULL,Francia,48.8566,2.3522,Italia,Milano,45.46417156,9.18954313,15/05/1944,15/11/1944,1944,5,15,1944,11,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+2053,Giovanni,Mella,Vernet,Francia,43.43716,1.42951,Italia,Milano,45.46417156,9.18954313,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,Milano,Milano,1890,3,21, - , - , - 
+2536,Aniceto,Pagani,Vernet,Francia,43.43716,1.42951,Italia,Milano,45.46417156,9.18954313,08/04/1941,15/12/1941,1941,4,8,1941,12,15,espatrio,Milano,Milano,1909,2,1, - , - , - 
+3119,Francesco,Turri,Parigi,Francia,48.86536408,2.32105494,Italia,Milano,45.46417156,9.18954313,15/07/1942,15/12/1942,1942,7,15,1942,12,15,espatrio,Milano,NULL,1890,11,17, - , - , - 
+3334,Angelo,Spada,Vernet,Francia,43.43716,1.42951,Italia,Milano,45.46417156,9.18954313,08/04/1941,15/12/1941,1941,4,8,1941,12,15,espatrio,Sant\\'Apollinare,Lecco,1905,8,7,1976,5,21
+2542,Giuliano,Pajetta,Mauthausen,Austria,48.2427821,14.51534583,Italia,Milano,45.46417156,9.18954313,15/05/1945,15/12/1945,1945,5,15,1945,12,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+1602,Aristodemo,Maniera,Lione,Francia,45.7578137,4.8320114,Italia,Milano,45.46417156,9.18954313,15/04/1944,15/12/1944,1944,4,15,1944,12,15,espatrio,Castellamare Adriatico,Roma,1903,8,5,1992,7,29
+1223,Giulio Pietro,Chiarelli,Grenoble,Francia,45.18630937,5.73615611,Italia,Prata Camportaccio,46.30699317,9.3971107,15/04/1926,15/09/1928,1926,4,15,1928,9,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+3227,Arturo Silvano,Scotto,Livorno,Italia,43.5507411,10.3091456,Francia,Bastia,42.70222075,9.45193827,15/09/1934,15/12/1935,1934,9,15,1935,12,15,espatrio,Livorno,Livorno,1902,7,2,1960,7,23
+3378,Orlando,Storai,NULL,Italia,41.9028,12.4964,Francia,Bastia,42.70222075,9.45193827,01/01/1930,15/12/1930,1930,1,1,1930,12,15,espatrio,Montepiano,Firenze,1912,9,12,1943,12,2
+2040,Angiolo,Rossi,Spiaggia delle Marze,Italia,42.758399,10.892644,Francia,Macinaggio,42.95959077,9.45216358,15/01/1937,15/12/1937,1937,1,15,1937,12,15,espatrio,Grosseto,Grosseto,1915,9,30,1987,3,22
+1015,Emilio,Canzi,NULL,Germania,52.52,13.405,Italia,Piacenza,45.05261269,9.69315737,15/03/1942,15/12/1942,1942,3,15,1942,12,15,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+1015,Emilio,Canzi,Parigi,Francia,48.86536408,2.32105494,Italia,Piacenza,45.05261269,9.69315737,09/08/1927,15/04/1928,1927,8,9,1928,4,15,espatrio,Piacenza,Piacenza,1893,3,14,1945,11,17
+1864,Domenico,Rolla,Vernet,Francia,43.43716,1.42951,Italia,La Spezia,44.107033,9.8282255,15/05/1943,15/12/1943,1943,5,15,1943,12,15,espatrio,Arcola,Roma,1908,1,19,1954,6,8
+1223,Giulio Pietro,Chiarelli,Vernet,Francia,43.43716,1.42951,,Sondrio,46.16852,9.87134,15/11/1941,15/12/1941,1941,11,15,1941,12,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+1763,Stefano Giovanni,Marinoni,NULL,Belgio,50.8503,4.3517,,Cerete,45.9307793,9.919346,15/01/1948,15/12/1948,1948,1,15,1948,12,15,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+3401,Enrico,Zambonini,NULL,Francia,48.8566,2.3522,Italia,Reggio Emilia,44.6978446,10.6304958,07/08/1942,15/12/1942,1942,8,7,1942,12,15,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+1903,Adriano,Masoni,Vernet,Francia,43.43716,1.42951,Italia,Reggio Emilia,44.6978446,10.6304958,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,San Maurizio,Reggio Emilia,1907,3,26,1973,7,13
+1992,Emilio,Romoli,Mentone,Francia,43.77567622,7.50282526,Italia,Reggio Emilia,44.6978446,10.6304958,24/06/1941,15/12/1941,1941,6,24,1941,12,15,espatrio,Scandiano,NULL,1919,5,24, - , - , - 
+3074,Napoleone,Trevisi,NULL,Francia,48.8566,2.3522,Italia,Modena,44.6458885,10.9255707,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Maranello,Modena,1899,6,1,1963,8,10
+44,Carlo,Aldegheri,Reims,Francia,49.258002,4.031745,Italia,Verona,45.4384958,10.9924122,15/08/1941,15/12/1951,1941,8,15,1951,12,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+1482,Antonio,Composta,NULL,Francia,48.8566,2.3522,Italia,Verona,45.4384958,10.9924122,15/06/1941,15/02/1944,1941,6,15,1944,2,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+1770,Francesco,Martella,Aachen,Germania,50.77609286,6.08376503,Italia,Verona,45.4384958,10.9924122,15/10/1940,15/12/1940,1940,10,15,1940,12,15,espatrio,Atri,Atri,1898,1,21,1943,11,17
+2056,Cesare,Menarini,NULL,Francia,48.8566,2.3522,Italia,Mirandola,44.8872071,11.0661063,15/08/1941,15/12/1956,1941,8,15,1956,12,15,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+2056,Cesare,Menarini,NULL,Lussemburgo,49.6116,6.1319,Italia,San Felice sul Panaro,44.83928264,11.1412257,15/01/1915,13/01/1923,1915,1,15,1923,1,13,espatrio,Città  del Lussemburgo,Ventimiglia,1907,10,5,2002,4,11
+3305,Alessandro,Sinigaglia,Mentone,Francia,43.77567622,7.50282526,Italia,Firenze,43.7698712,11.2555757,09/04/1941,15/12/1941,1941,4,9,1941,12,15,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+281,Vittorio,Bardini,Mentone,Francia,43.77567622,7.50282526,Italia,Siena,43.3185536,11.3316533,23/09/1941,15/12/1941,1941,9,23,1941,12,15,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+751,Pietro,Borghi,Mentone,Francia,43.77567622,7.50282526,Italia,Siena,43.3185536,11.3316533,16/10/1941,15/12/1941,1941,10,16,1941,12,15,espatrio,Poggibonsi,Poggibonsi,1898,12,20,1977,11,7
+327,Roberto,Gherardi,Vernet,Francia,43.43716,1.42951,Italia,Bologna,44.4936714,11.3430347,03/12/1941,15/12/1941,1941,12,3,1941,12,15,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+3051,Bruno,Tosarelli,Vernet,Francia,43.43716,1.42951,Italia,Bologna,44.4936714,11.3430347,10/04/1941,15/12/1941,1941,4,10,1941,12,15,espatrio,Castenaso,Bologna,1912,12,11,1944,10,5
+2054,Giuseppe,Melli,Vernet,Francia,43.43716,1.42951,Italia,Bologna,44.4936714,11.3430347,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Vergato,NULL,1911,1,28,1989,11,28
+392,Pietro,Bellè,Digione,Francia,47.32181785,5.04084706,Austria,Innsbruck,47.257776,11.397938,10/03/1942,18/06/1942,1942,3,10,1942,6,18,espatrio,Pieve di Soligo,NULL,1906,12,10, - , - , - 
+1737,Cesare,Roda,Colonia,Germania,50.93792204,6.95925951,Austria,Innsbruck,47.257776,11.397938,15/03/1941,15/03/1941,1941,3,15,1941,3,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+392,Pietro,Bellè,Innsbruck,Germania,47.257776,11.397938,Italia,Vipiteno,46.89906232,11.43149436,18/06/1942,15/12/1942,1942,6,18,1942,12,15,espatrio,Pieve di Soligo,NULL,1906,12,10, - , - , - 
+1737,Cesare,Roda,Innsbruck,Austria,47.257776,11.397938,Italia,Vipiteno,46.89906232,11.43149436,15/03/1941,15/12/1941,1941,3,15,1941,12,15,espatrio,Montanara,Mantova,1907,1,14,1975,12,23
+1742,Guglielmo,Marconi,NULL,Francia,48.8566,2.3522,Germania,Aschersleben,51.75481124,11.4514339,21/04/1941,27/11/1941,1941,4,21,1941,11,27,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+2009,Umberto,Mazzi,NULL,Italia,41.9028,12.4964,Germania,Dachau,48.268102,11.4687779,26/01/1945,15/12/1945,1945,1,26,1945,12,15,espatrio,Trieste,Dachau,1885,2,2,1945,3,16
+570,Giuseppe,Bifolchi,Bruxelles,Belgio,50.8465573,4.351697,Italia,Brennero,47.001453,11.504153,16/12/1940,15/12/1940,1940,12,16,1940,12,15,espatrio,Balsorano,Avezzano,1895,2,20,1978,3,16
+678,Enrico,Bonfanti,Gand,Belgio,51.05369669,3.72504652,Italia,Brennero,47.001453,11.504153,18/06/1940,15/12/1940,1940,6,18,1940,12,15,espatrio,Varese,Varese,1901,1,24,1964,7,6
+95,Angelo,Antonini,NULL,Francia,48.8566,2.3522,Italia,Passo del Brennero,47.001922,11.506076,29/09/1942,15/12/1942,1942,9,29,1942,12,15,espatrio,Roma,Roma,1909,5,2,1981,2,12
+1898,Abramo,Maschio,Vernet,Francia,43.43716,1.42951,Italia,Vicenza,45.5488306,11.5478825,21/09/1941,15/12/1941,1941,9,21,1941,12,15,espatrio,Cismon del Grappa,Villeurbanne,1894,9,21,1959,1,13
+3320,Emma,Sola,Milano,Italia,45.46417156,9.18954313,Germania,Monaco di Baviera,48.13737527,11.57570064,15/01/1926,15/12/1926,1926,1,15,1926,12,15,espatrio,Milano,Pergine Valsugana,1894,3,30,1971,11,25
+2333,Ermenegildo,Moretti,NULL,Italia,41.9028,12.4964,Germania,Monaco di Baviera,48.13737527,11.57570064,15/05/1938,15/12/1938,1938,5,15,1938,12,15,espatrio,Gallarate,Saint-Denis,1918,5,5,1984,9,9
+1482,Antonio,Composta,Bernburg,Germania,51.7942774,11.73589826,Italia,Ferrara,44.8372737,11.6186451,15/06/1945,15/12/1945,1945,6,15,1945,12,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+3414,Ezio,Zanelli,Parigi,Francia,48.86536408,2.32105494,Italia,Imola,44.3535145,11.7141233,28/11/1945,15/12/1945,1945,11,28,1945,12,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+3408,Giovanna,Zanarini,Villeurbanne,Francia,45.7733105,4.8869339,Italia,Imola,44.3535145,11.7141233,15/06/1943,15/12/1943,1943,6,15,1943,12,15,espatrio,Imola,Imola,1902,9,29,1974,9,15
+3286,Manlio,Silvestri,NULL,Francia,48.8566,2.3522,Italia,Padova,45.4077172,11.8734455,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Saccolongo,Sappada,1916,3,9,1944,7,29
+517,Vincenzo,Bianco,Dvor,Slovenia,45.808132,14.968244,Italia,Padova,45.4077172,11.8734455,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+2026,Beniamino,Rossetto,Vernet,Francia,43.43716,1.42951,Italia,Padova,45.4077172,11.8734455,30/08/1941,15/12/1952,1941,8,30,1952,12,15,espatrio,Vigodarzere,Ostrava,1913,7,26,1988,12,24
+1252,Alberto,Ciani,NULL,Francia,48.8566,2.3522,Italia,Forlì,44.2226017,12.0407,16/07/1941,15/12/1941,1941,7,16,1941,12,15,espatrio,Forlì,NULL,1901,4,27,1979, - , - 
+1846,Roberto,Donati,Vernet,Francia,43.43716,1.42951,Italia,Forlì,44.2226017,12.0407,26/07/1942,15/12/1942,1942,7,26,1942,12,15,espatrio,Zurigo,NULL,1905,9,10, - , - , - 
+1801,Valeriano,De Pasqual,NULL,Francia,48.8566,2.3522,Italia,Belluno,46.1397378,12.2192968,02/12/1941,15/12/1941,1941,12,2,1941,12,15,espatrio,Germania,NULL,1908,4,29, - , - , - 
+1329,Rizzieri,Raveane,Vernet,Francia,43.43716,1.42951,Italia,Belluno,46.1397378,12.2192968,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Feltre,Feltre,1904,8,21,1962,9,27
+1593,Alberto,Mancini,Principato di Monaco,Principato di Monaco,43.73255518,7.42050934,Italia,Agello,43.0704875,12.2383101,15/01/1917,15/12/1932,1917,1,15,1932,12,15,espatrio,Principato di Monaco,Umbertide,1908,9,6,1977,10,7
+3412,Marino,Zanella,NULL,Belgio,50.8503,4.3517,Italia,Treviso,45.6658505,12.2455414,15/02/1941,15/12/1941,1941,2,15,1941,12,15,espatrio,Segusino,Pieve di Soligo,1908,7,16,1945,1,26
+1471,Francesco,Collodet,NULL,Francia,48.8566,2.3522,Italia,Treviso,45.6658505,12.2455414,20/07/1941,15/12/1941,1941,7,20,1941,12,15,espatrio,Cordignano,NULL,1906,7,10, - , - , - 
+1801,Valeriano,De Pasqual,NULL,Germania,52.52,13.405,Italia,Ponte nelle Alpi,46.18132354,12.27942646,15/01/1916,15/12/1930,1916,1,15,1930,12,15,espatrio,Germania,NULL,1908,4,29, - , - , - 
+1801,Valeriano,De Pasqual,NULL,Jugoslavia,44.7866,20.4489,Italia,Ponte nelle Alpi,46.18132354,12.27942646,15/01/1951,15/12/1951,1951,1,15,1951,12,15,espatrio,Germania,NULL,1908,4,29, - , - , - 
+517,Vincenzo,Bianco,Parigi,Francia,48.86536408,2.32105494,Italia,Venezia,45.43699085,12.3360842,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+3193,Alfredo,Vivian,Vernet,Francia,43.43716,1.42951,Italia,Venezia,45.43699085,12.3360842,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Venezia,Venezia,1908,4,29,1944,8,3
+2092,Armando,Fedeli,Marsiglia,Francia,43.2961743,5.3699525,Italia,Perugia,43.11206259,12.38883644,15/08/1940,15/12/1940,1940,8,15,1940,12,15,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+1223,Giulio Pietro,Chiarelli,Parigi,Francia,48.86536408,2.32105494,Italia,Roma,41.894802,12.4853384,15/01/1930,15/08/1936,1930,1,15,1936,8,15,espatrio,Prata Camportaccio,Andora,1906,3,18,1989,6, - 
+2683,Aureliano,Santini,NULL,Algeria,28.0339,1.6596,Italia,NULL,41.9028,12.4964,15/10/1942,15/12/1942,1942,10,15,1942,12,15,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+3414,Ezio,Zanelli,NULL,Austria,48.2082,16.3738,Italia,NULL,41.9028,12.4964,15/04/1928,15/12/1929,1928,4,15,1929,12,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+1742,Guglielmo,Marconi,Bosco Chiesanuova,Germania,45.62103,11.03224,Italia,NULL,41.9028,12.4964,09/06/1942,15/12/1942,1942,6,9,1942,12,15,espatrio,Pedaso,Rimini,1903,9,18,1968,6,1
+2291,Gaetano,Fongaro,NULL,Belgio,50.8503,4.3517,Italia,NULL,41.9028,12.4964,15/03/1942,15/12/1942,1942,3,15,1942,12,15,espatrio,Valdagno,Thiene,1907,9,2,1972,2,10
+1714,Fioravante,Marcolin,NULL,Belgio,50.8503,4.3517,Italia,NULL,41.9028,12.4964,15/11/1940,15/12/1940,1940,11,15,1940,12,15,espatrio,Motta di Livenza,Motta di Livenza,1896,2,16,1964,1,6
+1368,Mario,Ricci,NULL,Belgio,50.8503,4.3517,Italia,NULL,41.9028,12.4964,15/04/1923,15/12/1930,1923,4,15,1930,12,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+1233,Alcide,Leonardi,Bruxelles,Belgio,50.8465573,4.351697,Italia,NULL,41.9028,12.4964,12/12/1940,15/12/1940,1940,12,12,1940,12,15,espatrio,Monchio delle Olle,NULL,1905,7,18,1983, - , - 
+2313,Oddino,Montanari,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Cesena,Cesena,1903,10,8,1944,10,3
+32,Berto,Alberti,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/01/1931,15/12/1935,1931,1,15,1935,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+684,Fernando,Boni,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,30/08/1941,15/12/1941,1941,8,30,1941,12,15,espatrio,Bagno a Ripoli,Firenze,1901,2,26,1965,7,29
+1236,Oberdan,Chiesa,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,23/09/1941,15/12/1941,1941,9,23,1941,12,15,espatrio,Livorno,Rosignano Solvay,1911,9,11,1944,1,29
+545,Eugenio,Giovanardi,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,08/04/1941,15/12/1941,1941,4,8,1941,12,15,espatrio,Milano,Roma,1913,1,21,1986,3,22
+1079,Romeo,Landini,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,Firenze,Cecina,1902,6,30,1970,1,13
+1126,Pietro,Lari,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Empoli,Fossoli,1907,6,17,1944,7,12
+32,Berto,Alberti,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/07/1943,15/12/1943,1943,7,15,1943,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+2040,Angiolo,Rossi,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,09/10/1941,15/12/1941,1941,10,9,1941,12,15,espatrio,Grosseto,Grosseto,1915,9,30,1987,3,22
+2223,Dino,Saccenti,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+2750,Quinto,Pietroboni,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Sant'Agata Bolognese,Sant'Agata Bolognese,1899,4,2,1944,8,26
+3077,Giovanni,Trippa,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/07/1943,15/12/1943,1943,7,15,1943,12,15,espatrio,Medicina,Bologna,1907,10,1,1983,1,6
+3487,Anna,Sartini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,03/09/1939,15/12/1989,1939,9,3,1989,12,15,espatrio,Molinella,NULL,1906,3,13, - , - , - 
+910,Giuseppe,Iacopini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Massa Carrara,NULL,1903,5,29, - , - , - 
+1079,Romeo,Landini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1926,01/08/1937,1926,1,15,1937,8,1,espatrio,Firenze,Cecina,1902,6,30,1970,1,13
+1657,Pietro,Dal Pozzo,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,09/11/1941,15/12/1941,1941,11,9,1941,12,15,espatrio,Ponte di Piave,Treviso,1898,9,2,1979,4,11
+1196,Giovanni,Cerbai,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Camugnano,Bologna,1912,9,10,1945,2,10
+1093,Mario Alfonso,Carpanelli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Ferrara,Ferrara,1903,1,14,1981,5,8
+3378,Orlando,Storai,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,21/01/1942,15/12/1942,1942,1,21,1942,12,15,espatrio,Montepiano,Firenze,1912,9,12,1943,12,2
+1752,Antonio,Mariani,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,30/08/1941,15/12/1941,1941,8,30,1941,12,15,espatrio,Mara,Mara,1899,12,17,1982, - , - 
+1120,Adelchi,Castellani,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1954,15/12/1954,1954,1,15,1954,12,15,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+1120,Adelchi,Castellani,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,23/09/1941,15/12/1941,1941,9,23,1941,12,15,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+2745,Raffaele,Pieragostini,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/01/1942,15/12/1942,1942,1,15,1942,12,15,espatrio,Sampierdarena,Bornasco,1899,5,3,1945,4,24
+232,Giuseppe,Baldo,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,29/03/1942,15/12/1942,1942,3,29,1942,12,15,espatrio,Revine Lago,NULL,1896,5,6, - , - , - 
+340,Ivo,Baruffini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,21/07/1941,15/12/1941,1941,7,21,1941,12,15,espatrio,Soragna,Vigneux-sur-Seine,1908,7,18,1975,1,19
+2687,Adolfo,Saponi,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/05/1945,15/12/1945,1945,5,15,1945,12,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+2406,Achille,Frigerio,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,31/08/1941,15/12/1941,1941,8,31,1941,12,15,espatrio,Vimercate,Vimercate,1900,5,7,1966, - , - 
+1073,Aldo,Lampredi,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/11/1943,15/12/1943,1943,11,15,1943,12,15,espatrio,Firenze,Jesenice,1899,3,13,1973,7,21
+1778,Zimmerwald,Martinelli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,07/06/1944,15/12/1944,1944,6,7,1944,12,15,espatrio,Spoleto,Ponte,1917,4,25,1944,12,9
+1212,Antonio,Cetin,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1943,15/12/1943,1943,1,15,1943,12,15,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+894,Giuseppe Vittorio,Guglielmo,Creta (isola di -),Grecia,35.3397918,25.13431013,Italia,NULL,41.9028,12.4964,15/01/1942,15/12/1942,1942,1,15,1942,12,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+600,Alessandro,Boaretti,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,30/01/1942,15/12/1942,1942,1,30,1942,12,15,espatrio,Vicenza,Caracas,1907,9,19,1983,2,22
+633,Novellio,Bon,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,Tavagnacco,NULL,1901,9,23, - , - , - 
+773,Nello,Boscagli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/10/1943,15/12/1943,1943,10,15,1943,12,15,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+825,Romeo,Brevini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,San Martino in Rio,Modena,1901,12,25,1976,10,12
+1578,Francesco,Curreli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,21/07/1941,15/12/1941,1941,7,21,1941,12,15,espatrio,Austis,Nemi,1903,5,11,1972, - , - 
+2328,Alfredo,Mordini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/06/1944,15/12/1944,1944,6,15,1944,12,15,espatrio,Firenzuola,Milano,1902,6,29,1969,7,10
+1854,Vito,Doria,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,14/05/1944,15/12/1944,1944,5,14,1944,12,15,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+2194,Egisto,Rubini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/09/1943,15/12/1943,1943,9,15,1943,12,15,espatrio,Molinella,Milano,1906,11,1,1944,2,25
+1923,Achille,Durigon,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Pordenone,Parigi,1913,4,3,1990,11,3
+2017,Siro,Rosi,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Roccastrada,Roma,1915,2,14,1987,3,13
+1961,Michele,Fagherazzi,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Venezia,Venezia,1905,1,21,1978,7,25
+3103,Giuseppe,Verginella,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/09/1943,15/12/1943,1943,9,15,1943,12,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+2807,Anton,Ukmar,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+1933,Luigi,Matteacci,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1945,15/12/1945,1945,1,15,1945,12,15,espatrio,Cantiano,Maisons-Alfort,1890,3,5,1977,11, - 
+3011,Giuseppe,Tocchini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1914,15/12/1923,1914,1,15,1923,12,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+2876,Mario,Puecher,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/06/1941,15/12/1941,1941,6,15,1941,12,15,espatrio,Bronzolo,NULL,1901,7,9, - , - , - 
+2366,Antonio,Fortuna,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Creazzo,Pavia,1900,10,8,1978,1,12
+2556,Celso,Pantieri,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,28/01/1945,15/12/1945,1945,1,28,1945,12,15,espatrio,Mercato Saraceno,Vénissieux,1901,3,22,1973,3,25
+2363,Flavio Ribelle,Fornasiero,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,31/03/1942,15/12/1942,1942,3,31,1942,12,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+2737,Dino,Piccoli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Tavagnacco,Spilimbergo,1901,9,16,1945,2,4
+1357,Domenico,Ribanelli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Forgaria nel Friuli,Beauchamp,1906,8,9,1972,6,21
+2246,Giovanni,Salvador,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/02/1942,15/12/1944,1942,2,15,1944,12,15,espatrio,Castelnovo del Friuli,Castelnovo del Friuli,1908,9,5,1980,4,28
+3039,Vittorio,Tonelli,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1930,15/12/1931,1930,1,15,1931,12,15,espatrio,Castelnovo del Friuli,Udine,1907,10,14,1970,10,11
+3023,Domenico,Tomat,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+2837,Bruno,Pontoni,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1941,15/12/1941,1941,1,15,1941,12,15,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+2713,Ruggero,Petrucci,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/08/1943,15/12/1943,1943,8,15,1943,12,15,espatrio,Rimini,Rimini,1903,9,4,1969,10,31
+1625,Giuseppe,Rocchei,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1930,15/12/1933,1930,1,15,1933,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1910,3,18,1993,4,9
+223,Luigi,Balbo,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,22/10/1942,15/12/1942,1942,10,22,1942,12,15,espatrio,Garessio,Ivrea,1908,9,15,1993,2,21
+2917,Aristide,Valentini,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/10/1942,15/12/1942,1942,10,15,1942,12,15,espatrio,Ravenna,NULL,1896,1,29, - , - , - 
+964,Giovanni,Calligaris,NULL,Francia,48.8566,2.3522,Italia,NULL,41.9028,12.4964,15/01/1924,15/12/1930,1924,1,15,1930,12,15,espatrio,Belfort,Biella,1900,5,12,1983,6,10
+300,Feltre,Bartocci,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,20/03/1942,15/12/1942,1942,3,20,1942,12,15,espatrio,Camerino,Camerino,1903,5,6,1979,9,3
+491,Alfredo,Bertoli,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,15/04/1941,15/12/1941,1941,4,15,1941,12,15,espatrio,Venezia,Venezia,1903,5,21,1975,5,25
+3491,Angelo,Spagnolo,NULL,Gran Bretagna,51.5074,0.1278,Italia,NULL,41.9028,12.4964,15/01/1915,15/12/1915,1915,1,15,1915,12,15,espatrio,Cittanova,NULL,1885,9,9, - , - , - 
+493,Giovanni,Bertolini,Mentone,Francia,43.77567622,7.50282526,Italia,NULL,41.9028,12.4964,07/09/1943,15/12/1943,1943,9,7,1943,12,15,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+1763,Stefano Giovanni,Marinoni,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,09/06/1942,15/12/1946,1942,6,9,1946,12,15,espatrio,Cerete,Cerete,1911,2,4,2005,11,13
+823,Emilio,Bressan,Rijeka,Croazia,45.3269357,14.4409841,Italia,NULL,41.9028,12.4964,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+1785,Pietro,Del Testa,Grenoble,Francia,45.18630937,5.73615611,Italia,NULL,41.9028,12.4964,05/02/1942,15/12/1942,1942,2,5,1942,12,15,espatrio,Bagno di Romagna,NULL,1903,11,3, - , - , - 
+1939,Vasco,Matteoli,Mosca,Unione Sovietica,55.763008,37.622995,Italia,NULL,41.9028,12.4964,15/01/1931,15/09/1931,1931,1,15,1931,9,15,espatrio,Empoli,Bologna,1913,6,20,1944,7,5
+2613,Giacomo,Pellegrini,Lione,Francia,45.7578137,4.8320114,Italia,NULL,41.9028,12.4964,15/01/1926,15/01/1933,1926,1,15,1933,1,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+1619,Antonio,Roasio,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/01/1943,15/12/1943,1943,1,15,1943,12,15,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+1854,Vito,Doria,Aubagne,Francia,43.29234912,5.569489,Italia,NULL,41.9028,12.4964,15/01/1927,15/12/1931,1927,1,15,1931,12,15,espatrio,San Vito sullo Ionio,Nizza,1906,9,26,1993,11,23
+2748,Renato,Pierleoni,NULL,NULL,NULL,NULL,Italia,NULL,41.9028,12.4964,15/01/1942,15/12/1945,1942,1,15,1945,12,15,espatrio,Firenze,NULL,1902,1,1, - , - , - 
+2017,Siro,Rosi,Varsavia,Polonia,52.2319237,21.0067265,Italia,NULL,41.9028,12.4964,15/01/1957,15/12/1957,1957,1,15,1957,12,15,espatrio,Roccastrada,Roma,1915,2,14,1987,3,13
+504,Bruno,Bettini,NULL,Spagna,40.4168,-3.7038,Italia,NULL,41.9028,12.4964,15/09/1943,15/12/1943,1943,9,15,1943,12,15,espatrio,Padova,NULL,1915,10,7, - , - , - 
+2252,Sisinnio,Mocci,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,20/11/1941,15/12/1941,1941,11,20,1941,12,15,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+1593,Alberto,Mancini,Principato di Monaco,Principato di Monaco,43.73255518,7.42050934,Italia,NULL,41.9028,12.4964,15/03/1942,15/12/1942,1942,3,15,1942,12,15,espatrio,Principato di Monaco,Umbertide,1908,9,6,1977,10,7
+2042,Carlo,Rossi,Brennero,Francia,47.001453,11.504153,Italia,NULL,41.9028,12.4964,15/03/1942,15/12/1942,1942,3,15,1942,12,15,espatrio,Castelnovo del Friuli,NULL,1913,9,25, - , - , - 
+680,Angelo,Bonfiglioli,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,08/04/1941,15/12/1941,1941,4,8,1941,12,15,espatrio,Vado,NULL,1896,9,29, - , - , - 
+2592,Fausto,Pattacini,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,25/09/1941,15/12/1941,1941,9,25,1941,12,15,espatrio,Sant\\'Ilario d\\'Enza,NULL,1917,9,30,1997,5, - 
+1368,Mario,Ricci,Parigi,Francia,48.86536408,2.32105494,Italia,NULL,41.9028,12.4964,15/11/1943,15/12/1943,1943,11,15,1943,12,15,espatrio,Bologna,NULL,1901,11,23, - , - , - 
+1369,Mario,Ricci,Vernet,Francia,43.43716,1.42951,Italia,NULL,41.9028,12.4964,15/09/1941,15/12/1941,1941,9,15,1941,12,15,espatrio,Pavullo nel Frignano,Pavullo nel Frignano,1908,5,20,1989,8,18
+3414,Ezio,Zanelli,NULL,Svizzera,46.2044,6.1432,Italia,NULL,41.9028,12.4964,15/01/1929,15/07/1930,1929,1,15,1930,7,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+1890,Albino,Marvin,NULL,Unione Sovietica,55.7558,37.6173,Italia,NULL,41.9028,12.4964,15/10/1944,15/12/1945,1944,10,15,1945,12,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+3414,Ezio,Zanelli,NULL,Urss,55.7558,37.6173,Italia,NULL,41.9028,12.4964,15/01/1933,15/06/1937,1933,1,15,1937,6,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+2577,Venanzio,Parutto,Pregassona,Svizzera,46.021042,8.975589,Italia,Claut,46.26855,12.5144,15/01/1901,15/03/1923,1901,1,15,1923,3,15,espatrio,Pregassona,Claut,1899,5,30,1973,11,18
+744,Mario,Bordoni,NULL,Francia,48.8566,2.3522,Italia,Terni,42.56191568,12.64728874,15/11/1941,15/12/1941,1941,11,15,1941,12,15,espatrio,Terni,Pianoro,1906,5,27,1944,10,17
+2246,Giovanni,Salvador,Klagenfurt am Wörthersee,Germania,46.625001,14.305762,Italia,Castelnovo del Friuli,46.21383155,12.88310381,15/04/1945,15/12/1945,1945,4,15,1945,12,15,espatrio,Castelnovo del Friuli,Castelnovo del Friuli,1908,9,5,1980,4,28
+3011,Giuseppe,Tocchini,Vernet,Francia,43.43716,1.42951,Italia,Pesaro,43.90921,12.9164,15/08/1941,15/12/1941,1941,8,15,1941,12,15,espatrio,Apecchio,Apecchio,1895,5,25,1982,3,30
+3023,Domenico,Tomat,NULL,Francia,48.8566,2.3522,Italia,Friuli,46.151042,13.055904,15/01/1922,15/12/1924,1922,1,15,1924,12,15,espatrio,Venzone,Marsiglia,1903,8,28,1985,12,20
+3428,Giovanni,Zannier,NULL,Venezuela,10.4806,-66.9036,Italia,Friuli,46.151042,13.055904,15/01/1967,15/12/1967,1967,1,15,1967,12,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+30,Giuseppe,Alberganti,Torino,Italia,45.0677551,7.6824892,Libia,NULL,32.8872,13.1913,15/01/1918,15/12/1918,1918,1,15,1918,12,15,espatrio,Stradella,Milano,1898,7,24,1980,11,3
+3401,Enrico,Zambonini,NULL,Italia,41.9028,12.4964,Libia,NULL,32.8872,13.1913,15/01/1913,15/12/1919,1913,1,15,1919,12,15,espatrio,Villa Minozzo,Reggio Emilia,1893,4,28,1944,1,30
+1120,Adelchi,Castellani,NULL,Francia,48.8566,2.3522,Italia,Reana del Rojale,46.1457361,13.2351201,22/12/1932,23/07/1933,1932,12,22,1933,7,23,espatrio,Reana del Rojale,NULL,1911,11,11, - , - , - 
+1017,Vittorio,Cao,Dudelange,Lussemburgo,49.4786477,6.0847792,Italia,Udine,46.0634632,13.2358377,15/01/1940,15/12/1940,1940,1,15,1940,12,15,espatrio,Rivignano,Dudelange,1901,8,11,1956,7,24
+2367,Mario,Foschiani,NULL,Francia,48.8566,2.3522,Italia,Udine,46.0634632,13.2358377,14/03/1942,15/12/1942,1942,3,14,1942,12,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+2620,Giovanni,Pellizzari,NULL,Francia,48.8566,2.3522,Italia,Udine,46.0634632,13.2358377,01/05/1942,15/12/1942,1942,5,1,1942,12,15,espatrio,Preone,Udine,1911,10,7,1977,3,30
+3428,Giovanni,Zannier,NULL,Francia,48.8566,2.3522,Italia,Udine,46.0634632,13.2358377,15/05/1942,15/12/1949,1942,5,15,1949,12,15,espatrio,Clauzetto,Spilimbergo,1906,9,15,1969, - , - 
+3038,Vincenzo,Tonelli,Mentone,Francia,43.77567622,7.50282526,Italia,Udine,46.0634632,13.2358377,15/07/1943,15/12/1943,1943,7,15,1943,12,15,espatrio,Castelnovo del Friuli,Tolosa,1916,7,13,2009,7,28
+1497,Antonio,Conte,NULL,Francia,48.8566,2.3522,Italia,Frosinone,41.63976,13.34109,28/01/1942,15/12/1942,1942,1,28,1942,12,15,espatrio,Sora,NULL,1915,1,28, - , - , - 
+1455,Clemente,Maglietta,Parigi,Francia,48.86536408,2.32105494,Italia,L\\'Aquila,42.359314,13.389884,15/01/1932,15/12/1932,1932,1,15,1932,12,15,espatrio,Napoli,Napoli,1910,2,22,1993,10,10
+2687,Adolfo,Saponi,NULL,Svizzera,46.2044,6.1432,Germania,NULL,52.52,13.405,15/01/1931,15/01/1936,1931,1,15,1936,1,15,espatrio,Coriano,NULL,1907,8,4,1989,1,21
+1482,Antonio,Composta,Genova,Italia,44.40726,8.9338624,Germania,Berlino,52.51722957,13.41131866,15/02/1944,15/06/1945,1944,2,15,1945,6,15,espatrio,Ferrara,Verona,1910,10,28,1967,7,18
+2623,Filippo,Pelosi,Vernet,Francia,43.43716,1.42951,Italia,Ventotene,40.796002,13.431213,23/09/1941,15/12/1941,1941,9,23,1941,12,15,espatrio,San Severo,San Severo,1896,11,5,1980,2,22
+3308,Aldo,Sintoni,Vernet,Francia,43.43716,1.42951,Italia,Ventotene,40.796002,13.431213,15/08/1941,15/12/1941,1941,8,15,1941,12,15,espatrio,Ravenna,Ravenna,1919,8,17,1944,1,5
+1132,Guido,Latini,Vernet,Francia,43.43716,1.42951,Italia,Macerata,43.29672365,13.45010662,15/03/1941,15/12/1941,1941,3,15,1941,12,15,espatrio,Montelupone,Macerata,1891,11,6,1956,7,11
+3335,Alfredo,Spadellini,Vernet,Francia,43.43716,1.42951,Italia,Ancona,43.61450361,13.52144051,15/02/1941,15/12/1941,1941,2,15,1941,12,15,espatrio,Montefano,NULL,1908,2,24, - , - , - 
+1748,Lino,Marega,Vernet,Francia,43.43716,1.42951,Italia,Gorizia,45.9441278,13.6252288,17/01/1943,15/12/1943,1943,1,17,1943,12,15,espatrio,Villesse,Villesse,1898,2,18,1984,5, - 
+2807,Anton,Ukmar,Trieste,TLT (Territorio libero di Trieste) Zona A,45.6500335,13.7706559,Italia,Capodistria,45.5479551,13.7304909,15/01/1947,15/06/1948,1947,1,15,1948,6,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+2807,Anton,Ukmar,Trieste,Italia,45.6500335,13.7706559,Italia,Capodistria,45.5479551,13.7304909,15/01/1954,15/12/1954,1954,1,15,1954,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+1889,Giovanni,Marussi,NULL,Francia,48.8566,2.3522,Italia,Trieste,45.6500335,13.7706559,12/07/1940,15/05/1944,1940,7,12,1944,5,15,espatrio,Monfalcone,NULL,1909,1,29, - , - , - 
+2009,Umberto,Mazzi,NULL,Francia,48.8566,2.3522,Italia,Trieste,45.6500335,13.7706559,15/01/1941,15/01/1945,1941,1,15,1945,1,15,espatrio,Trieste,Dachau,1885,2,2,1945,3,16
+2807,Anton,Ukmar,Genova,Italia,44.40726,8.9338624,Italia,Trieste,45.6500335,13.7706559,15/05/1945,15/12/1947,1945,5,15,1947,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+2807,Anton,Ukmar,Capodistria,TLT (Territorio libero di Trieste) Zona B,45.5479551,13.7304909,Italia,Trieste,45.6500335,13.7706559,15/06/1948,15/12/1954,1948,6,15,1954,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+517,Vincenzo,Bianco,NULL,Slovenia,46.0569,14.5058,Italia,Trieste,45.6500335,13.7706559,25/10/1944,15/12/1944,1944,10,25,1944,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+541,Francesco,Giorgetti,Vernet,Francia,43.43716,1.42951,Italia,Pola,44.8696242,13.8455452,15/08/1941,15/12/1941,1941,8,15,1941,12,15,espatrio,Pola,NULL,1910,10,19,1944, - , - 
+3227,Arturo Silvano,Scotto,Cadice,Spagna,36.52942427,-6.2930578,Italia,Napoli,40.8359336,14.2487826,18/11/1938,15/12/1938,1938,11,18,1938,12,15,espatrio,Livorno,Livorno,1902,7,2,1960,7,23
+1594,Ismene,Manea,Cadice,Spagna,36.52942427,-6.2930578,Italia,Napoli,40.8359336,14.2487826,18/09/1938,15/12/1938,1938,9,18,1938,12,15,espatrio,Malo,Schio,1908,3,14,1944,7,12
+94,Antonio,Antoni,NULL,Spagna,40.4168,-3.7038,Italia,Napoli,40.8359336,14.2487826,15/10/1938,15/12/1938,1938,10,15,1938,12,15,espatrio,Bagni di Lucca,Bagni di Lucca,1917,12,26,1973,12,28
+1535,Gilio Luigi,Costabeber,NULL,Spagna,40.4168,-3.7038,Italia,Napoli,40.8359336,14.2487826,15/09/1938,15/12/1938,1938,9,15,1938,12,15,espatrio,Posina,Schio,1907,2,8,1945,2,18
+1889,Giovanni,Marussi,NULL,Italia,41.9028,12.4964,Austria,Klagenfurt am Wörthersee,46.625001,14.305762,15/05/1944,15/12/1944,1944,5,15,1944,12,15,espatrio,Monfalcone,NULL,1909,1,29, - , - , - 
+2246,Giovanni,Salvador,NULL,Italia,41.9028,12.4964,Austria,Klagenfurt am Wörthersee,46.625001,14.305762,15/12/1944,15/04/1945,1944,12,15,1945,4,15,espatrio,Castelnovo del Friuli,Castelnovo del Friuli,1908,9,5,1980,4,28
+823,Emilio,Bressan,NULL,Italia,41.9028,12.4964,Jugoslavia,Rijeka,45.3269357,14.4409841,15/01/1943,15/12/1944,1943,1,15,1944,12,15,espatrio,Venzone,Venzone,1910,6,8,1973,3,15
+517,Vincenzo,Bianco,Trieste,Italia,45.6500335,13.7706559,Jugoslavia,NULL,46.0569,14.5058,15/01/1944,15/12/1944,1944,1,15,1944,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+1890,Albino,Marvin,Gorizia,Italia,45.9441278,13.6252288,Jugoslavia,Lubiana,46.0498323,14.50706005,15/06/1933,15/07/1934,1933,6,15,1934,7,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+811,Stefano,Brau,Milano,Italia,45.46417156,9.18954313,Austria,Mauthausen,48.2427821,14.51534583,15/03/1944,15/05/1945,1944,3,15,1945,5,15,espatrio,Oniferi,Roma,1912,8,11,1992,5,8
+2542,Giuliano,Pajetta,Bolzano,Italia,46.49760939,11.35463297,Austria,Mauthausen,48.2427821,14.51534583,21/11/1944,15/05/1945,1944,11,21,1945,5,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+2919,Leo,Valiani,NULL,Stati Uniti,40.7128,-74.006,Italia,Salerno,40.67545,14.79328,10/09/1943,15/12/1943,1943,9,10,1943,12,15,espatrio,Rijeka,Milano,1909,2,9,1999,9,17
+517,Vincenzo,Bianco,Mosca,Unione Sovietica,55.763008,37.622995,Jugoslavia,Dvor,45.808132,14.968244,15/04/1944,15/06/1944,1944,4,15,1944,6,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+44,Carlo,Aldegheri,Dunkerque,Francia,51.03767341,2.3766464,Polonia,Sagan,51.61472562,15.3206867,15/06/1940,15/01/1941,1940,6,15,1941,1,15,espatrio,Colognola ai Colli,Guarujà,1902,2,22,1995,5,4
+95,Angelo,Antonini,NULL,Italia,41.9028,12.4964,Jugoslavia,NULL,45.815,15.9819,15/03/1934,15/12/1934,1934,3,15,1934,12,15,espatrio,Roma,Roma,1909,5,2,1981,2,12
+2360,Secondo,Moscatelli,NULL,Francia,48.8566,2.3522,Austria,NULL,48.2082,16.3738,15/06/1943,15/12/1943,1943,6,15,1943,12,15,espatrio,Chiusdino,NULL,1899,3,10, - , - , - 
+2363,Flavio Ribelle,Fornasiero,NULL,Italia,41.9028,12.4964,Austria,NULL,48.2082,16.3738,15/08/1933,15/11/1933,1933,8,15,1933,11,15,espatrio,Adria,Rho,1913,7,28,1999,9,21
+2367,Mario,Foschiani,NULL,Jugoslavia,44.7866,20.4489,Austria,NULL,48.2082,16.3738,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+1923,Achille,Durigon,Pordenone,Italia,45.9562503,12.6597197,Austria,NULL,48.2082,16.3738,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Pordenone,Parigi,1913,4,3,1990,11,3
+3414,Ezio,Zanelli,Imola,Italia,44.3535145,11.7141233,Austria,Vienna,48.209996,16.376598,15/04/1927,15/04/1928,1927,4,15,1928,4,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+1890,Albino,Marvin,Lubiana,Jugoslavia,46.0498323,14.50706005,Austria,Vienna,48.209996,16.376598,15/01/1934,15/12/1934,1934,1,15,1934,12,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+2026,Beniamino,Rossetto,NULL,Italia,41.9028,12.4964,Repubblica Ceca,Ostrava,49.8342665,18.28886211,15/01/1952,15/12/1952,1952,1,15,1952,12,15,espatrio,Vigodarzere,Ostrava,1913,7,26,1988,12,24
+2367,Mario,Foschiani,NULL,Italia,41.9028,12.4964,Jugoslavia,NULL,44.7866,20.4489,01/01/1934,15/01/1934,1934,1,1,1934,1,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+1890,Albino,Marvin,NULL,Italia,41.9028,12.4964,Jugoslavia,NULL,44.7866,20.4489,15/01/1945,15/12/1945,1945,1,15,1945,12,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+1212,Antonio,Cetin,Monte di Capodistria,Italia,45.49966,13.7175835,Jugoslavia,NULL,44.7866,20.4489,15/05/1929,15/12/1930,1929,5,15,1930,12,15,espatrio,Monte di Capodistria,NULL,1902,2,17, - , - , - 
+3103,Giuseppe,Verginella,Trieste,Italia,45.6500335,13.7706559,Jugoslavia,NULL,44.7866,20.4489,15/05/1930,15/12/1930,1930,5,15,1930,12,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+894,Giuseppe Vittorio,Guglielmo,NULL,NULL,NULL,NULL,Grecia,Creta (isola di -),35.3397918,25.13431013,15/01/1942,15/12/1942,1942,1,15,1942,12,15,espatrio,Sanremo,NULL,1916,2,2,2002, - , - 
+2613,Giacomo,Pellegrini,NULL,Italia,41.9028,12.4964,Romania,NULL,44.4268,26.1025,15/01/1933,15/12/1933,1933,1,15,1933,12,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+2737,Dino,Piccoli,NULL,Italia,41.9028,12.4964,Romania,NULL,44.4268,26.1025,15/01/1923,15/12/1923,1923,1,15,1923,12,15,espatrio,Tavagnacco,Spilimbergo,1901,9,16,1945,2,4
+294,Ilio,Barontini,NULL,Francia,48.8566,2.3522,Etiopia,"Goggiam, regione del -",11,37,15/12/1938,15/12/1940,1938,12,15,1940,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+1864,Domenico,Rolla,NULL,Francia,48.8566,2.3522,Etiopia,"Goggiam, regione del -",11,37,05/02/1939,15/12/1940,1939,2,5,1940,12,15,espatrio,Arcola,Roma,1908,1,19,1954,6,8
+2807,Anton,Ukmar,Parigi,Francia,48.86536408,2.32105494,Etiopia,"Goggiam, regione del -",11,37,05/02/1939,15/12/1940,1939,2,5,1940,12,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+3164,Andrea,Scano,Goli otok,Jugoslavia (Croazia),44.8399407,14.80545044,URSS,NULL,55.7558,37.6173,15/01/1956,15/12/1970,1956,1,15,1970,12,15,espatrio,Santa Teresa di Gallura,Novara,1911,9,7,1980,9,30
+3227,Arturo Silvano,Scotto,NULL,Francia,48.8566,2.3522,URSS,NULL,55.7558,37.6173,15/01/1935,15/11/1936,1935,1,15,1936,11,15,espatrio,Livorno,Livorno,1902,7,2,1960,7,23
+1890,Albino,Marvin,NULL,Francia,48.8566,2.3522,URSS,NULL,55.7558,37.6173,05/03/1939,15/10/1944,1939,3,5,1944,10,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+3414,Ezio,Zanelli,NULL,Italia,41.9028,12.4964,URSS,NULL,55.7558,37.6173,15/07/1930,15/12/1933,1930,7,15,1933,12,15,espatrio,Imola,Imola,1903,1,31,1981,5,2
+1890,Albino,Marvin,Vienna,Austria,48.209996,16.376598,URSS,NULL,55.7558,37.6173,15/01/1934,15/10/1936,1934,1,15,1936,10,15,espatrio,Gorizia,NULL,1908,2,10,1979, - , - 
+517,Vincenzo,Bianco,NULL,Spagna,40.4168,-3.7038,URSS,NULL,55.7558,37.6173,15/01/1938,15/12/1938,1938,1,15,1938,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+1619,Antonio,Roasio,Biella,Italia,45.562908,8.05814,URSS,Mosca,55.763008,37.622995,15/12/1926,12/10/1936,1926,12,15,1936,10,12,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+327,Roberto,Gherardi,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/11/1931,15/09/1937,1931,11,15,1937,9,15,espatrio,Castel Guelfo,Purocielo,1899,12,4,1944,10,11
+281,Vittorio,Bardini,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/06/1935,15/12/1936,1935,6,15,1936,12,15,espatrio,Sovicille,Siena,1903,9,15,1985,5,30
+294,Ilio,Barontini,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1933,15/12/1935,1933,1,15,1935,12,15,espatrio,Cecina,Scandicci,1890,9,28,1951,1,22
+2223,Dino,Saccenti,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1935,15/12/1937,1935,1,15,1937,12,15,espatrio,Prato,Firenze,1901,6,20,1981,4,16
+2807,Anton,Ukmar,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1933,15/10/1936,1933,1,15,1936,10,15,espatrio,Prosecco,Capodistria,1900,12,6,1978,12,21
+2367,Mario,Foschiani,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/07/1934,15/12/1937,1934,7,15,1937,12,15,espatrio,Cussignacco,Udine,1912,10,19,1945,4,9
+32,Berto,Alberti,NULL,Francia,48.8566,2.3522,URSS,Mosca,55.763008,37.622995,19/07/1936,15/12/1937,1936,7,19,1937,12,15,espatrio,San Vittore,NULL,1908,7,5, - , - , - 
+2745,Raffaele,Pieragostini,NULL,Francia,48.8566,2.3522,URSS,Mosca,55.763008,37.622995,15/11/1935,15/12/1935,1935,11,15,1935,12,15,espatrio,Sampierdarena,Bornasco,1899,5,3,1945,4,24
+773,Nello,Boscagli,NULL,Francia,48.8566,2.3522,URSS,Mosca,55.763008,37.622995,15/01/1935,15/07/1936,1935,1,15,1936,7,15,espatrio,Sinalunga,Padova,1905,4,16,1976,2,12
+1988,Carlo Luciano,Farini,NULL,Francia,48.8566,2.3522,URSS,Mosca,55.763008,37.622995,15/01/1933,15/12/1937,1933,1,15,1937,12,15,espatrio,Ferrara,Roma,1895,2,27,1974,1,30
+2252,Sisinnio,Mocci,NULL,Francia,48.8566,2.3522,URSS,Mosca,55.763008,37.622995,15/01/1932,15/12/1937,1932,1,15,1937,12,15,espatrio,Villacidro,Roma,1903,12,31,1944,3,24
+493,Giovanni,Bertolini,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1932,15/12/1934,1932,1,15,1934,12,15,espatrio,Reggio Emilia,Reggio Emilia,1911,10,1,2002,8,29
+517,Vincenzo,Bianco,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1940,15/01/1944,1940,1,15,1944,1,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+1073,Aldo,Lampredi,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/10/1934,15/07/1936,1934,10,15,1936,7,15,espatrio,Firenze,Jesenice,1899,3,13,1973,7,21
+1104,Agostino,Casati,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1926,15/12/1929,1926,1,15,1929,12,15,espatrio,Rho,Rho,1897,8,2,1973,2,8
+1939,Vasco,Matteoli,NULL,Italia,41.9028,12.4964,URSS,Mosca,55.763008,37.622995,15/01/1931,15/12/1931,1931,1,15,1931,12,15,espatrio,Empoli,Bologna,1913,6,20,1944,7,5
+517,Vincenzo,Bianco,NULL,Lussemburgo,49.6116,6.1319,URSS,Mosca,55.763008,37.622995,15/01/1922,15/12/1929,1922,1,15,1929,12,15,espatrio,Torino,Fiuggi,1898,2,11,1980,8,1
+2613,Giacomo,Pellegrini,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1933,15/08/1935,1933,1,15,1935,8,15,espatrio,Osoppo,Udine,1901,8,12,1979,8,27
+3103,Giuseppe,Verginella,Nancy,Francia,48.69283009,6.18373632,URSS,Mosca,55.763008,37.622995,15/01/1931,15/03/1937,1931,1,15,1937,3,15,espatrio,Santa Croce,Lumezzane,1908,8,17,1945,1,10
+1988,Carlo Luciano,Farini,Terni,Italia,42.56191568,12.64728874,URSS,Mosca,55.763008,37.622995,15/01/1926,15/12/1928,1926,1,15,1928,12,15,espatrio,Ferrara,Roma,1895,2,27,1974,1,30
+2542,Giuliano,Pajetta,Torino,Italia,45.0677551,7.6824892,URSS,Mosca,55.763008,37.622995,15/01/1932,15/10/1934,1932,1,15,1934,10,15,espatrio,Torino,Livorno,1915,10,1,1988,8,15
+2683,Aureliano,Santini,Bagnolet,Francia,48.86895282,2.41658449,URSS,Mosca,55.763008,37.622995,15/01/1933,15/12/1935,1933,1,15,1935,12,15,espatrio,Empoli,Arezzo,1911,2,12,1966,2,19
+2092,Armando,Fedeli,Roma,Italia,41.894802,12.4853384,URSS,Mosca,55.763008,37.622995,15/03/1926,15/12/1926,1926,3,15,1926,12,15,espatrio,Perugia,Perugia,1898,1,28,1965,10,10
+2837,Bruno,Pontoni,Parigi,Francia,48.86536408,2.32105494,URSS,Mosca,55.763008,37.622995,15/01/1934,15/05/1936,1934,1,15,1936,5,15,espatrio,Trieste,Trieste,1900,8,20,1975,9,7
+1619,Antonio,Roasio,NULL,Spagna,40.4168,-3.7038,URSS,Mosca,55.763008,37.622995,15/11/1937,15/10/1938,1937,11,15,1938,10,15,espatrio,Vercelli,Roma,1902,11,6,1986,1,2
+3305,Alessandro,Sinigaglia,NULL,Svizzera,46.2044,6.1432,URSS,Mosca,55.763008,37.622995,15/01/1928,15/06/1935,1928,1,15,1935,6,15,espatrio,Fiesole,Firenze,1902,1,2,1944,2,13
+2536,Aniceto,Pagani,NULL,Italia,41.9028,12.4964,Etiopia,NULL,8.9806,38.7578,15/01/1935,15/12/1936,1935,1,15,1936,12,15,espatrio,Milano,Milano,1909,2,1, - , - , - 

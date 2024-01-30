@@ -1,0 +1,419 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 SELECT `id_persona`,`nome`, `cognome`,  fromD.toponimo_nome AS citta_orig,`nazioneprovenienza`AS nazione_orig,\
+\
+CASE\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Francia" THEN 48.8566\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Italia" THEN 41.9028\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Spagna" THEN 40.4168\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Belgio" THEN 50.8503\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Algeria" THEN 28.0339\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Argentina" THEN -34.6037\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Lussemburgo" THEN 49.6116\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Austria" THEN 48.2082\
+    WHEN fromD.latitudine IS NULL AND (`nazioneprovenienza ` = "Unione Sovietica" OR `nazione` = "Urss") THEN 55.7558\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Libia" THEN 32.8872\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia" THEN 44.7866\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Marocco" THEN 31.6295\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Svizzera" THEN 46.2044\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Etiopia" THEN 8.9806\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Venezuela" THEN 10.4806\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Romania" THEN 44.4268\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Francia (Corsica)" THEN 42.0396\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Germania" THEN 52.5200\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Principato di Monaco" THEN 43.7384\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Slovenia" THEN 46.0569\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia (Croazia)" THEN 45.8150\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Portogallo" THEN 38.7223\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Messico" THEN 19.4326\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia (Slovenia)" THEN 46.0569\
+    WHEN fromD.latitudine IS NULL AND `nazioneprovenienza ` LIKE 'Stati Uniti%' THEN 40.7128\
+    ELSE fromD.latitudine\
+    END AS latitudine_orig,\
+    \
+    CASE\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Francia" THEN 2.3522\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Italia" THEN 12.4964\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Spagna" THEN -3.7038\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Belgio" THEN 4.3517\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Algeria" THEN 1.6596\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Argentina" THEN -58.3816\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Lussemburgo" THEN 6.1319\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Austria" THEN 16.3738\
+    WHEN fromD.longitudine IS NULL AND (`nazioneprovenienza ` = "Unione Sovietica" OR `nazione` = "Urss") THEN 37.6173\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Libia" THEN 13.1913\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia" THEN 20.4489\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Marocco" THEN 7.9811\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Svizzera" THEN 6.1432\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Etiopia" THEN 38.7578\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Venezuela" THEN -66.9036\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Romania" THEN 26.1025\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Francia (Corsica)" THEN 9.0129\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Germania" THEN 13.4050\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Principato di Monaco" THEN 7.4246\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Slovenia" THEN 14.5058\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia (Croazia)" THEN 15.9819\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Portogallo" THEN 9.1393\
+    WHEN fromD.longitudine IS NULL AND `nazione` = "Messico" THEN -99.1332\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` = "Jugoslavia (Slovenia)" THEN 14.5058\
+    WHEN fromD.longitudine IS NULL AND `nazioneprovenienza ` LIKE 'Stati Uniti%' THEN -74.0060\
+    WHEN fromD.toponimo_nome = "Orano" THEN -0.6308\
+    WHEN fromD.toponimo_nome = "Le Havre" THEN 0.1079\
+    WHEN fromD.toponimo_nome = "Puig" THEN -0.3031\
+    WHEN fromD.toponimo_nome = "Caen" THEN -0.370\
+    WHEN fromD.toponimo_nome = "Sidi Bel Abb\'e8s" THEN -0.6299\
+    ELSE fromD.longitudine\
+    END AS longitudine_orig,\
+\
+\
+\
+\
+\
+toD.toponimo_nome,\
+\
+-- ensure the lat and long are based on nazione\
+CASE \
+WHEN toD.latitudine !=0 THEN toD.latitudine\
+WHEN toD.latitudine IS NULL AND `nazione` = "Francia" THEN 48.8566\
+WHEN toD.latitudine IS NULL AND `nazione` = "Italia" THEN 41.9028\
+WHEN toD.latitudine IS NULL AND `nazione` = "Spagna" THEN 40.4168\
+WHEN toD.latitudine IS NULL AND `nazione` = "Belgio" THEN 50.8503\
+WHEN toD.latitudine IS NULL AND `nazione` = "Algeria" THEN 28.0339\
+WHEN toD.latitudine IS NULL AND `nazione` = "Argentina" THEN -34.6037\
+WHEN toD.latitudine IS NULL AND `nazione` = "Lussemburgo" THEN 49.6116\
+WHEN toD.latitudine IS NULL AND `nazione` = "Austria" THEN 48.2082\
+WHEN toD.latitudine IS NULL AND (`nazione` = "Unione Sovietica" OR `nazione` = "Urss") THEN 55.7558\
+WHEN toD.latitudine IS NULL AND `nazione` = "Libia" THEN 32.8872\
+WHEN toD.latitudine IS NULL AND `nazione` = "Jugoslavia" THEN 44.7866\
+WHEN toD.latitudine IS NULL AND `nazione` = "Marocco" THEN 31.6295\
+WHEN toD.latitudine IS NULL AND `nazione` = "Svizzera" THEN 46.2044\
+WHEN toD.latitudine IS NULL AND `nazione` = "Etiopia" THEN 8.9806\
+WHEN toD.latitudine IS NULL AND `nazione` = "Venezuela" THEN 10.4806\
+WHEN toD.latitudine IS NULL AND `nazione` = "Romania" THEN 44.4268\
+WHEN toD.latitudine IS NULL AND `nazione` = "Francia (Corsica)" THEN 42.0396\
+WHEN toD.latitudine IS NULL AND `nazione` = "Germania" THEN 52.5200\
+WHEN toD.latitudine IS NULL AND `nazione` = "Principato di Monaco" THEN 43.7384\
+WHEN toD.latitudine IS NULL AND `nazione` = "Slovenia" THEN 46.0569\
+WHEN toD.latitudine IS NULL AND `nazione` = "Jugoslavia (Croazia)" THEN 45.8150\
+WHEN toD.latitudine IS NULL AND `nazione` = "Portogallo" THEN 38.7223\
+WHEN toD.latitudine IS NULL AND `nazione` = "Stati Uniti d\\'America (USA)" THEN 38.9072\
+WHEN toD.latitudine IS NULL AND `nazione` LIKE 'Stati%' THEN 40.7308619\
+\
+END AS latitudine,\
+\
+CASE\
+WHEN toD.longitudine !=0 THEN toD.longitudine\
+WHEN toD.longitudine IS NULL AND `nazione` = "Francia" THEN 2.3522\
+WHEN toD.longitudine IS NULL AND `nazione` = "Italia" THEN 12.4964\
+WHEN toD.longitudine IS NULL AND `nazione` = "Spagna" THEN -3.7038\
+WHEN toD.longitudine IS NULL AND `nazione` = "Belgio" THEN 4.3517\
+WHEN toD.longitudine IS NULL AND `nazione` = "Algeria" THEN 1.6596\
+WHEN toD.longitudine IS NULL AND `nazione` = "Argentina" THEN -58.3816\
+WHEN toD.longitudine IS NULL AND `nazione` = "Lussemburgo" THEN 6.1319\
+WHEN toD.longitudine IS NULL AND `nazione` = "Austria" THEN 16.3738\
+WHEN toD.longitudine IS NULL AND (`nazione` = "Unione Sovietica" OR `nazione` = "Urss") THEN 37.6173\
+WHEN toD.longitudine IS NULL AND `nazione` = "Libia" THEN 13.1913\
+WHEN toD.longitudine IS NULL AND `nazione` = "Jugoslavia" THEN 20.4489\
+WHEN toD.longitudine IS NULL AND `nazione` = "Marocco" THEN 7.9811\
+WHEN toD.longitudine IS NULL AND `nazione` = "Svizzera" THEN 6.1432\
+WHEN toD.longitudine IS NULL AND `nazione` = "Etiopia" THEN 38.7578\
+WHEN toD.longitudine IS NULL AND `nazione` = "Venezuela" THEN -66.9036\
+WHEN toD.longitudine IS NULL AND `nazione` = "Romania" THEN 26.1025\
+WHEN toD.longitudine IS NULL AND `nazione` = "Francia (Corsica)" THEN 9.0129\
+WHEN toD.longitudine IS NULL AND `nazione` = "Germania" THEN 13.4050\
+WHEN toD.longitudine IS NULL AND `nazione` = "Principato di Monaco" THEN 7.4246\
+WHEN toD.longitudine IS NULL AND `nazione` = "Slovenia" THEN 14.5058\
+WHEN toD.longitudine IS NULL AND `nazione` = "Jugoslavia (Croazia)" THEN 15.9819\
+WHEN toD.longitudine IS NULL AND `nazione` = "Portogallo" THEN 9.1393\
+WHEN toD.longitudine IS NULL AND `nazione` LIKE 'Stati%' THEN -73.9871558\
+WHEN toD.toponimo_nome = "Orano" THEN -0.6308\
+WHEN toD.toponimo_nome = "Le Havre" THEN 0.1079\
+WHEN toD.toponimo_nome = "Puig" THEN -0.3031\
+WHEN toD.toponimo_nome = "Caen" THEN -0.3707\
+WHEN toD.toponimo_nome = "Sidi Bel Abb\'e8s" THEN -0.6299\
+END AS longitudine,\
+\
+CONCAT (ingressoanno,"-",\
+CASE \
+WHEN ingressomese = 1 THEN "01" \
+WHEN ingressomese = 2 THEN "02" \
+WHEN ingressomese = 3 THEN "03" \
+WHEN ingressomese = 4 THEN "04" \
+WHEN ingressomese = 5 THEN "05" \
+WHEN ingressomese = 6 THEN "06" \
+WHEN ingressomese = 7 THEN "07" \
+WHEN ingressomese = 8 THEN "08" \
+WHEN ingressomese = 9 THEN "09" \
+WHEN ingressomese = 10 THEN "10" \
+WHEN ingressomese = 11 THEN "11" \
+WHEN ingressomese = 12 THEN "12" \
+WHEN ingressomese IS NULL AND `ingressoanno`= 1939 THEN "02"\
+WHEN ingressomese IS NULL AND `ingressoanno`= 1936 THEN "07"\
+ELSE "01"\
+END \
+,"-",\
+CASE \
+WHEN ingressogiorno = 1 THEN "01" \
+WHEN ingressogiorno = 2 THEN "02" \
+WHEN ingressogiorno = 3 THEN "03" \
+WHEN ingressogiorno = 4 THEN "04" \
+WHEN ingressogiorno = 5 THEN "05" \
+WHEN ingressogiorno = 6 THEN "06" \
+WHEN ingressogiorno = 7 THEN "07" \
+WHEN ingressogiorno = 8 THEN "08" \
+WHEN ingressogiorno = 9 THEN "09" \
+WHEN ingressogiorno = 10 THEN "10" \
+WHEN ingressogiorno = 11 THEN "11" \
+WHEN ingressogiorno = 12 THEN "12" \
+WHEN ingressogiorno = 13 THEN "13" \
+WHEN ingressogiorno = 14 THEN "14" \
+WHEN ingressogiorno = 15 THEN "15" \
+WHEN ingressogiorno = 16 THEN "16" \
+WHEN ingressogiorno = 17 THEN "17" \
+WHEN ingressogiorno = 18 THEN "18" \
+WHEN ingressogiorno = 19 THEN "19" \
+WHEN ingressogiorno = 20 THEN "20" \
+WHEN ingressogiorno = 21 THEN "21" \
+WHEN ingressogiorno = 22 THEN "22" \
+WHEN ingressogiorno = 23 THEN "23" \
+WHEN ingressogiorno = 24 THEN "24" \
+WHEN ingressogiorno = 25 THEN "25" \
+WHEN ingressogiorno = 26 THEN "26" \
+WHEN ingressogiorno = 27 THEN "27" \
+WHEN ingressogiorno = 28 THEN "28" \
+WHEN ingressogiorno = 29 THEN "29" \
+WHEN ingressogiorno = 30 THEN "30" \
+WHEN ingressogiorno = 31 THEN "31" \
+WHEN ingressogiorno IS NULL AND ingressoanno = 1939 THEN "05"\
+WHEN ingressogiorno IS NULL AND ingressoanno = 1936 THEN "19"\
+ELSE "15" \
+END\
+) AS time,\
+ \
+\
+CONCAT (\
+CASE\
+WHEN uscitaanno !=0 THEN uscitaanno\
+ELSE ingressoanno\
+END \
+, "-",\
+CASE \
+WHEN uscitamese = 1 THEN "01" \
+WHEN uscitamese = 2 THEN "02" \
+WHEN uscitamese = 3 THEN "03" \
+WHEN uscitamese = 4 THEN "04" \
+WHEN uscitamese = 5 THEN "05" \
+WHEN uscitamese = 6 THEN "06" \
+WHEN uscitamese = 7 THEN "07" \
+WHEN uscitamese = 8 THEN "08" \
+WHEN uscitamese = 9 THEN "09" \
+WHEN uscitamese = 10 THEN "10" \
+WHEN uscitamese = 11 THEN "11" \
+WHEN uscitamese = 12 THEN "12" \
+ELSE "12"\
+END, "-",\
+CASE \
+WHEN uscitagiorno = 1 THEN "01" \
+WHEN uscitagiorno = 2 THEN "02" \
+WHEN uscitagiorno = 3 THEN "03" \
+WHEN uscitagiorno = 4 THEN "04" \
+WHEN uscitagiorno = 5 THEN "05" \
+WHEN uscitagiorno = 6 THEN "06" \
+WHEN uscitagiorno = 7 THEN "07" \
+WHEN uscitagiorno = 8 THEN "08" \
+WHEN uscitagiorno = 9 THEN "09" \
+WHEN uscitagiorno = 10 THEN "10" \
+WHEN uscitagiorno = 11 THEN "11" \
+WHEN uscitagiorno = 12 THEN "12" \
+WHEN uscitagiorno = 13 THEN "13" \
+WHEN uscitagiorno = 14 THEN "14" \
+WHEN uscitagiorno = 15 THEN "15" \
+WHEN uscitagiorno = 16 THEN "16" \
+WHEN uscitagiorno = 17 THEN "17" \
+WHEN uscitagiorno = 18 THEN "18" \
+WHEN uscitagiorno = 19 THEN "19" \
+WHEN uscitagiorno = 20 THEN "20" \
+WHEN uscitagiorno = 21 THEN "21" \
+WHEN uscitagiorno = 22 THEN "22" \
+WHEN uscitagiorno = 23 THEN "23" \
+WHEN uscitagiorno = 24 THEN "24" \
+WHEN uscitagiorno = 25 THEN "25" \
+WHEN uscitagiorno = 26 THEN "26" \
+WHEN uscitagiorno = 27 THEN "27" \
+WHEN uscitagiorno = 28 THEN "28" \
+WHEN uscitagiorno = 29 THEN "29" \
+WHEN uscitagiorno = 30 THEN "30" \
+WHEN uscitagiorno = 31 THEN "31" \
+ELSE "15" \
+END) AS time_uscita,\
+\
+ingressoanno AS anno_ingresso,\
+CASE \
+WHEN ingressomese = 1 THEN "01" \
+WHEN ingressomese = 2 THEN "02" \
+WHEN ingressomese = 3 THEN "03" \
+WHEN ingressomese = 4 THEN "04" \
+WHEN ingressomese = 5 THEN "05" \
+WHEN ingressomese = 6 THEN "06" \
+WHEN ingressomese = 7 THEN "07" \
+WHEN ingressomese = 8 THEN "08" \
+WHEN ingressomese = 9 THEN "09" \
+WHEN ingressomese = 10 THEN "10" \
+WHEN ingressomese = 11 THEN "11" \
+WHEN ingressomese = 12 THEN "12" \
+WHEN ingressomese IS NULL AND `ingressoanno`= 1939 THEN "02"\
+WHEN ingressomese IS NULL AND `ingressoanno`= 1936 THEN "07"\
+ELSE "01"\
+END AS mese_ingresso,\
+CASE \
+WHEN ingressogiorno = 1 THEN "01" \
+WHEN ingressogiorno = 2 THEN "02" \
+WHEN ingressogiorno = 3 THEN "03" \
+WHEN ingressogiorno = 4 THEN "04" \
+WHEN ingressogiorno = 5 THEN "05" \
+WHEN ingressogiorno = 6 THEN "06" \
+WHEN ingressogiorno = 7 THEN "07" \
+WHEN ingressogiorno = 8 THEN "08" \
+WHEN ingressogiorno = 9 THEN "09" \
+WHEN ingressogiorno = 10 THEN "10" \
+WHEN ingressogiorno = 11 THEN "11" \
+WHEN ingressogiorno = 12 THEN "12" \
+WHEN ingressogiorno = 13 THEN "13" \
+WHEN ingressogiorno = 14 THEN "14" \
+WHEN ingressogiorno = 15 THEN "15" \
+WHEN ingressogiorno = 16 THEN "16" \
+WHEN ingressogiorno = 17 THEN "17" \
+WHEN ingressogiorno = 18 THEN "18" \
+WHEN ingressogiorno = 19 THEN "19" \
+WHEN ingressogiorno = 20 THEN "20" \
+WHEN ingressogiorno = 21 THEN "21" \
+WHEN ingressogiorno = 22 THEN "22" \
+WHEN ingressogiorno = 23 THEN "23" \
+WHEN ingressogiorno = 24 THEN "24" \
+WHEN ingressogiorno = 25 THEN "25" \
+WHEN ingressogiorno = 26 THEN "26" \
+WHEN ingressogiorno = 27 THEN "27" \
+WHEN ingressogiorno = 28 THEN "28" \
+WHEN ingressogiorno = 29 THEN "29" \
+WHEN ingressogiorno = 30 THEN "30" \
+WHEN ingressogiorno = 31 THEN "31" \
+WHEN ingressogiorno IS NULL AND ingressoanno = 1939 THEN "05"\
+WHEN ingressogiorno IS NULL AND ingressoanno = 1936 THEN "19"\
+ELSE "15" \
+END AS giorno_ingresso,\
+\
+\
+CASE\
+WHEN uscitaanno !=0 THEN uscitaanno\
+ELSE ingressoanno\
+END AS anno_uscita,\
+CASE \
+WHEN uscitamese = 1 THEN "01" \
+WHEN uscitamese = 2 THEN "02" \
+WHEN uscitamese = 3 THEN "03" \
+WHEN uscitamese = 4 THEN "04" \
+WHEN uscitamese = 5 THEN "05" \
+WHEN uscitamese = 6 THEN "06" \
+WHEN uscitamese = 7 THEN "07" \
+WHEN uscitamese = 8 THEN "08" \
+WHEN uscitamese = 9 THEN "09" \
+WHEN uscitamese = 10 THEN "10" \
+WHEN uscitamese = 11 THEN "11" \
+WHEN uscitamese = 12 THEN "12" \
+ELSE "12"\
+END AS mese_uscita,\
+CASE \
+WHEN uscitagiorno = 1 THEN "01" \
+WHEN uscitagiorno = 2 THEN "02" \
+WHEN uscitagiorno = 3 THEN "03" \
+WHEN uscitagiorno = 4 THEN "04" \
+WHEN uscitagiorno = 5 THEN "05" \
+WHEN uscitagiorno = 6 THEN "06" \
+WHEN uscitagiorno = 7 THEN "07" \
+WHEN uscitagiorno = 8 THEN "08" \
+WHEN uscitagiorno = 9 THEN "09" \
+WHEN uscitagiorno = 10 THEN "10" \
+WHEN uscitagiorno = 11 THEN "11" \
+WHEN uscitagiorno = 12 THEN "12" \
+WHEN uscitagiorno = 13 THEN "13" \
+WHEN uscitagiorno = 14 THEN "14" \
+WHEN uscitagiorno = 15 THEN "15" \
+WHEN uscitagiorno = 16 THEN "16" \
+WHEN uscitagiorno = 17 THEN "17" \
+WHEN uscitagiorno = 18 THEN "18" \
+WHEN uscitagiorno = 19 THEN "19" \
+WHEN uscitagiorno = 20 THEN "20" \
+WHEN uscitagiorno = 21 THEN "21" \
+WHEN uscitagiorno = 22 THEN "22" \
+WHEN uscitagiorno = 23 THEN "23" \
+WHEN uscitagiorno = 24 THEN "24" \
+WHEN uscitagiorno = 25 THEN "25" \
+WHEN uscitagiorno = 26 THEN "26" \
+WHEN uscitagiorno = 27 THEN "27" \
+WHEN uscitagiorno = 28 THEN "28" \
+WHEN uscitagiorno = 29 THEN "29" \
+WHEN uscitagiorno = 30 THEN "30" \
+WHEN uscitagiorno = 31 THEN "31" \
+ELSE "15" \
+END AS giorno_uscita,\
+\
+\
+\
+CASE\
+WHEN ingressoanno != 0 THEN "espatrio"\
+END AS Status,\
+\
+nascit.toponimo_nome AS luogonascita,\
+moritu.toponimo_nome AS luogomorte,\
+\
+natoanno AS anno_nascita,\
+\
+\
+CASE\
+   WHEN natomese != 0 THEN natomese\
+   ELSE " - "\
+   END AS mese_nascita,\
+   \
+   CASE\
+   WHEN natogiorno != 0 THEN natogiorno\
+   ELSE " - "\
+   END AS giorno_nascita,\
+   \
+  \
+   CASE\
+   WHEN morteanno != 0 THEN morteanno\
+   ELSE " - "\
+   END AS anno_morte,\
+  \
+   \
+   CASE\
+   WHEN mortemese != 0 THEN mortemese\
+   ELSE " - "\
+   END AS mese_morte,\
+   \
+   CASE\
+   WHEN mortegiorno != 0 THEN mortegiorno\
+   ELSE " - "\
+   END AS giorno_morte \
+\
+\
+\
+FROM `dba__emigrazioni` \
+LEFT OUTER JOIN `dba__dba_persone` \
+ON dba__dba_persone.id_persona = dba__emigrazioni.nomecognome \
+LEFT OUTER JOIN `dba__luoghi` AS toD \
+ON toD.id_luogo = dba__emigrazioni.toponimo \
+LEFT OUTER JOIN `dba__luoghi` AS fromD \
+ON fromD.id_luogo = dba__emigrazioni.cittaprovenienza\
+LEFT OUTER JOIN `dba__luoghi` AS moritu \
+ON moritu.id_luogo = dba__dba_persone.luogomorte\
+\
+LEFT OUTER JOIN `dba__luoghi` AS nascit \
+ON nascit.id_luogo = dba__dba_persone.luogonascita\
+WHERE ingressoanno!=0  \
+}

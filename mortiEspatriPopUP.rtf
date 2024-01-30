@@ -1,0 +1,111 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 -- this is the morti\
+\
+SELECT `id_persona`, `nome`, `cognome`, moritu.toponimo_nome,  moritu.latitudine,moritu.longitudine, \
+    CONCAT (morteanno, "-",\
+    \
+    CASE\
+    WHEN mortemese = 1 THEN "01"\
+    WHEN mortemese = 2 THEN "02"\
+    WHEN mortemese = 3 THEN "03"\
+    WHEN mortemese = 4 THEN "04"\
+    WHEN mortemese = 5 THEN "05"\
+    WHEN mortemese = 6 THEN "06"\
+    WHEN mortemese = 7 THEN "07"\
+    WHEN mortemese = 8 THEN "08"\
+    WHEN mortemese = 9 THEN "09"\
+    WHEN mortemese = 10 THEN "10"\
+    WHEN mortemese = 11 THEN "11"\
+    WHEN mortemese = 12 THEN "12"\
+    WHEN mortemese = 01 THEN "01"\
+    ELSE "01" END, "-",\
+\
+    CASE\
+    WHEN mortegiorno = 1 THEN "01"\
+    WHEN mortegiorno = 2 THEN "02"\
+    WHEN mortegiorno = 3 THEN "03"\
+    WHEN mortegiorno = 4 THEN "04"\
+    WHEN mortegiorno = 5 THEN "05"\
+    WHEN mortegiorno = 6 THEN "06"\
+    WHEN mortegiorno = 7 THEN "07"\
+    WHEN mortegiorno = 8 THEN "08"\
+    WHEN mortegiorno = 9 THEN "09"\
+    WHEN mortegiorno = 10 THEN "10"\
+    WHEN mortegiorno = 11 THEN "11"\
+    WHEN mortegiorno = 12 THEN "12"\
+    WHEN mortegiorno = 13 THEN "13"\
+    WHEN mortegiorno = 14 THEN "14"\
+    WHEN mortegiorno = 15 THEN "15"\
+    WHEN mortegiorno = 16 THEN "16"\
+    WHEN mortegiorno = 17 THEN "17"\
+    WHEN mortegiorno = 18 THEN "18"\
+    WHEN mortegiorno = 19 THEN "19"\
+    WHEN mortegiorno = 20 THEN "20"\
+    WHEN mortegiorno = 21 THEN "21"\
+    WHEN mortegiorno = 22 THEN "22"\
+    WHEN mortegiorno = 23 THEN "23"\
+    WHEN mortegiorno = 24 THEN "24"\
+    WHEN mortegiorno = 25 THEN "25"\
+    WHEN mortegiorno = 26 THEN "26"\
+    WHEN mortegiorno = 27 THEN "27"\
+    WHEN mortegiorno = 28 THEN "28"\
+    WHEN mortegiorno = 29 THEN "29"\
+    WHEN mortegiorno = 30 THEN "30"\
+    WHEN mortegiorno = 31 THEN "31"\
+    ELSE "15"END\
+    ) AS time,  \
+\
+CASE\
+WHEN morteanno != 0 THEN "morto"\
+END AS Status,\
+\
+nascit.toponimo_nome AS luogonascita,\
+moritu.toponimo_nome AS luogomorte,\
+natoanno AS anno_nascita,\
+\
+CASE\
+   WHEN natomese != 0 THEN natomese\
+   ELSE " - "\
+   END AS mese_nascita,\
+   \
+   CASE\
+   WHEN natogiorno != 0 THEN natogiorno\
+   ELSE " - "\
+   END AS giorno_nascita,\
+   \
+  \
+   CASE\
+   WHEN morteanno != 0 THEN morteanno\
+   ELSE " - "\
+   END AS anno_morte,\
+  \
+   \
+   CASE\
+   WHEN mortemese != 0 THEN mortemese\
+   ELSE " - "\
+   END AS mese_morte,\
+   \
+   CASE\
+   WHEN mortegiorno != 0 THEN mortegiorno\
+   ELSE " - "\
+   END AS giorno_morte \
+\
+\
+FROM `dba__emigrazioni`  \
+LEFT OUTER JOIN `dba__dba_persone` \
+ON dba__dba_persone.id_persona = dba__emigrazioni.nomecognome \
+\
+LEFT OUTER JOIN `dba__luoghi` AS moritu \
+ON moritu.id_luogo = dba__dba_persone.luogomorte\
+\
+LEFT OUTER JOIN `dba__luoghi` AS nascit \
+ON nascit.id_luogo = dba__dba_persone.luogonascita\
+\
+WHERE moritu.latitudine !=0\
+}
